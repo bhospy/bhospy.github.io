@@ -105,6 +105,26 @@
         text-decoration: none;
       }
 
+      .sideBar {
+        padding: 15px 10px 10px 15px
+      }
+
+      .sideBar__list {
+          list-style: none;
+          padding-top: 10px;
+          font-size: 1.4rem;
+          line-height: 1.29
+      }
+
+      .sideBar__item {
+          margin-bottom: 15px;
+          padding-left: 0;
+          -webkit-transition: .3s;
+          -o-transition: .3s;
+          -moz-transition: .3s;
+          transition: .3s
+      }
+
     </style>
 
   </head>
@@ -191,6 +211,28 @@
       </ul>
 
       <br>
+
+      <div class="sideBar" style="width:25%">
+        <ul class="sideBar__list">
+          <li class="sideBar__item "><a href="">BhosPy</a></li>
+          <li class="sideBar__item "><a href="">Dissertation</a></li>
+          <li class="sideBar__item "><a href="">Thesis</a></li>
+        </ul>
+      </div>
+
+      <div style="margin-left:25%">
+        <div class="w3-container">
+        <h2>Black Oil Simulator</h2>
+        <p>The motivation is to build a Python based reservoir simulator runnign field scale models at high performance.
+        Current status is the model has been running 3D structures and has been validated for two phase immiscibe flow.</p>
+        <h2>Geomechanical Modelling</h2>
+        <p></p>
+        <h2>Resistivity Modelling</h2>
+        <p>This model is based on solving the integral form of the Maxwell equations which uses Method of Moment technique to compute the regions of perturbed conductivity.</p>
+        <h2>Geostatistical Modelling</h2>
+        <p></p>
+        </div>
+      </div>
 
     </div>
 
