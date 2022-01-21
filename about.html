@@ -14,100 +14,7 @@
 
     <title>Welcome | Javid Shiriyev, Ph.D.</title>
 
-    <style>
-
-      img {
-        width: 100px;
-        border-radius: 10px;
-        float: left;
-        margin-right: 10px;
-      }
-
-      p.title {
-        font-weight: bold;
-      }
-
-      html,
-      body {
-       max-width: 1200px;
-       margin: auto;
-       height: 100%;
-      }
-
-      ul.tabspace {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-      }
-
-      li.tabspace {
-        
-      }
-
-      li a {
-        display: block;
-        color: #666;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        color: white;
-        text-decoration: none;
-        background-color: #111;
-      }
-
-      .active {
-        float: left;
-        color: white;
-        text-decoration: white;
-        background-color: #4CAF50;
-      }
-
-      .passive {
-        float: left;
-        color: white;
-        text-decoration: none;
-        background-color: #333;  
-      }
-		
-    	#container {
-        width: 1000px;
-        margin: auto;
-      }
-
-      .main_links {
-        color: white;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: Sans-serif;
-      }
-
-      .header {
-        width: 100%;
-        height: 174px;
-        background-color: grey;
-        background-image: linear-gradient(to right, grey, white);
-      }
-
-      table, th, td {
-        border-collapse: collapse;
-        border: 0px solid black;
-      }
-
-      .ex1 {
-        margin-left: 120px;
-        color: white;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-    </style>
+    <link rel="stylesheet" href="main.css">
 
   </head>
 
@@ -174,7 +81,7 @@
     </div>
     -->
 
-    <div class="container-fluid" style="min-height:90%;">
+    <div class="container-fluid" id="container" style="min-height:90%;">
 
       <div class='container-fluid'>
         <br>
@@ -185,11 +92,11 @@
 
       <hr>
 
-      <ul class="tabspace" id="myNAV">
-        <li><a id="myNAVlnk" class="passive" href="index.html">Home</a></li>
-        <li><a id="myNAVlnk" class="passive" href="teaching.html">Teaching</a></li>
-        <li><a id="myNAVlnk" class="passive" href="research.html">Research</a></li>
-        <li><a id="myNAVlnk" class="active" href="about.html">About</a></li>
+      <ul class="tabSpace" id="myNAV">
+        <li><a class="passive" href="index.html">Home</a></li>
+        <li><a class="passive" href="teaching.html">Teaching</a></li>
+        <li><a class="passive" href="research.html">Research</a></li>
+        <li><a class="active" href="about.html">About</a></li>
       </ul>
 
       <br>
@@ -199,58 +106,58 @@
       <p>My research revolves around studying fluid flow modeling through porous media, including the problems associated with uncertainty handling in data collection and model incorporation. I acquire the rudiments of mechanics and the basics of data science and have taught fluid and rock mechanics, reservoir characterization and petrophysics-related courses. Besides teaching, currently, I am also involved in the field development planning for Gum-Daniz and Bahar fields.</p>
       <p class="title">Education</p>
       <ul>
-        <li>Ph.D., Petroleum and Geosystems Engineering, The University of Texas at Austin, 2018</li>
-        <li>M.Sc., Petroleum and Natural Gas Engineering, Middle East Technical University, 2014</li>
-        <li>B.Sc., Petroleum and Natural Gas Engineering, Middle East Technical University, 2012</li>
+        <li id="inner">Ph.D., Petroleum and Geosystems Engineering, The University of Texas at Austin, 2018</li>
+        <li id="inner">M.Sc., Petroleum and Natural Gas Engineering, Middle East Technical University, 2014</li>
+        <li id="inner">B.Sc., Petroleum and Natural Gas Engineering, Middle East Technical University, 2012</li>
       </ul>
-      <p class="title">Experience</p>
+      <p class="title" id="inner">Experience</p>
       <ul>
-        <li>Reservoir Simulation Engineer, Bahar Energy Operated Company, Jun. 2021 to present</li>
-        <li>Senior Lecturer, Baku Higher Oil School, Nov. 2020 to present</li>
-        <li>Visiting Assistant Professor, Middle East Technical University NCC, 2020</li>
-        <li>Postdoctoral Research Fellow, The University of Texas at Austin, 2019-2020</li>
-        <li>Reservoir Engineering Intern, Aramco Services Company, 2017</li>
-        <li>Petroleum Engineering Intern, BP, 2013</li>
-        <li>Drilling Engineering Intern, BP, 2011</li>
-        <li>Student Intern, TPAO, 2010</li>
+        <li id="inner">Reservoir Simulation Engineer, Bahar Energy Operated Company, Jun. 2021 to present</li>
+        <li id="inner">Senior Lecturer, Baku Higher Oil School, Nov. 2020 to present</li>
+        <li id="inner">Visiting Assistant Professor, Middle East Technical University NCC, 2020</li>
+        <li id="inner">Postdoctoral Research Fellow, The University of Texas at Austin, 2019-2020</li>
+        <li id="inner">Reservoir Engineering Intern, Aramco Services Company, 2017</li>
+        <li id="inner">Petroleum Engineering Intern, BP, 2013</li>
+        <li id="inner">Drilling Engineering Intern, BP, 2011</li>
+        <li id="inner">Student Intern, TPAO, 2010</li>
       </ul>
-      <p class="title">Research Interests</p>
+      <p class="title" id="inner">Research Interests</p>
       <ul>
-        <li>Perforation and wellbore stability in unconsolidated sands</li>
-        <li>Sand control completions</li>
-        <li>Frac-packing poorly consolidated sands</li> 
-        <li>Hydraulic fracture propagation in soft formations</li>
-        <li>Fluid flow in fractured rock</li>
+        <li id="inner">Perforation and wellbore stability in unconsolidated sands</li>
+        <li id="inner">Sand control completions</li>
+        <li id="inner">Frac-packing poorly consolidated sands</li> 
+        <li id="inner">Hydraulic fracture propagation in soft formations</li>
+        <li id="inner">Fluid flow in fractured rock</li>
       </ul>
-      <p class="title">Courses Taught</p>
+      <p class="title" id="inner">Courses Taught</p>
       <ul>
-        <li>Fluid Flow Through Porous Media</li>
-        <li>Applied Geostatistics for Reservoir Characterization</li>
-        <li>Formation Evaluation with Well Logging</li>
-        <li>Fundamentals of Petrophysics</li>
-        <li>Reservoir Fluid Properties</li>
-        <li>Reservoir Rock Mechanics</li>
-        <li>Scientific Computing with Python</li>
-        <li>Energy Resources</li>
+        <li id="inner">Fluid Flow Through Porous Media</li>
+        <li id="inner">Applied Geostatistics for Reservoir Characterization</li>
+        <li id="inner">Formation Evaluation with Well Logging</li>
+        <li id="inner">Fundamentals of Petrophysics</li>
+        <li id="inner">Reservoir Fluid Properties</li>
+        <li id="inner">Reservoir Rock Mechanics</li>
+        <li id="inner">Scientific Computing with Python</li>
+        <li id="inner">Energy Resources</li>
       </ul>
-      <p class="title">Honors</p>
+      <p class="title" id="inner">Honors</p>
       <ul>
-        <li>SPWLA Annual Symposium Paper Contest Winner, 2017</li>
-        <li>Conoco-Phillips Scholarship recipient, 2014-15</li>
-        <li>METU Graduate Course Performance Award, 2013</li>
-        <li>BP Graduate Scholarship recipient, 2012-14</li>
-        <li>Chamber of Petroleum Engineers Award, Turkey, 2012</li>
-        <li>METU Undergraduate First Ranking Student Award, 2012</li>
-        <li>BP Undergraduate Scholarship recipient, 2008-12</li>
+        <li id="inner">SPWLA Annual Symposium Paper Contest Winner, 2017</li>
+        <li id="inner">Conoco-Phillips Scholarship recipient, 2014-15</li>
+        <li id="inner">METU Graduate Course Performance Award, 2013</li>
+        <li id="inner">BP Graduate Scholarship recipient, 2012-14</li>
+        <li id="inner">Chamber of Petroleum Engineers Award, Turkey, 2012</li>
+        <li id="inner">METU Undergraduate First Ranking Student Award, 2012</li>
+        <li id="inner">BP Undergraduate Scholarship recipient, 2008-12</li>
       </ul>
-      <p class="title">Publications</p>
+      <p class="title" id="inner">Publications</p>
       <ul>
-        <li>Zhang, P., J. Shiriyev, M.K. Sen, and M.M. Sharma, 2019, Fast inversion of downhole electrical measurements for proppant mapping using very fast simulated annealing: Geophysics, 85, no. 1, D13-D22, doi: 10.1190/GEO2018-0749.1.</li>
-        <li>Shiriyev, J., 2018, A tri-axial electromagnetic induction tool for hydraulic fracture diagnostics: Ph.D. Dissertation, The University of Texas at Austin, Austin, TX, USA.</li>
-        <li>Sharma, M.M., J. Shiriyev, P. Zhang, Y. Brick, D. Glowka, J. Gabelmann, and R. Houston, 2018, Fracture diagnostics using low frequency electromagnetic induction and electrically conductive proppants: Final Scientific Report, The University of Texas at Austin, Austin, TX, USA, DOE Award Number: DE-FE0024271.</li>
-        <li>Shiriyev, J., Y. Brick, P. Zhang, A.E. Yilmaz, C. Torres-Verdin, M.M. Sharma, T. Hosbach, M.A. Oerkfitz, and J. Gabelmann, 2018, Experiments and simulations of a prototype tri-axial electromagnetic induction logging tool for open-hole hydraulic fracture diagnostics: Geophysics, 83, no. 3, D73-D81, doi: 10.1190/GEO2017-0354.1.</li>
-        <li>Zhang, P., J. Shiriyev, C. Torres-Verdin, M.M. Sharma, Y. Brick, J. Massey, and A.E. Yilmaz, 2016, Fracture diagnostics using a low-frequency electromagnetic induction method: Presented at the 50th US Rock Mechanics/Geomechanics Symposium.</li> 
-        <li>Shiriyev, J., 2014, Discrete fracture network modeling in a carbon dioxide flooded heavy oil reservoir: M.S. Thesis, Middle East Technical University, Ankara, Turkey.</li>
+        <li id="inner">Zhang, P., J. Shiriyev, M.K. Sen, and M.M. Sharma, 2019, Fast inversion of downhole electrical measurements for proppant mapping using very fast simulated annealing: Geophysics, 85, no. 1, D13-D22, doi: 10.1190/GEO2018-0749.1.</li>
+        <li id="inner">Shiriyev, J., 2018, A tri-axial electromagnetic induction tool for hydraulic fracture diagnostics: Ph.D. Dissertation, The University of Texas at Austin, Austin, TX, USA.</li>
+        <li id="inner">Sharma, M.M., J. Shiriyev, P. Zhang, Y. Brick, D. Glowka, J. Gabelmann, and R. Houston, 2018, Fracture diagnostics using low frequency electromagnetic induction and electrically conductive proppants: Final Scientific Report, The University of Texas at Austin, Austin, TX, USA, DOE Award Number: DE-FE0024271.</li>
+        <li id="inner">Shiriyev, J., Y. Brick, P. Zhang, A.E. Yilmaz, C. Torres-Verdin, M.M. Sharma, T. Hosbach, M.A. Oerkfitz, and J. Gabelmann, 2018, Experiments and simulations of a prototype tri-axial electromagnetic induction logging tool for open-hole hydraulic fracture diagnostics: Geophysics, 83, no. 3, D73-D81, doi: 10.1190/GEO2017-0354.1.</li>
+        <li id="inner">Zhang, P., J. Shiriyev, C. Torres-Verdin, M.M. Sharma, Y. Brick, J. Massey, and A.E. Yilmaz, 2016, Fracture diagnostics using a low-frequency electromagnetic induction method: Presented at the 50th US Rock Mechanics/Geomechanics Symposium.</li> 
+        <li id="inner">Shiriyev, J., 2014, Discrete fracture network modeling in a carbon dioxide flooded heavy oil reservoir: M.S. Thesis, Middle East Technical University, Ankara, Turkey.</li>
       </ul>
 
     </div>
