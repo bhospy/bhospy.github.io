@@ -18,25 +18,7 @@
 
   </head>
 
-  <body class="body" id="container" style="background-color:#f6f6f6">
-
-    <!--
-    <script>
-
-      function myFunction(){
-        document.getElementById("demo").innerHTML="Shiriyev";
-        }
-
-      function photoNext(){
-        document.getElementById("demo2").src="my_photo/p2.jpg";
-        }
-
-      function photoPrev(){
-        document.getElementById("demo2").src="my_photo/p1.jpg";
-        }
-
-    </script>
-    -->
+  <body class="body" style="background-color:#f6f6f6">
 
     <script>
         function changeClass(){
@@ -46,40 +28,6 @@
           document.getElementById("myNAVlnk").addEventListener('click',changeClass);
         }
     </script>
-
-    <!--
-    <div align="right">
-    <a>Home</a>
-    <a href="my_photo/p3.jpg">About</a>
-    <a>Contact</a>
-    </div>
-    -->
-
-    <!--
-    <div class="header">
-      <div id="container">
-        <table style="width:100%">
-        <td>
-        <img alt="photo" src="my_photo/p3.jpg" align="left" style="width:102px;height:154px;" vspace="10" hspace="10"><br><br>
-        <font size="5">Javid Shiriyev</font><br>
-        <font size="2">Ph.D. candidate in the Petroleum</font><br>
-        <font size="2">and Geosystems Engineering Department</font><br>
-        <font size="2">at the University of Texas at Austin</font><br><br>
-        <div class="main_links">
-        <a class="main_links, ex1" href="/javid/members">MEMBERS</a> |
-        <a class="main_links" href="/javid/research">RESEARCH</a> |
-        <a class="main_links" href="/javid/teaching">TEACHING</a> |
-        <a class="main_links" href="/javid/publications">PUBLICATIONS</a> |
-        <a class="main_links" href="/javid/contact">CONTACT</a>
-        </div>
-        </td>
-        <td>
-        <img alt="ut_logo" src="ut_logo/ut.png" align="right" style="width:154px;height:154px;" vspace="10" hspace="10">
-        </td>
-        </table>
-      </div>
-    </div>
-    -->
 
     <div class="container-fluid" style="min-height:90%;">
 
@@ -92,91 +40,45 @@
 
       <hr>
 
-      <ul class="tabSpace" id="myNAV">
-        <li><a id="myNAVlnk" class="passive" href="index.html">Home</a></li>
-        <li><a id="myNAVlnk" class="active" href="teaching.html">Teaching</a></li>
-        <li><a id="myNAVlnk" class="passive" href="research.html">Research</a></li>
-        <li><a id="myNAVlnk" class="passive" href="about.html">About</a></li>
+      <ul class="navbar">
+        <li><a class="passive" id="navbar" href="index.html">Home</a></li>
+        <li><a class="active" id="navbar" href="teaching.html">Teaching</a></li>
+        <li><a class="passive" id="navbar" href="research.html">Research</a></li>
+        <li><a class="passive" id="navbar" href="about.html">About</a></li>
       </ul>
 
       <br>
 
-    </div>
+      <div>
+        <div class="container" style="width:25%">
+          <a href="#" id="inner">Fluid Mechanics</a>
+          <a href="#" id="inner">Reservoir Modelling</a>
+          <a href="#" id="inner">Geomechanics</a>
+          <a href="#" id="inner">Inverse Theory</a>
+          <a href="#" id="inner">Geostatistics</a>
+          <a href="#" id="inner">Petrophysics</a>
+          <a href="#" id="inner">Well Logging</a>
+        </div>
 
-    <!--<div id="header-wrapper" class="regions-wrapper"><header class="header" id="header" role="banner">-->
-
-    <!--
-    <hr>
-    <div id="header-wrapper" class="regions-wrapper"><header class="header" id="header" role="banner">
-      <div class="region region-navigation">
-        <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
-          <h2 class="block__title block-title">Main menu</h2>
-          <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/sharma/members" title="" class="menu__link">About</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/sharma/research" title="" class="menu__link">Research</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/sharma/class" title="" class="menu__link">Teaching</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/sharma/publications" title="" class="menu__link">Publications</a></li>
-            <li class="menu__item is-leaf last leaf"><a href="/sharma/news" title="" class="menu__link">Contact</a></li>
-          </ul>
+        <div style="margin-left:25%">
+          <h1>Fluid Mechanics</h1>
+          <p>Petroleum engineers deal with fluid flow all the time; it can be related to drilling or workover operations or associated with reservoir recovery. We are dealing with the flow of complex mixtures through the reservoir rock and through the pipelines, and in the system, there is an interaction between gases-and-liquids and liquids-and-solids. The basic information we might need in the analysis of such systems, pressure and velocity profiles, can be best understood with the knowledge of fluid mechanics. If we add insight into the thermodynamics, we can dig into the temperature profiles as well. </p>
+          <h1>Reservoir Modelling</h1>
+          <p>The aim is to introduce the basic flow equations, gain practice in writing numerical simulators, learn the appication of finite difference solutions, implement the well models and other boundary conditions and review special topics in simulation.</p>
+          <h1>Geomechanics</h1>
+          <p></p>
+          <h1>Inverse Theory</h1>
+          <p></p>
+          <h1>Geostatistics</h1>
+          <p>Oil and gas reservoirs are highly heterogeneous. To manage such reservoirs, one must learn and develop a quantitative understanding of statistics and probability. The main objective of this course is to use basic statistical concepts and methods for the characterization and modelling of spatial heterogeneity which has applications in production planning, formation evaluation and reservoir modelling. Students will be encouraged to use high level programming languages (e.g., python and MATLAB) to do the hard work.</p>
+          <h1>Petrophysics</h1>
+          <p>Petrophysics has a major application in petroleum industry and is employed to help engineers and geoscientists understand the rock properties of the reservoir, particularly how pores in the subsurface are interconnected, controlling the accumulation and migration of hydrocarbons. A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical studies and reservoir engineering to give a complete picture of the reservoir.</p>
+          <h1>Well Logging</h1>
+          <p>A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical research, and reservoir engineers utilize this knowledge to describe the dynamic behavior of the reservoir. In this course, we will focus on the first way of acquiring data from underground formations and will look at the specific methodologies used in current field applications.</p>
         </div>
       </div>
+
     </div>
-    -->
-
-    <!--
-    <hr>
-    <div align="right">
-      <img src="flags/Aze.jfif" style="width:15px;height:15px;">
-      Az
-      <img src="flags/Uk.jfif" style="width:15px;height:15px;">
-      En
-      <img src="flags/Ru.jfif" style="width:15px;height:15px;">
-      Ru
-      <img src="flags/Tr.jfif" style="width:15px;height:15px;">
-      Tr
-    </div>
-    <hr>
-    -->
-
-    <!--
-    <select name="Language">
-      <option value="English">English</option>
-      <option value="Russian">Russian</option>
-      <option value="Turkish">Turkish</option>
-      <option value="Azerbaijani">Azerbaijani</option>
-    </select>
-    -->
-
-
-    <!--
-    <p id="demo">Javid</p>
-
-    <button type="button" onclick="photoPrev();">Prev</button>
-
-    <img id="demo2" src="my_photo/p1.jpg" align="middle" style="width:153px;height:230px;">
-
-    <button type="button" onclick="photoNext();">Next</button>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <form action="/subscribe" method="post">
-      <fieldset>
-        <legend>Ask for the resume</legend>
-        <input type="email" name="email" placeholder="e.g. name@gmail.com">
-        <button>Ok</button>
-      </fieldset>
-    </form>
-
-    -->
-
-    <!--
-    <br>
-    <br>
-    <summary>Read more</summary>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    -->
 
     <footer><hr>
      <div class="container-fluid" style='margin-left:15px'>
@@ -188,7 +90,6 @@
       </p>
      </div>
     </footer>
-    <!--type="text/javascript"-->
 
   </body>
 

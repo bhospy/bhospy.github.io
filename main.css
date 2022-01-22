@@ -1,14 +1,9 @@
-#container {width: 1000px; margin: auto;}
-
 #inner{float:left; clear:left;}
 
 a {text-decoration: none;}
 
-body {max-width: 1200px; margin: auto; height: 100%;}
-
 img {width: 100px; border-radius: 10px; float: left; margin-right: 10px;}
 
-li {float: left;}
 li a {display: block; color: #666; text-align: center; padding: 14px 16px; text-decoration: none;}
 li a:hover {color: white; text-decoration: none; background-color: #111;}
 
@@ -16,9 +11,11 @@ p.title {font-weight: bold;}
 
 table, th, td {border-collapse: collapse; border: 0px solid black;}
 
-ul.tabSpace {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+ul.navbar {list-style-type: none; padding: 0; overflow: hidden; background-color: #333;}
+#navbar {float: left;}
 
 .active {color: white; text-decoration: white; background-color: #4CAF50;}
+.passive {color: white; text-decoration: none; background-color: #333;}
 
 .ex1 {margin-left: 120px; color: white;}
 
@@ -28,4 +25,4 @@ ul.tabSpace {list-style-type: none; margin: 0; padding: 0; overflow: hidden; bac
 
 .main_links {color: white; font-size: 14px; font-weight: bold; font-family: Sans-serif;}
 
-.passive {color: white; text-decoration: none; background-color: #333;}
+html, body {max-width: 1200px; margin: auto; height: 100%;}
