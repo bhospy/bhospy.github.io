@@ -14,38 +14,11 @@
 
     <title>Welcome | BhosPy</title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="..\style.css">
 
   </head>
 
   <body>
-
-    <!--
-    <script>
-
-      function myFunction(){
-        document.getElementById("demo").innerHTML="Shiriyev";
-        }
-
-      function photoNext(){
-        document.getElementById("demo2").src="my_photo/p2.jpg";
-        }
-
-      function photoPrev(){
-        document.getElementById("demo2").src="my_photo/p1.jpg";
-        }
-
-    </script>
-    -->
-
-    <script>
-        function changeClass(){
-          document.getElementById("myNAVlnk").className = "active";
-        }
-        window.onload = function(){
-          document.getElementById("myNAVlnk").addEventListener('click',changeClass);
-        }
-    </script>
 
     <!--
     <div align="right">
@@ -92,12 +65,12 @@
       
       <hr>
 
-      <ul class="navbar">
-        <li><a class="passive" id="navbar" href="index.html">Home</a></li>
-        <li><a class="passive" id="navbar" href="teaching.html">Teaching</a></li>
-        <li><a class="active" id="navbar" href="research.html">Research</a></li>
-        <li><a class="passive" id="navbar" href="about.html">About</a></li>
-      </ul>
+    <ul class="navbar">
+      <li><a class="passive" href="..\index.html">Home</a></li>
+      <li><a class="passive" href="..\courses\main.html">Courses</a></li>
+      <li><a class="active" href="..\modeling\main.html">Modeling</a></li>
+      <li><a class="passive" href="..\people\main.html">Members</a></li>
+    </ul>
 
       <br>
 
@@ -196,7 +169,6 @@
     -->
 
     <div class="footer">
-      <hr>
       <ul class="contactbar">
         <li><a href="mailto:shiriyevcavid@gmail.com">Email</a></li>
         <li><a href="https://www.linkedin.com/in/jshiriyev/" target="_blank">LinkedIn</a></li>
@@ -205,7 +177,8 @@
         </p>
       </ul>
     </div>
-    <!--type="text/javascript"-->
+
+    <script src="..\index.js"></script>
 
   </body>
 

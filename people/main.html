@@ -14,41 +14,14 @@
 
     <title>Welcome | BhosPy</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="..\style.css">
 
   </head>
 
   <body class="body" style="background-color:#f6f6f6">
 
-    <!--
-    <script>
-
-      function myFunction(){
-        document.getElementById("demo").innerHTML="Shiriyev";
-        }
-
-      function photoNext(){
-        document.getElementById("demo2").src="my_photo/p2.jpg";
-        }
-
-      function photoPrev(){
-        document.getElementById("demo2").src="my_photo/p1.jpg";
-        }
-
-    </script>
-    -->
-
     <!-- I am a petroleum engineer currently working as a postdoc in the UT PGE Hydraulic Fracturing Research group. Skilled in hydraulic fracture monitoring, well-logging, computational electromagnetics, inverse problems and fracture/reservoir modeling. I am passioned in coding and believe in open source softwares.
     -->
-
-    <script>
-        function changeClass(){
-          document.getElementById("myNAVlnk").className = "active";
-        }
-        window.onload = function(){
-          document.getElementById("myNAVlnk").addEventListener('click',changeClass);
-        }
-    </script>
 
     <!--
     <div align="right">
@@ -95,12 +68,12 @@
 
       <hr>
 
-      <ul class="navbar">
-        <li><a class="passive" id="navbar" href="index.html">Home</a></li>
-        <li><a class="passive" id="navbar" href="teaching.html">Teaching</a></li>
-        <li><a class="passive" id="navbar" href="research.html">Research</a></li>
-        <li><a class="active" id="navbar" href="about.html">About</a></li>
-      </ul>
+    <ul class="navbar">
+      <li><a class="passive" href="..\index.html">Home</a></li>
+      <li><a class="passive" href="..\courses\main.html">Courses</a></li>
+      <li><a class="passive" href="..\modeling\main.html">Modeling</a></li>
+      <li><a class="active" href="..\people\main.html">Members</a></li>
+    </ul>
 
       <br>
 
@@ -109,7 +82,7 @@
       </ul>
 
       <div class="column canvas">
-        <p class="title"><img src="headshots/p2.jpg" alt="Javid's photo">Javid Shiriyev, Ph.D.</p>
+        <p class="title"><img src="..\photos\headshots\p2.jpg" alt="Javid's photo">Javid Shiriyev, Ph.D.</p>
         <p>My research revolves around studying fluid flow modeling through porous media, including the problems associated with uncertainty handling in data collection and model incorporation. I acquire the rudiments of mechanics and the basics of data science and have taught fluid and rock mechanics, reservoir characterization and petrophysics-related courses. Besides teaching, currently, I am also involved in the field development planning for Gum-Daniz and Bahar fields.</p>
         <p class="title">Education</p>
         <ul>
@@ -245,7 +218,6 @@
     -->
 
     <div class="footer">
-      <hr>
       <ul class="contactbar">
         <li><a href="mailto:shiriyevcavid@gmail.com">Email</a></li>
         <li><a href="https://www.linkedin.com/in/jshiriyev/" target="_blank">LinkedIn</a></li>
@@ -254,7 +226,8 @@
         </p>
       </ul>
     </div>
-    <!--type="text/javascript"-->
+    
+    <script src="..\index.js"></script>
 
   </body>
 
