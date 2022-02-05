@@ -1,10 +1,12 @@
-function changeClass(){
-  document.getElementById("myNAVlnk").className = "active";
-}
+console.log("Hello World")
 
-window.onload = function(){
-  document.getElementById("myNAVlnk").addEventListener('click',changeClass);
-}
+// function changeClass(){
+//   document.getElementById("myNAVlnk").className = "active";
+// }
+
+// window.onload = function(){
+//   document.getElementById("myNAVlnk").addEventListener('click',changeClass);
+// }
 
 // function myFunction(){
 //   document.getElementById("demo").innerHTML="Shiriyev";
