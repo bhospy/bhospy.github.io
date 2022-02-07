@@ -1,9 +1,21 @@
-console.log("Hello World")
+// console.log("Hello World")
+
+// fetch('home.html')
+
+var newdiv = document.createElement('div');
+
+newdiv.location = "home.html";
+
+console.log(newdiv);
 
 function clickchange(clickid) {
-    var divtag = document.getElementById('canvascontent');
-    var text = `<p>This is the content of Home ${clickid}</p>`
-    divtag.innerHTML = text;
+    // var page = window.location.pathname
+    // console.log(page)
+    document.getElementById('canvascontent').innerHTML = clickid;
+    // window.open("home.html")
+    // var text = `<p>This is the content of Home ${clickid}</p>`
+    // document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
+    // divtag.innerHTML = document.getElementById('courseflow');
 }
 
 // function changeClass(){
