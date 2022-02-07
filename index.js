@@ -1,5 +1,11 @@
 console.log("Hello World")
 
+function clickchange(clickid) {
+    var divtag = document.getElementById('canvascontent');
+    var text = `<p>This is the content of Home ${clickid}</p>`
+    divtag.innerHTML = text;
+}
+
 // function changeClass(){
 //   document.getElementById("myNAVlnk").className = "active";
 // }

@@ -1,91 +1,39 @@
-<!DOCTYPE html>
+<nav id="sidecontent">
+  <ul class="sidebar">
+    <li><a href="#" onclick="clickchange(1)">Fluid Mechanics</a></li>
+    <li><a href="#" onclick="clickchange(2)">Reservoir Modelling</a></li>
+    <li><a href="#" onclick="clickchange(3)">Geomechanics</a></li>
+    <li><a href="#" onclick="clickchange(4)">Inverse Theory</a></li>
+    <li><a href="#" onclick="clickchange(5)">Geostatistics</a></li>
+    <li><a href="#" onclick="clickchange(6)">Petrophysics</a></li>
+    <li><a href="#" onclick="clickchange(7)">Well Logging</a></li>
+  </ul>
+</nav>
 
-<html lang="en">
+<div id="canvascontent" class="canvas">
+  <p>Petroleum engineers deal with fluid flow all the time; it can be related to drilling or workover operations or associated with reservoir recovery. We are dealing with the flow of complex mixtures through the reservoir rock and through the pipelines, and in the system, there is an interaction between gases-and-liquids and liquids-and-solids. The basic information we might need in the analysis of such systems, pressure and velocity profiles, can be best understood with the knowledge of fluid mechanics. If we add insight into the thermodynamics, we can dig into the temperature profiles as well. </p>
+</div>
 
-  <head>
+<div id="canvascontent" class="canvas">
+  <p>The aim is to introduce the basic flow equations, gain practice in writing numerical simulators, learn the appication of finite difference solutions, implement the well models and other boundary conditions and review special topics in simulation.</p>
+</div>
 
-    <meta charset="utf-8" />
+<div id="canvascontent" class="canvas">
+  <p></p>
+</div>
 
-    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+<div id="canvascontent" class="canvas">
+  <p></p>
+</div>
 
-    <meta name="keywords" content = "python, petroleum, reservoir, simulation, geomechanics, bhos, bhospy">
+<div id="canvascontent" class="canvas">
+  <p>Oil and gas reservoirs are highly heterogeneous. To manage such reservoirs, one must learn and develop a quantitative understanding of statistics and probability. The main objective of this course is to use basic statistical concepts and methods for the characterization and modelling of spatial heterogeneity which has applications in production planning, formation evaluation and reservoir modelling. Students will be encouraged to use high level programming languages (e.g., python and MATLAB) to do the hard work.</p>
+</div>
 
-    <meta name="description" content = "BhosPy related tutorials and researches">
+<div id="canvascontent" class="canvas">
+  <p>Petrophysics has a major application in petroleum industry and is employed to help engineers and geoscientists understand the rock properties of the reservoir, particularly how pores in the subsurface are interconnected, controlling the accumulation and migration of hydrocarbons. A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical studies and reservoir engineering to give a complete picture of the reservoir.</p>
+</div>
 
-    <title>Welcome | BhosPy</title>
-
-    <link rel="stylesheet" href="..\style.css">
-
-  </head>
-
-  <body>
-
-    <script>
-      function changeClass(){
-        document.getElementById("myNAVlnk").className = "active";
-      }
-      window.onload = function(){
-        document.getElementById("myNAVlnk").addEventListener('click',changeClass);
-      }
-    </script>
-
-    <div>
-      <br>
-      <center>
-        <h3 class="title">SCIENTIFIC COMPUTATION TOOLS</h3>
-      </center>   
-    </div>
-
-    <hr>
-
-    <ul class="navbar">
-      <li><a class="passive" href="..\index.html">Home</a></li>
-      <li><a class="active" href="..\courses\main.html">Courses</a></li>
-      <li><a class="passive" href="..\modeling\main.html">Modeling</a></li>
-      <li><a class="passive" href="..\people\main.html">Members</a></li>
-    </ul>
-
-    <br>
-
-    <ul class="column sidebar">
-      <li><a href="#">Fluid Mechanics</a></li>
-      <li><a href="#">Reservoir Modelling</a></li>
-      <li><a href="#">Geomechanics</a></li>
-      <li><a href="#">Inverse Theory</a></li>
-      <li><a href="#">Geostatistics</a></li>
-      <li><a href="#">Petrophysics</a></li>
-      <li><a href="#">Well Logging</a></li>
-    </ul>
-
-    <div class="column canvas">
-      <h1>Fluid Mechanics</h1>
-      <p>Petroleum engineers deal with fluid flow all the time; it can be related to drilling or workover operations or associated with reservoir recovery. We are dealing with the flow of complex mixtures through the reservoir rock and through the pipelines, and in the system, there is an interaction between gases-and-liquids and liquids-and-solids. The basic information we might need in the analysis of such systems, pressure and velocity profiles, can be best understood with the knowledge of fluid mechanics. If we add insight into the thermodynamics, we can dig into the temperature profiles as well. </p>
-      <h1>Reservoir Modelling</h1>
-      <p>The aim is to introduce the basic flow equations, gain practice in writing numerical simulators, learn the appication of finite difference solutions, implement the well models and other boundary conditions and review special topics in simulation.</p>
-      <h1>Geomechanics</h1>
-      <p></p>
-      <h1>Inverse Theory</h1>
-      <p></p>
-      <h1>Geostatistics</h1>
-      <p>Oil and gas reservoirs are highly heterogeneous. To manage such reservoirs, one must learn and develop a quantitative understanding of statistics and probability. The main objective of this course is to use basic statistical concepts and methods for the characterization and modelling of spatial heterogeneity which has applications in production planning, formation evaluation and reservoir modelling. Students will be encouraged to use high level programming languages (e.g., python and MATLAB) to do the hard work.</p>
-      <h1>Petrophysics</h1>
-      <p>Petrophysics has a major application in petroleum industry and is employed to help engineers and geoscientists understand the rock properties of the reservoir, particularly how pores in the subsurface are interconnected, controlling the accumulation and migration of hydrocarbons. A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical studies and reservoir engineering to give a complete picture of the reservoir.</p>
-      <h1>Well Logging</h1>
-      <p>A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical research, and reservoir engineers utilize this knowledge to describe the dynamic behavior of the reservoir. In this course, we will focus on the first way of acquiring data from underground formations and will look at the specific methodologies used in current field applications.</p>
-    </div>
-
-    <br>
-    <br>
-
-    <div class="footer">
-      <ul class="contactbar">
-        <li><a href="mailto:shiriyevcavid@gmail.com">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/jshiriyev/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/jshiriyev/" target="_blank">GitHub</a></li>
-        <li><a href="https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-      </ul>
-    </div>
-
-  </body>
-
-</html>
+<div id="canvascontent" class="canvas">
+  <p>A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical research, and reservoir engineers utilize this knowledge to describe the dynamic behavior of the reservoir. In this course, we will focus on the first way of acquiring data from underground formations and will look at the specific methodologies used in current field applications.</p>
+</div>

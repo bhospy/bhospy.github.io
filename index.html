@@ -33,7 +33,7 @@
       </header>
 
       <nav>
-        <ul class="navbar">
+        <ul class="ribbon">
           <li><a class="active" href="index.html">Home</a></li>
           <li><a class="passive" href="courses\main.html">Courses</a></li>
           <li><a class="passive" href="modeling\main.html">Modeling</a></li>
@@ -41,15 +41,17 @@
         </ul>
       </nav>
 
-      <ul class="sidebar">
-        <li><a href="#">Element 1</a></li>
-        <li><a href="#">Element 2</a></li>
-        <li><a href="#">Element 3</a></li>
-        <li><a href="#">Element 4</a></li>
-        <li><a href="#">Element 5</a></li>
-      </ul>
+      <nav id="sidecontent">
+        <ul class="sidebar">
+          <li><a href="#" onclick="clickchange(1)">Home 1</a></li>
+          <li><a href="#" onclick="clickchange(2)">Home 2</a></li>
+          <li><a href="#" onclick="clickchange(3)">Home 3</a></li>
+          <li><a href="#" onclick="clickchange(4)">Home 4</a></li>
+          <li><a href="#" onclick="clickchange(5)">Home 5</a></li>
+        </ul>
+      </nav>
 
-      <div class="canvas">
+      <div id="canvascontent" class="canvas">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

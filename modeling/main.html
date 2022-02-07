@@ -1,185 +1,29 @@
-<!DOCTYPE html>
+<nav id="sidecontent">
+  <ul class="sidebar">
+    <li><a href="#" onclick="clickchange(1)">Black Oil Simulator</a></li>
+    <li><a href="#" onclick="clickchange(2)">Geomechanical Modeling</a></li>
+    <li><a href="#" onclick="clickchange(3)">Resistivity Modeling</a></li>
+    <li><a href="#" onclick="clickchange(4)">Geostatistical Modeling</a></li>
+  </ul>
+</nav>
 
-<html lang="en">
+<div id="canvascontent" class="canvas">
+  <p>The motivation is to build a Python based reservoir simulator runnign field scale models at high performance. Current status is the model has been running 3D structures and has been validated for two phase immiscibe flow.</p>
+</div>
 
-  <head>
+<div id="canvascontent" class="canvas">
+  <p></p>
+</div>
 
-    <meta charset="utf-8" />
+<div id="canvascontent" class="canvas">
+  <p>This model is based on solving the integral form of the Maxwell equations which uses Method of Moment technique to compute the regions of perturbed conductivity.</p>
+</div>
 
-    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+<div id="canvascontent" class="canvas">
+  <p></p>
+</div>
 
-    <meta name="keywords" content = "python, petroleum, reservoir, simulation, geomechanics, bhos">
-
-    <meta name="description" content = "Contains lecture notes, exercises and research updates of Javid Shiriyev, Ph.D.">
-
-    <title>Welcome | BhosPy</title>
-    
-    <link rel="stylesheet" href="..\style.css">
-
-  </head>
-
-  <body>
-
-    <!--
-    <div align="right">
-    <a>Home</a>
-    <a href="my_photo/p3.jpg">About</a>
-    <a>Contact</a>
-    </div>
-    -->
-
-    <!--
-    <div class="header">
-      <div id="container">
-        <table style="width:100%">
-        <td>
-        <img alt="photo" src="my_photo/p3.jpg" align="left" style="width:102px;height:154px;" vspace="10" hspace="10"><br><br>
-        <font size="5">Javid Shiriyev</font><br>
-        <font size="2">Ph.D. candidate in the Petroleum</font><br>
-        <font size="2">and Geosystems Engineering Department</font><br>
-        <font size="2">at the University of Texas at Austin</font><br><br>
-        <div class="main_links">
-        <a class="main_links, ex1" href="/javid/members">MEMBERS</a> |
-        <a class="main_links" href="/javid/research">RESEARCH</a> |
-        <a class="main_links" href="/javid/teaching">TEACHING</a> |
-        <a class="main_links" href="/javid/publications">PUBLICATIONS</a> |
-        <a class="main_links" href="/javid/contact">CONTACT</a>
-        </div>
-        </td>
-        <td>
-        <img alt="ut_logo" src="ut_logo/ut.png" align="right" style="width:154px;height:154px;" vspace="10" hspace="10">
-        </td>
-        </table>
-      </div>
-    </div>
-    -->
-
-    <div class="container-fluid" style="min-height:90%;">
-
-      <div>
-        <br>
-        <center>
-          <h3 class="title">SCIENTIFIC COMPUTATION TOOLS</h3>
-        </center>   
-      </div>
-      
-      <hr>
-
-    <ul class="navbar">
-      <li><a class="passive" href="..\index.html">Home</a></li>
-      <li><a class="passive" href="..\courses\main.html">Courses</a></li>
-      <li><a class="active" href="..\modeling\main.html">Modeling</a></li>
-      <li><a class="passive" href="..\people\main.html">Members</a></li>
-    </ul>
-
-      <br>
-
-      <ul class="column objectlistbar">
-        <li><a href="#" id="inner">BhosPy</a></li>
-        <li><a href="#" id="inner">Dissertation</a></li>
-        <li><a href="#" id="inner">Thesis</a></li>
-      </ul>
-
-      <div class="column canvas">
-        <h1>Black Oil Simulator</h1>
-        <p>The motivation is to build a Python based reservoir simulator runnign field scale models at high performance.
-        Current status is the model has been running 3D structures and has been validated for two phase immiscibe flow.</p>
-        <h1>Geomechanical Modelling</h1>
-        <p></p>
-        <h1>Resistivity Modelling</h1>
-        <p>This model is based on solving the integral form of the Maxwell equations which uses Method of Moment technique to compute the regions of perturbed conductivity.</p>
-        <h1>Geostatistical Modelling</h1>
-        <p></p>
-      </div>
-    </div>
-
-    <!--<div id="header-wrapper" class="regions-wrapper"><header class="header" id="header" role="banner">-->
-
-    <!--
-    <hr>
-    <div id="header-wrapper" class="regions-wrapper"><header class="header" id="header" role="banner">
-      <div class="region region-navigation">
-        <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
-          <h2 class="block__title block-title">Main menu</h2>
-          <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/sharma/members" title="" class="menu__link">About</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/sharma/research" title="" class="menu__link">Research</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/sharma/class" title="" class="menu__link">Teaching</a></li>
-            <li class="menu__item is-leaf leaf"><a href="/sharma/publications" title="" class="menu__link">Publications</a></li>
-            <li class="menu__item is-leaf last leaf"><a href="/sharma/news" title="" class="menu__link">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    -->
-
-    <!--
-    <hr>
-    <div align="right">
-      <img src="flags/Aze.jfif" style="width:15px;height:15px;">
-      Az
-      <img src="flags/Uk.jfif" style="width:15px;height:15px;">
-      En
-      <img src="flags/Ru.jfif" style="width:15px;height:15px;">
-      Ru
-      <img src="flags/Tr.jfif" style="width:15px;height:15px;">
-      Tr
-    </div>
-    <hr>
-    -->
-
-    <!--
-    <select name="Language">
-      <option value="English">English</option>
-      <option value="Russian">Russian</option>
-      <option value="Turkish">Turkish</option>
-      <option value="Azerbaijani">Azerbaijani</option>
-    </select>
-    -->
-
-
-    <!--
-    <p id="demo">Javid</p>
-
-    <button type="button" onclick="photoPrev();">Prev</button>
-
-    <img id="demo2" src="my_photo/p1.jpg" align="middle" style="width:153px;height:230px;">
-
-    <button type="button" onclick="photoNext();">Next</button>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <form action="/subscribe" method="post">
-      <fieldset>
-        <legend>Ask for the resume</legend>
-        <input type="email" name="email" placeholder="e.g. name@gmail.com">
-        <button>Ok</button>
-      </fieldset>
-    </form>
-
-    -->
-
-    <!--
-    <br>
-    <br>
-    <summary>Read more</summary>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    -->
-
-    <div class="footer">
-      <ul class="contactbar">
-        <li><a href="mailto:shiriyevcavid@gmail.com">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/jshiriyev/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/jshiriyev/" target="_blank">GitHub</a></li>
-        <li><a href="https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-        </p>
-      </ul>
-    </div>
-
-    <script src="..\index.js"></script>
-
-  </body>
-
-</html>
+<div id="canvascontent" class="canvas">
+  <p style="text-indent:10px;"> My Ph.D. research was about building an experimentally verified electromagnetic induction logging tool that can detect and appraise hydraulic fractures. The method is a promising candidate to find out the propped fracture parameters which is very important to the operation design and reserve estimation studies.</p>
+  <p style="text-indent:10px;">The monitoring and diagnostics of induced fractures are important for the real-time performance evaluation of hydraulic fracturing operations. Previous electromagnetic (EM) based studies show that single backbone tri-axial induction logging tools are promising candidates for the real-time monitoring and diagnosis of fractures in non-cased wells. To support the development of field deployable tools, the concept must be tested in experiments, in a controllable environment, before it is tested under field-like conditions. To this end, we have developed numerical tools which can simulate any wellbore environment while logging hydraulic fractures with the induction tool. We have designed and built a prototype induction tool and performed two sets of tests to compare with numerical simulation results. The computational and experimental setup consists of tri-axial transmitter and receiver coils in co-axial, co-planar and cross-polarized configurations. Both lab and shallow earth measurements are shown to be in good agreement with simulations for all examined cases. The average relative and maximum discrepancies of the measured signals from the simulated ones were lower than 3% and 10%, respectively. With the prototype tool, strong signals sensitive to the fracture&#39;s surface area and dip-angle were measured in the co-axial coil configuration, while weaker signals sensitive to the fracture&#39;s aspect ratio were observed in the co-planar configuration. Cross-polarized signals are also shown to be strong and sensitive to the fracture&#39;s dip. Lastly, we resolved the detectable components of the measured signal tensor to obtain parameters of simplified fracture geometries. The developed inversion algorithm, derivative free directional search model, uses an objective function defined as a combination of co-axial and cross-polarized signals from different tool spacings to have a well behaving global minimum. The robustness of inversion algorithm is tested on synthetic data for single cluster fractures in a homogeneous and heterogeneous background electrical conductivity. All the effective model parameters for different cases, conductivity, size and dip-angle, are shown to be recovered with sufficient accuracy. We also evaluated neighbor fracture effect and suggested multi-cluster inversion path which can recover the proppant distribution in a stage very accurately. Based on the obtained numerical and experimental results we suggest a tool with specified specifications that can effectively recover far-field proppant distribution in the fractures.</p>
+</div>
