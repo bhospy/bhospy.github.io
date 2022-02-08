@@ -1,26 +1,33 @@
 // console.log("Hello World")
 
+fetch('home.html')
+    .then(function (response) {
+      return response.body;
+    })
+    .then(function (body) {
+      console.log(body);
+    });
+
 // fetch('home.html')
+// .then(console.log(document.getElementById('courseflow')))
 
-console.log(document.getElementById('courseflow').innerHTML)
+// function changeribbon(clickid) {
+//     console.log("Hello World")
+// }
 
-function changeribbon(clickid) {
-    console.log("Hello World")
-}
+// function changesidebar(clickid) {
+//     console.log("Hello World")
+// }
 
-function changesidebar(clickid) {
-    console.log("Hello World")
-}
-
-function changecanvas(clickid) {
+// function changecanvas(clickid) {
     // var page = window.location.pathname
     // console.log(page)
-    document.getElementById('canvascontent').innerHTML = clickid;
+    // document.getElementById('canvascontent').innerHTML = clickid;
     // window.open("home.html")
     // var text = `<p>This is the content of Home ${clickid}</p>`
     // document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
     // divtag.innerHTML = document.getElementById('courseflow');
-}
+// }
 
 // function changeClass(){
 //   document.getElementById("myNAVlnk").className = "active";
