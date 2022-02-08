@@ -2,13 +2,17 @@
 
 // fetch('home.html')
 
-var newdiv = document.createElement('div');
+console.log(document.getElementById('courseflow').innerHTML)
 
-newdiv.location = "home.html";
+function changeribbon(clickid) {
+    console.log("Hello World")
+}
 
-console.log(newdiv);
+function changesidebar(clickid) {
+    console.log("Hello World")
+}
 
-function clickchange(clickid) {
+function changecanvas(clickid) {
     // var page = window.location.pathname
     // console.log(page)
     document.getElementById('canvascontent').innerHTML = clickid;
