@@ -36,7 +36,17 @@ footer {
 	width: 100%;
 }
 
-.fontmont {
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+
+select {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+
+option {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 }
@@ -123,11 +133,41 @@ footer {
 	margin: 0px;
 }
 
-.canvas p {
+#sample1 {
+	display: block;
+}
+
+#sample2 {
+	display: none;
+}
+
+#sample3 {
+	display: none;
+}
+
+#sample4 {
+	display: none;
+}
+
+#sample5 {
+	display: none;
+}
+
+.canvas-item h3 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
 	padding-bottom: 10px;
 }
 
-.canvas img {
+.canvas-item p {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.canvas-item img {
 	width: 100px;
 	border-radius: 10px;
 	float: right;
