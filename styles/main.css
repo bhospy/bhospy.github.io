@@ -133,23 +133,7 @@ option {
 	margin: 0px;
 }
 
-#sample1 {
-	display: block;
-}
-
-#sample2 {
-	display: none;
-}
-
-#sample3 {
-	display: none;
-}
-
-#sample4 {
-	display: none;
-}
-
-#sample5 {
+.canvas-item {
 	display: none;
 }
 
