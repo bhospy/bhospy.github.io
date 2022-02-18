@@ -23,7 +23,7 @@
     <div id="page-container">
 
       <header>
-        <h2>SCIENTIFIC COMPUTATION TOOLS</h2>
+        <h2>ENERGY RESOURCES - SCIENCE & ENGINEERING</h2>
         <select name="Language">
           <option value="Azerbaijani">Azerbaijani</option>
           <option value="Turkish">Turkish</option>
@@ -44,21 +44,26 @@
       <div>
         <nav class="sidebar">
 
-          <button class="sidebar-button" onclick="navAccFunc('')">
-            Accordion 1 <i class="sidebar-arrow sidebar-arrow-right"></i>
-          </button>
+          <button class="sidebar-accordion">Accordion 1</button>
 
-          <div id="demoAcc1" class="">
-            <a href="#" class="sidebar-item">Link 1</a>
+          <div class="sidebar-panel">
+            <a href="#" class="sidebar-item" onclick="changeCanvasItem(0)">Sample 1</a>
+            <a href="#" class="sidebar-item" onclick="changeCanvasItem(1)">Sample 2</a>
           </div>
 
-          <ul>
-            <li><a href="#" onclick="changeCanvasItem(0)">Sample 1</a></li>
-            <li><a href="#" onclick="changeCanvasItem(1)">Sample 2</a></li>
-            <li><a href="#" onclick="changeCanvasItem(2)">Sample 3</a></li>
-            <li><a href="#" onclick="changeCanvasItem(3)">Sample 4</a></li>
-            <li><a href="#" onclick="changeCanvasItem(4)">Sample 5</a></li>
-          </ul>
+          <button class="sidebar-accordion">Accordion 2</button>
+
+          <div class="sidebar-panel">
+            <a href="#" class="sidebar-item" onclick="changeCanvasItem(2)">Sample 3</a>
+            <a href="#" class="sidebar-item" onclick="changeCanvasItem(3)">Sample 4</a>
+          </div>
+
+          <button class="sidebar-accordion">Accordion 3</button>
+
+          <div class="sidebar-panel">
+            <a href="#" class="sidebar-item" onclick="changeCanvasItem(4)">Sample 5</a>
+          </div>
+
         </nav>
 
         <div class="canvas">
@@ -87,11 +92,9 @@
       </div>
 
       <footer>
-        <ul class="contactbar">
-          <li><a href="mailto:shiriyevcavid@gmail.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/in/jshiriyev/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/jshiriyev/" target="_blank">GitHub</a></li>
-          <li><a href="https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+        <ul class="infobar">
+          <li>Last Edited Feb-18, 2022</li>
+          <!-- <li><a href="https://github.com/jshiriyev/" target="_blank">GitHub</a></li> -->
         </ul>
       </footer>
     </div>
