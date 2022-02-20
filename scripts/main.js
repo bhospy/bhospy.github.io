@@ -14,11 +14,11 @@ function changeCanvasItem(ID) {
 
 var acc = document.getElementsByClassName("sidebar-accordion");
 
-acc[0].classList.toggle("active");
+// acc[0].classList.toggle("active");
 
-var pan = document.querySelector('.sidebar-panel');
+// var pan = document.querySelector('.sidebar-panel');
 
-pan.style.display = "block"
+// pan.style.display = "block"
 
 for (let i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
