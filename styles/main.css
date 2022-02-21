@@ -176,6 +176,30 @@ footer {
 	background: rgb(241,241,241);
 }
 
+@media screen and (max-width: 400px) {
+	main {
+		display: block;
+	}
+	.sidebar {
+		width: 100%;
+		display: block;
+		height: auto;
+		position: relative;
+		overflow: hidden;
+		padding: 20px 0px 0px 0px;
+	}
+	.sidebar-accordion {
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		text-align: center;
+	}
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
+
 /*Footer*/
 
 .infobar, .contactbar {
