@@ -3,7 +3,7 @@ class PageFooter extends HTMLElement {
         this.innerHTML = `
         <footer>
             <ul class="infobar">
-                <li>Last Edited Feb-21, 2022</li>
+                <li>Last Edited Feb-22, 2022</li>
             </ul>
         </footer>
         `

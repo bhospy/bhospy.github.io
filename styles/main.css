@@ -186,18 +186,30 @@ footer {
 		height: auto;
 		position: relative;
 		overflow: hidden;
-		padding: 20px 0px 0px 0px;
+		padding: 10px 0px 0px 0px;
+		background-color: #eee;
 	}
 	.sidebar-accordion {
 		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
 		display: block;
 		overflow: hidden;
-		text-align: center;
+		text-align: left;
 	}
 	.sidebar a {
-		text-align: center;
+		padding-left: 25px;
+		padding-right: 20px;
+		text-align: left;
 		float: none;
 	}
+	.canvas {
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		padding-right: 20px;
+	}
+
 }
 
 /*Footer*/
