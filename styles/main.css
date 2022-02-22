@@ -140,6 +140,9 @@ footer {
 }
 
 .canvas-item h3 {
+	width: 100%;
+	display: block;
+	overflow: hidden;
 	font-size: 16px;
 	padding: 8px 0px 8px 1px;
 }
@@ -147,14 +150,14 @@ footer {
 .canvas-item p {
 	font-size: 14px;
 	padding: 3px 0px;
-	overflow: hidden;
 }
 
-.canvas-item img {
+.canvas-item-caption img {
 	width: 90px;
 	border-radius: 10px;
 	float: right;
-	margin-left: 20px;
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 8px 8px;
 }
 
 .canvas-item ul {
