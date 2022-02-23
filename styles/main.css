@@ -70,16 +70,16 @@ footer {
 	display: block;
 }
 
-.ribbon-title a:hover, .ribbon-links a:hover {
+.ribbon-links a:hover {
 	color: #666;
 	background-color: #111;
 }
 
-.ribbon-title .active, .ribbon-links .active {
+.ribbon-links .active {
 	background-color: #4CAF50;
 }
 
-.ribbon-title .passive, .ribbon-title .passive {
+.ribbon-title .passive {
 	background-color: #333;
 }
 
@@ -119,6 +119,21 @@ footer {
 	width: 120px;
 	height: 100%;
 	margin: 0px;
+}
+
+.sidebar-toggle {
+	display: none;
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 10px 16px;
+	width: 120px;
+	text-align: left;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	text-decoration: none;
 }
 
 .sidebar-accordion {
@@ -211,43 +226,66 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+
 	.ribbon {
 		flex-direction: column;
 	}
+
 	.ribbon-links {
 		display: none;
 		width: 100%;
 	}
+
 	.ribbon-links.active {
 		display: flex;
 	}
+
 	.ribbon-links ul {
 		width: 100%;
 		flex-direction: column;
 	}
+
 	.ribbon-links li {
 		width: 100%;
 		text-align: center;
 	}
+
 	.ribbon-links li a {
 		width: 100%;
 		padding: .5rem 1rem;
 	}
+
 	.ribbon-toggle {
 		display: flex;
 	}
+
 	main {
 		display: block;
 	}
+
 	.sidebar {
 		width: 100%;
 		display: block;
 		height: auto;
 		position: relative;
 		overflow: hidden;
-		padding: 10px 0px 0px 0px;
+		padding: 0px;
 		background-color: #eee;
 	}
+
+	.sidebar-toggle {
+		display: block;
+		width: 100%;
+	}
+
+	.sidebar-links {
+		display: none;
+	}
+
+	.sidebar-links.active {
+		display: block;
+	}
+
 	.sidebar-accordion {
 		width: 100%;
 		padding-left: 20px;
@@ -256,12 +294,14 @@ footer {
 		overflow: hidden;
 		text-align: left;
 	}
+
 	.sidebar a {
 		padding-left: 25px;
 		padding-right: 20px;
 		text-align: left;
 		float: none;
 	}
+
 	.canvas {
 		width: 100%;
 		display: block;

@@ -5,6 +5,13 @@ ribbonToggle.addEventListener('click', () => {
   ribbonLinks.classList.toggle('active')
 })
 
+const sidebarToggle = document.getElementsByClassName('sidebar-toggle')[0]
+const sidebarLinks = document.getElementsByClassName('sidebar-links')[0]
+
+sidebarToggle.addEventListener('click', () => {
+  sidebarLinks.classList.toggle('active')
+})
+
 var acc = document.getElementsByClassName("sidebar-accordion");
 
 // acc[0].classList.toggle("active");
@@ -40,5 +47,7 @@ function changeCanvasItem(ID) {
   }
 
   items[ID].style.display = 'block'
+
+  sidebarLinks.classList.toggle('active')
   
 }
