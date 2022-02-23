@@ -2,9 +2,9 @@
 
 * {
 	box-sizing: border-box;
+	background-color:#f6f6f6;
 	margin: 0;
 	padding: 0;
-	background-color:#f6f6f6;
 }
 
 #page-container {
@@ -51,33 +51,63 @@ footer {
 
 .ribbon {
 	width: 100%;
-	list-style-type: none;
-	padding: 0;
 	overflow: hidden;
+	display: flex;
+	list-style-type: none;
 	background-color: #333;
-	margin: 0;
+	color: white;
+	align-items: flex-start;
 }
 
-.ribbon li a {
+.ribbon-title a, .ribbon-links a {
 	font-size: 14px;
-	color: white;
+	background-color: #333;
 	text-decoration: none;
+	color: white;
 	float: left;
 	text-align: center;
 	padding: 14px 16px;
+	display: block;
 }
 
-.ribbon li a:hover {
+.ribbon-title a:hover, .ribbon-links a:hover {
 	color: #666;
 	background-color: #111;
 }
 
-.ribbon .active {
+.ribbon-title .active, .ribbon-links .active {
 	background-color: #4CAF50;
 }
 
-.ribbon .passive {
+.ribbon-title .passive, .ribbon-title .passive {
 	background-color: #333;
+}
+
+.ribbon-links ul {
+	display: flex;
+}
+
+.ribbon-links li {
+	list-style: none
+}
+
+.ribbon-toggle {
+	position: absolute;
+	margin-top: 10px;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+	background-color: #333;
+}
+
+.ribbon-toggle .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
 }
 
 /*Body-Center*/
@@ -129,6 +159,7 @@ footer {
 }
 
 .canvas {
+	width: 100%;
 	float: left;
 	padding: 20px 10px 50px 20px;
 	overflow: hidden;
@@ -180,6 +211,31 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+	.ribbon {
+		flex-direction: column;
+	}
+	.ribbon-links {
+		display: none;
+		width: 100%;
+	}
+	.ribbon-links.active {
+		display: flex;
+	}
+	.ribbon-links ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	.ribbon-links li {
+		width: 100%;
+		text-align: center;
+	}
+	.ribbon-links li a {
+		width: 100%;
+		padding: .5rem 1rem;
+	}
+	.ribbon-toggle {
+		display: flex;
+	}
 	main {
 		display: block;
 	}
