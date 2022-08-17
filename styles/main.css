@@ -149,8 +149,9 @@ footer {
 	padding: 5px 0px 5px 0px;
 }
 
-.home-box img {
-	width: 40px
+.home-box svg {
+	width: 35px
+	height: 35px
 }
 
 .sidebar {
