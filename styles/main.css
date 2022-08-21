@@ -124,6 +124,11 @@ footer {
 	padding-bottom: 50px;
 }
 
+.home-repeated-icons {
+	width: 0px;
+	height: 0px;
+}
+
 .home-box {
 	border-style: solid;
 	border-color: white;
@@ -137,6 +142,9 @@ footer {
 	padding: 5px 5px 10px 10px;
 	margin: 5px;
 	box-shadow: 5px 5px 5px rgb(200,200,240);
+	text-decoration: none;
+	color: black;
+
 }
 
 .home-box-title {
@@ -146,11 +154,11 @@ footer {
 	padding-bottom: 5px;
 }
 
-.home-box h3 {
+.home-box-title h3 {
 	padding: 5px 0px 5px 0px;
 }
 
-.home-box svg {
+.home-box-title svg {
 	width: 25px;
 	height: 25px;
 }
