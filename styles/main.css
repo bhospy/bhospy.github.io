@@ -57,6 +57,7 @@ footer {
 	background-color: #333;
 	color: white;
 	align-items: flex-start;
+	margin-bottom: 10px;
 }
 
 .ribbon-title a, .ribbon-links a {
@@ -165,10 +166,10 @@ footer {
 
 .sidebar {
 	float: left;
-	width: 120px;
+	width: 130px;
 	height: 100%;
 	margin: 0px;
-	padding: 20px 10px 50px 0px;
+	padding: 10px 10px 50px 0px;
 	list-style-type: none;
 }
 
@@ -255,6 +256,12 @@ footer {
 	margin-left: auto;
 }
 
+.sidebar-item p {
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 8px;
+}
+
 .canvas {
 	width: 100%;
 	float: left;
@@ -264,7 +271,7 @@ footer {
 
 .canvas-item {
 	display: none;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 	padding-left: 20px;
 }
