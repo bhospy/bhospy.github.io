@@ -167,6 +167,8 @@ footer {
 .sidebar {
 	float: left;
 	width: 130px;
+	min-width: 130px;
+	max-width: 130px;
 	height: 100%;
 	margin: 0px;
 	padding: 10px 10px 50px 0px;
@@ -176,6 +178,7 @@ footer {
 .sidebar.home {
 	width: 240px;
 	min-width: 240px;
+	max-width: 240px;
 	border-right: 1px solid gray;
 }
 
@@ -251,9 +254,11 @@ footer {
 
 .sidebar-item-status {
 	display: flex;
-	width: 5px;
+	width: 20px;
 	float: left;
 	margin-left: auto;
+	padding-left: 5px;
+	padding-right: 10px;
 }
 
 .sidebar-item p {
@@ -267,12 +272,12 @@ footer {
 	float: left;
 	overflow: hidden;
 	margin: 0px;
+	padding-bottom: 50px;
 }
 
 .canvas-item {
 	display: none;
 	padding-top: 10px;
-	padding-bottom: 50px;
 	padding-left: 20px;
 }
 
@@ -356,6 +361,7 @@ footer {
 
 	.ribbon {
 		flex-direction: column;
+		margin-bottom: 0px;
 	}
 
 	.ribbon-links {
@@ -391,6 +397,7 @@ footer {
 	}
 
 	.sidebar {
+		max-width: none;
 		width: 100%;
 		display: block;
 		height: auto;
@@ -401,8 +408,9 @@ footer {
 	}
 
 	.sidebar.home {
-		border-right: none;
+		max-width: 100%;
 		width: 100%;
+		border-right: none;
 	}
 
 	.sidebar-toggle {
