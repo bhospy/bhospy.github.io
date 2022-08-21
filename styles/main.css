@@ -165,11 +165,17 @@ footer {
 
 .sidebar {
 	float: left;
-	list-style-type: none;
-	padding: 20px 10px 50px 0px;
 	width: 120px;
 	height: 100%;
 	margin: 0px;
+	padding: 20px 10px 50px 0px;
+	list-style-type: none;
+}
+
+.sidebar.home {
+	width: 240px;
+	min-width: 240px;
+	border-right: 1px solid gray;
 }
 
 .sidebar-toggle {
@@ -178,7 +184,7 @@ footer {
 	color: #444;
 	cursor: pointer;
 	padding: 10px 16px;
-	width: 120px;
+	width: 100%;
 	text-align: left;
 	font-size: 14px;
 	border: none;
@@ -187,18 +193,26 @@ footer {
 	text-decoration: none;
 }
 
+.sidebar.home .sidebar-toggle {
+	background-color: none;
+}
+
 .sidebar-accordion {
 	background-color: #eee;
 	color: #444;
 	cursor: pointer;
 	padding: 10px 10px;
-	width: 120px;
+	width: 100%;
 	text-align: left;
 	font-size: 14px;
 	border: none;
 	outline: none;
 	transition: 0.4s;
 	text-decoration: none;
+}
+
+.sidebar.home .sidebar-accordion {
+	background-color: #f6f6f6;
 }
 
 .sidebar .active, .sidebar-accordion:hover {
@@ -224,6 +238,10 @@ footer {
 	color: black;
 	padding: 0px;
 	text-decoration: none;
+}
+
+.sidebar.home .sidebar-item a {
+	padding-left: 8px;
 }
 
 .sidebar-item a:hover {
@@ -373,6 +391,11 @@ footer {
 		overflow: hidden;
 		padding: 0px;
 		background-color: #eee;
+	}
+
+	.sidebar.home {
+		border-right: none;
+		width: 100%;
 	}
 
 	.sidebar-toggle {
