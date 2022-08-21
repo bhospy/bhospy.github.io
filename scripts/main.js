@@ -46,13 +46,9 @@ function changeCanvasItem(ID) {
     items[i].style.display = 'none'
   }
 
-  var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+  // var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-  if (width < 420) {
-    items[ID].style.display = 'block';
-  } else {
-    items[ID].style.display = 'flex';
-  }
+  items[ID].style.display = 'flex';
 
   sidebarLinks.classList.toggle('active')
   

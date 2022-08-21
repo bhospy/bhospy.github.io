@@ -250,12 +250,24 @@ footer {
 	padding-right: 10px;
 }
 
+.canvas-item-column-one a {
+	text-decoration: none;
+	background: rgb(241,241,241);
+}
+
 .canvas-item-column-one h3 {
 	width: 100%;
 	display: block;
 	overflow: hidden;
 	font-size: 16px;
 	padding: 8px 0px 8px 1px;
+}
+
+.canvas-item-column-one li {
+	background: rgb(241,241,241);
+	width: 100%;
+	font-size: 13px;
+	padding: 3px 3px;
 }
 
 .canvas-item-column-one p {
@@ -269,37 +281,14 @@ footer {
 	padding: 0px 0px 5px 30px;
 }
 
-.canvas-item-column-one li {
-	/*display: block;*/
-	background: rgb(241,241,241);
-	width: 100%;
-	font-size: 13px;
-	padding: 3px 3px;
-}
-
-.canvas-item-column-one a {
-	text-decoration: none;
-	background: rgb(241,241,241);
-}
-
 .canvas-item-column-two {
 	float: left;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: 300px;
 	height: 100%;
 	margin: 0;
 	padding-right: 0px;
-}
-
-.canvas-item-column-two img {
-	width: 220px;
-	border-radius: 10px;
-	padding: 3px 5px 0px 5px;
-}
-
-.canvas-item-column-two-text {
-	display: block;
-	padding-left: 6px;
 }
 
 .canvas-item-column-two a {
@@ -307,17 +296,26 @@ footer {
 	font-size: 13px;
 	line-height: 1.6;
 	text-decoration: none;
+	padding-left: 6px
 }
 
 .canvas-item-column-two h4 {
 	padding-top: 10px;
 	font-size: 16px;
 	line-height: 2;
+	padding-left: 6px
+}
+
+.canvas-item-column-two img {
+	width: 220px;
+	border-radius: 10px;
+	padding: 5px;
 }
 
 .canvas-item-column-two p {
 	font-size: 13px;
 	line-height: 1.6;
+	padding-left: 6px
 }
 
 @media screen and (max-width: 420px) {
@@ -401,12 +399,31 @@ footer {
 		padding-right: 20px;
 	}
 
+	.canvas-item {
+		flex-direction: column-reverse;
+	}
+
 	.canvas-item-column-two {
 		width: 100%;
-		align-items: center;
+		justify-content: center;
+		/*align-items: center;*/
 		/*margin: auto;*/
-		/*overflow: hidden;*/
-		padding-bottom: 50px;
+	}
+
+	.canvas-item-column-two a {
+		padding-left: 0px;
+	}
+
+	.canvas-item-column-two h4 {
+		padding-left: 0px;
+	}
+
+	.canvas-item-column-two img {
+		display: none;
+	}
+
+	.canvas-item-column-two p {
+		padding-left: 0px;
 	}
 
 }
