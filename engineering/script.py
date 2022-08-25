@@ -1,18 +1,69 @@
+import os
+
 from markdown2 import markdown
+
+import frontmatter
+
 from jinja2 import Environment, FileSystemLoader
 
 template_env = Environment(loader=FileSystemLoader(searchpath="./"))
+
 template = template_env.get_template("layout.html")
 
-class page: pass
-class accordion: pass
-class item: pass
+with open('config.md','r') as mdfile:
 
-page.title = "Engineering"
+	mdcontent = mdfile.read()
 
-with open('main.md','r') as markdown_file:
-	page.html = markdown(markdown_file.read())
+	page = frontmatter.loads(mdcontent)
 
-with open('_index_.html','w') as output_file:
+	page['html'] = markdown(page.content)
+
+majorcounter = 0
+
+page.majors = []
+
+while True:
+
+	try:
+		major_dir = page['major{}'.format(majorcounter)]
+	except KeyError:
+		break
+	else:
+		majorcounter += 1
+
+	with open(os.path.join(major_dir,'config.md'),'r') as mdfile:
+
+		mdcontent = mdfile.read()
+
+		major = frontmatter.loads(mdcontent)
+
+	major.items = []
+
+	itemcounter = 0
+
+	while True:
+
+		try:
+			item_dir = major['item{}'.format(itemcounter)]
+		except KeyError:
+			break
+		else:
+			itemcounter += 1
+
+		with open(os.path.join(major_dir,item_dir),'r') as mdfile:
+
+			mdcontent = mdfile.read()
+
+			item = frontmatter.loads(mdcontent)
+
+			item['html'] = markdown(item.content)
+
+		major.items.append(item)
+
+	page.majors.append(major)
+
+with open('index.html','w') as output_file:
+
 	html = template.render(page=page)
+
 	output_file.write(html)

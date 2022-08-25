@@ -1,3 +1,9 @@
+---
+title: 'Well Logging'
+status: True
+
+---
+
 ### Well Logging
 
 A major role of petrophysicists is to measure and evaluate rock properties by acquiring well log measurements, in which a string of measurement tools is inserted in the borehole, core measurements, in which rock samples are retrieved from subsurface for the laboratory measurements, and seismic measurements, in which reflected seismic waves are recorded to image subsurface structures. These studies are then combined with geological and geophysical data, and reservoir engineers utilize this knowledge to describe the dynamic behavior of the reservoir. In this course, we will focus on the first way of acquiring data from underground formations and will look at the specific methodologies used in current field applications.

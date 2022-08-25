@@ -1,3 +1,13 @@
+---
+title: 'Engineering'
+
+major0:	'resources'
+major1:	'formeval'
+major2:	'upstream'
+major3:	'manage'
+
+---
+
 ### Energy Resources
 This documentation provides insight to conventional, unconventional and alternative energy resources:
 
