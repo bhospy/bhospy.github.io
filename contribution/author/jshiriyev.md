@@ -1,10 +1,15 @@
 ---
-title: 'Javid Shiriyev'
-
+title:		'Javid Shiriyev'
+image:		'..\images\headshots\p2.jpg'
+image-alt:	"Javid's photo"
+degree:		'Javid Shiriyev, Ph.D.'
+position-1:	'BHOS - Senior Lecturer'
+position-2:	'BEOC - Simulation Engineer'
+email:		'shiriyevcavid@gmail.com'
+scholar:	'https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en'
+github:		'https://github.com/jshiriyev/'
+linkedin:	'https://www.linkedin.com/in/jshiriyev/'
 ---
-
-<div class="canvas-item">
-<div class="canvas-item-column-one" markdown="1">
 
 ### Summary
 
@@ -64,32 +69,3 @@ My research revolves around studying fluid flow modeling through porous media, i
 - Shiriyev, J., Y. Brick, P. Zhang, A.E. Yilmaz, C. Torres-Verdin, M.M. Sharma, T. Hosbach, M.A. Oerkfitz, and J. Gabelmann, 2018, Experiments and simulations of a prototype tri-axial electromagnetic induction logging tool for open-hole hydraulic fracture diagnostics: Geophysics, 83, no. 3, D73-D81, doi: 10.1190/GEO2017-0354.1.
 - Zhang, P., J. Shiriyev, C. Torres-Verdin, M.M. Sharma, Y. Brick, J. Massey, and A.E. Yilmaz, 2016, Fracture diagnostics using a low-frequency electromagnetic induction method: Presented at the 50th US Rock Mechanics/Geomechanics Symposium. 
 - Shiriyev, J., 2014, Discrete fracture network modeling in a carbon dioxide flooded heavy oil reservoir: M.S. Thesis, Middle East Technical University, Ankara, Turkey.
-
-</div>
-
-<div class="canvas-item-column-two">
-
-<img src="..\images\headshots\p2.jpg" alt="Javid's photo">
-
-<div class="canvas-item-column-two-text">
-
-#### Javid Shiriyev, Ph.D.
-BHOS - Senior Lecturer
-BEOC - Simulation Engineer
-
-#### Email
-<a href="mailto:shiriyevcavid@gmail.com">shiriyevcavid@gmail.com</a>
-
-#### Meeting
-ZOOM - Please email me for link
-
-#### Social Profiles
-<a href="https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en" target="_blank">Google Scholar</a>
-<a href="https://github.com/jshiriyev/" target="_blank">GitHub</a>
-<a href="https://www.linkedin.com/in/jshiriyev/" target="_blank">LinkedIn</a>
-
-</div>
-
-</div>
-
-</div>

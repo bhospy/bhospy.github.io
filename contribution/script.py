@@ -1,7 +1,6 @@
 import os
 
-# from markdown2 import markdown
-import markdown
+from markdown2 import markdown
 
 import frontmatter
 
@@ -17,7 +16,7 @@ with open('config.md','r') as mdfile:
 
 	page = frontmatter.loads(mdcontent)
 
-	page['html'] = markdown.markdown(page.content)
+	page['html'] = markdown(page.content)
 
 majorcounter = 0
 
@@ -57,13 +56,13 @@ while True:
 
 			item = frontmatter.loads(mdcontent)
 
-			item['html'] = markdown.markdown(item.content)
+			item['html'] = markdown(item.content)
 
 		major.items.append(item)
 
 	page.majors.append(major)
 
-with open('__index__.html','w') as output_file:
+with open('index.html','w') as output_file:
 
 	html = template.render(page=page)
 

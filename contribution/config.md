@@ -7,10 +7,10 @@ major0:	'author'
 
 ### How to contribute?
 
-Writing Code  
+Writing Code
 
-Developing Educational Materials  
+Developing Educational Materials
 
-Interface Development  
+Interface Development
 
-Fundraising  
+Fundraising
