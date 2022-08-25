@@ -10,7 +10,7 @@ template_env = Environment(loader=FileSystemLoader(searchpath="./"))
 
 template = template_env.get_template("layout.html")
 
-with open('config.md','r') as mdfile:
+with open('preface.md','r') as mdfile:
 
 	mdcontent = mdfile.read()
 
