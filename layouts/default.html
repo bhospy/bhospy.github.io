@@ -1,0 +1,42 @@
+<main>
+  <nav class="sidebar">
+    <button class="sidebar-toggle">{{ page['title'] }}</button>
+    <div class="sidebar-links">
+      {% set maincounter = namespace(value=1) %}
+      {% for major in page.majors %}
+        <button class="sidebar-accordion">{{ major['title'] }}</button>
+        <div class="sidebar-panel">
+        {% for item in major.items %}
+          <div class="sidebar-item">
+            <a href="#" onclick=changeCanvasItem({{ maincounter.value }})>{{ item['title'] }}</a>
+          </div>
+          {% set maincounter.value = maincounter.value + 1 %}
+        {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </nav>
+  <div class="canvas">
+    <div class="canvas-item">
+      <div class="canvas-item-column-one">
+        {{ page['html'] }}
+      </div>
+    </div>
+    {% for major in page.majors %}
+      {% for item in major.items %}
+        <div class="canvas-item">
+          {% if 'html-column-1' in item %}
+            <div class="canvas-item-column-one">
+              {{ item['html-column-1'] }}
+            </div>
+          {% endif %}
+          {% if 'html-column-2' in item %}
+            <div class="canvas-item-column-two">
+              {{ item['html-column-2'] }}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</main>
