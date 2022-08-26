@@ -1,70 +1,107 @@
-- pydemo:
-  - datum:
-    - textio.md
-    - dataview.md
-    - geogrids.md
-    - ssitems.md
-  - scicomp:
-    - stats.md
-    - optimize.md
-    - mlearn.md
-    - special.md
-    - numerics.md
-  - porepy:
-    - fluidflow.md
-    - geomech.md
-    - emfields.md
-    - geomodel.md
-- engineering:
-  - resources:
-    - susenergy.md
-    - transport.md
-  - formeval:
-    - geology.md
-    - resfluids.md
-    - geophysics.md
-    - petrophysics.md
-    - wlogging.md
-    - wtesting.md
-  - upstream:
-    - drilling.md 
-    - completion.md 
-    - production.md
-    - reservoir.md
-    - geomechanics.md
-    - naturalgas.md
-    - eor.md
-  - manage:
-    - legislation.md
-    - pvaluation.md
-    - engethics.md
-- modeling:
-  - python:
-    - essentials.md
-    - packages.md
-  - scicomp:
-    - stats.md
-    - optimize.md
-    - mlearn.md
-    - special.md
-    - numerics.md
-  - fluidflow:
-    - fluidmech.md
-    - blackoil.md
-    - fracmed.md
-  - geomech:
-    - geomech.md
-    - wstab.md
-    - sandprod.md
-    - hfprop.md
-  - emfields:
-    - emcomp.md
-    - reslog.md
-  - geomodel:
-    - geostats.md
-- application:
-  - 2021-2022:
-    - htr.md
-- contribution:
-  - author:
-    - jshiriyev.md
+pages:
+  - pydemo
+  - engineering
+  - modeling
+  - application
+  - contribution
+
+pydemo:
+  - datum
+  - scicomp
+  - porepy
+
+engineering:
+  - resources
+  - formeval
+  - upstream
+  - manage
+
+modeling:
+  - python
+  - scicomp
+  - fluidflow
+  - geomech
+  - emfields
+  - geomodel
+
+application:
+  - 2021-2022
+
+contribution:
+  - author
+
+datum:
+  - textio.md
+  - dataview.md
+  - geogrids.md
+  - ssitems.md
+
+scicomp:
+  - stats.md
+  - optimize.md
+  - mlearn.md
+  - special.md
+  - numerics.md
+
+porepy:
+  - fluidflow.md
+  - geomech.md
+  - emfields.md
+  - geomodel.md
+
+resources:
+  - susenergy.md
+  - transport.md
+
+formeval:
+  - geology.md
+  - resfluids.md
+  - geophysics.md
+  - petrophysics.md
+  - wlogging.md
+  - wtesting.md
+
+upstream:
+  - drilling.md 
+  - completion.md 
+  - production.md
+  - reservoir.md
+  - geomechanics.md
+  - naturalgas.md
+  - eor.md
+
+manage:
+  - legislation.md
+  - pvaluation.md
+  - engethics.md
+
+python:
+  - packages.md
+
+scicomp:
+  - stats.md
+  - optimize.md
+  - mlearn.md
+  - special.md
+  - numerics.md
+
+fluidflow:
+  - blackoil.md
+  - fracmed.md
+
+geomech:
+  - wstab.md
+  - sandprod.md
+  - hfprop.md
+
+emfields:
+  - reslog.md
+
+geomodel:
+  - geostats.md
+
+2021-2022:
+  - htr.md
+
+author:
+  - jshiriyev.md
