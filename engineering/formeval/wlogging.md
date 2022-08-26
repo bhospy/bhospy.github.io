@@ -1,6 +1,5 @@
 ---
 title: 'Well Logging'
-status: True
 
 ---
 

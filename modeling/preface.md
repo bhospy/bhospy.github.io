@@ -1,13 +1,6 @@
 ---
 title: 'Modeling'
 
-major0: 'python'
-major1: 'scicomp'
-major2: 'fluidflow'
-major3: 'geomech'
-major4: 'emfields'
-major5: 'geomodel'
-
 ---
 
 ### Python Programming

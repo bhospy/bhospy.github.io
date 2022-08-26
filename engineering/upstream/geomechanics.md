@@ -1,6 +1,5 @@
 ---
 title: 'Reservoir Geomechanics'
-status: False
 
 ---
 

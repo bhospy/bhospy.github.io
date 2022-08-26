@@ -1,6 +1,5 @@
 ---
 title: 'Data Science'
-status:  True
 
 ---
 

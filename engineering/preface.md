@@ -1,17 +1,13 @@
 ---
 title: 'Engineering'
 
-major0:	'resources'
-major1:	'formeval'
-major2:	'upstream'
-major3:	'manage'
-
 ---
 
 ### Energy Resources
 This documentation provides insight to conventional, unconventional and alternative energy resources:
 
 - Sustainable Energy
+- Crude Transportation
 
 ### Formation Evaluation
 This documentation provides brief summary of basic knowledge required in formation evaluation:
@@ -39,3 +35,4 @@ This documentation is a quick summary of tools required in decision making proce
 
 - Petroleum Legislation
 - Property Valuation
+- Engineering Ethics

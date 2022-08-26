@@ -1,6 +1,5 @@
 ---
 title: 'Completion and Stimulation'
-status: False
 
 ---
 

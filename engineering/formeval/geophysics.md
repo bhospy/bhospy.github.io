@@ -1,6 +1,5 @@
 ---
 title: 'Geophysics'
-status: False
 
 ---
 

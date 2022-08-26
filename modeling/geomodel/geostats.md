@@ -1,6 +1,5 @@
 ---
 title: 'Geostatistics'
-status: False
 
 ---
 

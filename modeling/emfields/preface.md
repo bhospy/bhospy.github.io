@@ -1,6 +1,5 @@
 ---
 title: 'Computational Electro-Magnetics'
-status: False
 
 ---
 

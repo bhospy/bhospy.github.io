@@ -1,6 +1,5 @@
 ---
 title: 'Computational Geomechanics'
-status: True
 
 ---
 

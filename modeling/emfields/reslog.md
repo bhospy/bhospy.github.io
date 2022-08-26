@@ -1,6 +1,5 @@
 ---
 title: 'Wellbore Resistivity Modeling'
-status: True
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: 'Geology'
-status: False
 
 ---
 

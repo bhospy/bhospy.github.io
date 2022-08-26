@@ -1,6 +1,5 @@
 ---
 title: 'Python Essentials'
-status:  True
 
 ---
 

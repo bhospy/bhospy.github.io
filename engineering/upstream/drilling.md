@@ -1,6 +1,5 @@
 ---
 title: 'Drilling Engineering'
-status: False
 
 ---
 

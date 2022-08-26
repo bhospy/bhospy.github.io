@@ -1,8 +1,6 @@
 ---
 title: 'Contribution'
 
-major0:	'author'
-
 ---
 
 ### How to contribute?

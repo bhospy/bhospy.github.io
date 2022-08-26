@@ -1,6 +1,5 @@
 ---
 title: 'Statistics'
-status:  False
 
 ---
 
