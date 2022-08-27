@@ -1,12 +1,16 @@
 ---
-title: SS-Items
+title: datum.ssitems
 
 ---
 
 ### Sub-Surface Items
 
-<a href="#" onclick="changeCanvasItem(6)">ssitems.Fluids()</a>
-<a href="#" onclick="changeCanvasItem(6)">ssitems.Pipes()</a>
-<a href="#" onclick="changeCanvasItem(6)">ssitems.PoreRock()</a>
-<a href="#" onclick="changeCanvasItem(6)">ssitems.Fractures()</a>
-<a href="#" onclick="changeCanvasItem(6)">ssitems.Wells()</a>
+ssitems.Fluids()
+
+ssitems.Pipes()
+
+ssitems.PoreRock()
+
+ssitems.Fractures()
+
+ssitems.Wells()

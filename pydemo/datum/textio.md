@@ -1,58 +1,106 @@
 ---
-title: TextIO
+title: datum.textio
 
 ---
 
 ### TextIO
 
-<a href="#" onclick="changeCanvasItem(2)">column()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.min()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.max()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.maxchar()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.astype()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.replace()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.convert()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.fromstring()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.tostring()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.shift()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.toeom()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.tobom()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.sort()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.filter()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.flip()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.unique()</a>
-<a href="#" onclick="changeCanvasItem(2)">column.append()</a>
-Column Properties
-<a href="#" onclick="changeCanvasItem(2)">column.dtype</a>
-<a href="#" onclick="changeCanvasItem(2)">column.size</a>
-<a href="#" onclick="changeCanvasItem(2)">column.isnone</a>
-<a href="#" onclick="changeCanvasItem(2)">column.nondim</a>
-<a href="#" onclick="changeCanvasItem(2)">column.year</a>
-<a href="#" onclick="changeCanvasItem(2)">column.month</a>
-<a href="#" onclick="changeCanvasItem(2)">column.monthrange</a>
-<a href="#" onclick="changeCanvasItem(2)">column.nextmonthrange</a>
-<a href="#" onclick="changeCanvasItem(2)">column.prevmonthrange</a>
-<a href="#" onclick="changeCanvasItem(2)">column.day</a>
+datum.core.column()
 
+datum.core.column.min()
 
-<a href="#" onclick="changeCanvasItem(3)">DataFrame()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.setglossary()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.str2col()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.col2str()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.tostruct()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.sort()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.flip()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.filter()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.unique()</a>
-Frame IO
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.read()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.readb()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.write()</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.writeb()</a>
-Frame Properties
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.shape</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.dtypes</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.types</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.heads</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.units</a>
-<a href="#" onclick="changeCanvasItem(3)">DataFrame.infos</a>
+datum.core.column.max()
+
+datum.core.column.maxchar()
+
+datum.core.column.astype()
+
+datum.core.column.replace()
+
+datum.core.column.convert()
+
+datum.core.column.fromstring()
+
+datum.core.column.tostring()
+
+datum.core.column.shift()
+
+datum.core.column.toeom()
+
+datum.core.column.tobom()
+
+datum.core.column.sort()
+
+datum.core.column.filter()
+
+datum.core.column.flip()
+
+datum.core.column.unique()
+
+datum.core.column.append()
+
+#### Column Properties
+
+datum.core.column.dtype
+
+datum.core.column.size
+
+datum.core.column.isnone
+
+datum.core.column.nondim
+
+datum.core.column.year
+
+datum.core.column.month
+
+datum.core.column.monthrange
+
+datum.core.column.nextmonthrange
+
+datum.core.column.prevmonthrange
+
+datum.core.column.day
+
+#### Frame
+
+datum.textio.DataFrame()
+
+datum.textio.DataFrame.setglossary()
+
+datum.textio.DataFrame.str2col()
+
+datum.textio.DataFrame.col2str()
+
+datum.textio.DataFrame.tostruct()
+
+datum.textio.DataFrame.sort()
+
+datum.textio.DataFrame.flip()
+
+datum.textio.DataFrame.filter()
+
+datum.textio.DataFrame.unique()
+
+#### Frame IO
+
+datum.textio.DataFrame.read()
+
+datum.textio.DataFrame.readb()
+
+datum.textio.DataFrame.write()
+
+datum.textio.DataFrame.writeb()
+
+#### Frame Properties
+
+datum.textio.DataFrame.shape
+
+datum.textio.DataFrame.dtypes
+
+datum.textio.DataFrame.types
+
+datum.textio.DataFrame.heads
+
+datum.textio.DataFrame.units
+
+datum.textio.DataFrame.infos

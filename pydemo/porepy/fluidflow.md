@@ -1,5 +1,5 @@
 ---
-title: FluidFlow
+title: porepy.flow
 
 ---
 

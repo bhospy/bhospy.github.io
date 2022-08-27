@@ -1,5 +1,5 @@
 ---
-title: EM-Fields
+title: porepy.emfields
 
 ---
 

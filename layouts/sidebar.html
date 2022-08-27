@@ -1,0 +1,16 @@
+<button class="sidebar-toggle">{{ page['title'] }}</button>
+<div class="sidebar-links">
+  {% set maincounter = namespace(value=1) %}
+  {% for major in page.majors %}
+    <button class="sidebar-accordion">{{ major['title'] }}</button>
+    {% set maincounter.value = maincounter.value + 1 %}
+    <div class="sidebar-panel">
+    {% for item in major.items %}
+      <div class="sidebar-item">
+        <a href="#" onclick=changeCanvasItem({{ maincounter.value }})>{{ item['title'] }}</a>
+      </div>
+      {% set maincounter.value = maincounter.value + 1 %}
+    {% endfor %}
+    </div>
+  {% endfor %}
+</div>

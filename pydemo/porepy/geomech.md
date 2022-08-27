@@ -1,5 +1,5 @@
 ---
-title: GeoMech
+title: porepy.geomech
 
 ---
 

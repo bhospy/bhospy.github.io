@@ -30,7 +30,16 @@
       </nav>
 
       <main>
-        {{ page['html-main'] }}
+        {% if page['dir']=="." %}
+        <nav class="sidebar home">
+        {% else %}
+        <nav class="sidebar">
+        {% endif %}
+          {{ page['html-sidebar'] }}
+        </nav>
+        <div class="canvas">
+          {{ page['html-canvas'] }}
+        </div>
       </main>
 
       <page-footer></page-footer>

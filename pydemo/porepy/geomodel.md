@@ -1,5 +1,5 @@
 ---
-title: GeoModel
+title: porepy.geomodel
 
 ---
 

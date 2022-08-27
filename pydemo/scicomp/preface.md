@@ -1,5 +1,5 @@
 ---
-title: scicomp
+title: SciComp
 
 ---
 
