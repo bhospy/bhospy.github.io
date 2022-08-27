@@ -38,7 +38,11 @@ for page_dir in smap['page-dirs']:
 	with open(preface_path,'r') as mdfile:
 		page = frontmatter.loads(mdfile.read())
 
-	page['dir'] = os.path.join(os.pardir,page_dir)
+	if page_dir=="pydemo":
+		page['dir'] = os.pardir
+	else:
+		page['dir'] = os.path.join(os.pardir,page_dir)
+		
 	page['status'] = "active" if page_dir=="contribution" else "passive"
 	
 	pages.append(page)
