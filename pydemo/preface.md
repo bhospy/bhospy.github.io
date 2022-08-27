@@ -1,6 +1,8 @@
 ---
 title: PyDemo
 
+permalink: /
+
 ---
 
 

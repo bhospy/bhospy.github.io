@@ -1,10 +1,10 @@
 <div class="ribbon-title">
-  <a href="{{ ribbon.pages[0]['dir'] }}">{{ ribbon.pages[0]['title'] }}</a>
+  <a href="{{ pages[0]['dir'] }}">{{ pages[0]['title'] }}</a>
 </div>
 <div class="ribbon-links">
   <ul>
-    {% for page in ribbon.pages[1:] %}
-      <li><a href="{{ page['dir'] }}" class="passive">"{{ page['title'] }}"</a></li>
+    {% for page in pages[1:] %}
+      <li><a href="{{ page['dir'] }}" class="{{ page['status'] }}">{{ page['title'] }}</a></li>
     {% endfor %}
   </ul>
 </div>

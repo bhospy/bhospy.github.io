@@ -4,6 +4,7 @@
     {% set maincounter = namespace(value=1) %}
     {% for major in page.majors %}
       <button class="sidebar-accordion">{{ major['title'] }}</button>
+      {% set maincounter.value = maincounter.value + 1 %}
       <div class="sidebar-panel">
       {% for item in major.items %}
         <div class="sidebar-item">
@@ -18,10 +19,15 @@
 <div class="canvas">
   <div class="canvas-item">
     <div class="canvas-item-column-one">
-      {{ page['html'] }}
+      {{ page['html-preface'] }}
     </div>
   </div>
   {% for major in page.majors %}
+    <div class="canvas-item">
+      <div class="canvas-item-column-one">
+        {{ major['html-preface'] }}
+      </div>
+    </div>
     {% for item in major.items %}
       <div class="canvas-item">
         {% if 'html-column-1' in item %}

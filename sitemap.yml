@@ -1,22 +1,22 @@
-pages:
+page-dirs:
   - pydemo
   - engineering
   - modeling
   - application
   - contribution
 
-pydemo:
+pydemo-dirs:
   - datum
   - scicomp
   - porepy
 
-engineering:
+engineering-dirs:
   - resources
   - formeval
   - upstream
   - manage
 
-modeling:
+modeling-dirs:
   - python
   - scicomp
   - fluidflow
@@ -24,36 +24,36 @@ modeling:
   - emfields
   - geomodel
 
-application:
+application-dirs:
   - 2021-2022
 
-contribution:
+contribution-dirs:
   - author
 
-datum:
+datum-markdowns:
   - textio.md
   - dataview.md
   - geogrids.md
   - ssitems.md
 
-scicomp:
+scicomp-markdowns:
   - stats.md
   - optimize.md
   - mlearn.md
   - special.md
   - numerics.md
 
-porepy:
+porepy-markdowns:
   - fluidflow.md
   - geomech.md
   - emfields.md
   - geomodel.md
 
-resources:
+resources-markdowns:
   - susenergy.md
   - transport.md
 
-formeval:
+formeval-markdowns:
   - geology.md
   - resfluids.md
   - geophysics.md
@@ -61,7 +61,7 @@ formeval:
   - wlogging.md
   - wtesting.md
 
-upstream:
+upstream-markdowns:
   - drilling.md 
   - completion.md 
   - production.md
@@ -70,38 +70,38 @@ upstream:
   - naturalgas.md
   - eor.md
 
-manage:
+manage-markdowns:
   - legislation.md
   - pvaluation.md
   - engethics.md
 
-python:
+python-markdowns:
   - packages.md
 
-scicomp:
+scicomp-markdowns:
   - stats.md
   - optimize.md
   - mlearn.md
   - special.md
   - numerics.md
 
-fluidflow:
+fluidflow-markdowns:
   - blackoil.md
   - fracmed.md
 
-geomech:
+geomech-markdowns:
   - wstab.md
   - sandprod.md
   - hfprop.md
 
-emfields:
+emfields-markdowns:
   - reslog.md
 
-geomodel:
+geomodel-markdowns:
   - geostats.md
 
-2021-2022:
-  - htr.md
+2021-2022-markdowns:
+  - htrsocar.md
 
-author:
+author-markdowns:
   - jshiriyev.md

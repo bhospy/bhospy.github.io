@@ -1,69 +1,82 @@
 import os
 
-from markdown2 import markdown
-
 import frontmatter
 
 from jinja2 import Environment, FileSystemLoader
 
-template_env = Environment(loader=FileSystemLoader(searchpath="./"))
+from markdown2 import markdown
 
-template = template_env.get_template("layout.html")
+import yaml
 
-with open('preface.md','r') as mdfile:
+cpath = os.path.dirname(__file__)
+ppath = os.path.dirname(cpath)
 
-	mdcontent = mdfile.read()
+sitemap = os.path.join(ppath,'sitemap.yml')
+layouts = os.path.join(ppath,'layouts')
 
-	page = frontmatter.loads(mdcontent)
+Loader = yaml.loader.SafeLoader
+loader = FileSystemLoader(searchpath=layouts)
 
-	page['html'] = markdown(page.content)
+with open(sitemap,'r') as ymlfile:
+	smap = yaml.load(ymlfile,Loader=Loader)
 
-majorcounter = 0
+template_env = Environment(loader=loader)
+
+frame_b = template_env.get_template("base.html")
+frame_r = template_env.get_template("ribbon.html")
+frame_m = template_env.get_template("default.html")
+
+pages = []
+
+for page_dir in smap['page-dirs']:
+
+	page_path = os.path.join(ppath,page_dir)
+
+	preface_path = os.path.join(page_path,'preface.md')
+
+	with open(preface_path,'r') as mdfile:
+		page = frontmatter.loads(mdfile.read())
+
+	page['dir'] = os.path.join(os.pardir,page_dir)
+	page['status'] = "active" if page_dir=="engineering" else "passive"
+	
+	pages.append(page)
+
+page = pages[smap['page-dirs'].index("engineering")]
+
+page['html-ribbon'] = frame_r.render(pages=pages)
+
+page['html-preface'] = markdown(page.content)
 
 page.majors = []
 
-while True:
+for major_dir in smap['engineering-dirs']:
 
-	try:
-		major_dir = page['major{}'.format(majorcounter)]
-	except KeyError:
-		break
-	else:
-		majorcounter += 1
+	major_path = os.path.join(cpath,major_dir)
 
-	with open(os.path.join(major_dir,'config.md'),'r') as mdfile:
+	preface_path = os.path.join(major_path,'preface.md')
 
-		mdcontent = mdfile.read()
-
-		major = frontmatter.loads(mdcontent)
+	with open(preface_path,'r') as mdfile:
+		major = frontmatter.loads(mdfile.read())
+		major['html-preface'] = markdown(major.content)
 
 	major.items = []
 
-	itemcounter = 0
+	for item_markdown in smap[f"{major_dir}-markdowns"]:
 
-	while True:
+		item_path = os.path.join(major_path,item_markdown)
 
-		try:
-			item_dir = major['item{}'.format(itemcounter)]
-		except KeyError:
-			break
-		else:
-			itemcounter += 1
-
-		with open(os.path.join(major_dir,item_dir),'r') as mdfile:
-
-			mdcontent = mdfile.read()
-
-			item = frontmatter.loads(mdcontent)
-
-			item['html'] = markdown(item.content)
+		with open(item_path,'r') as mdfile:
+			item = frontmatter.loads(mdfile.read())
+			item['html-column-1'] = markdown(item.content)
 
 		major.items.append(item)
 
 	page.majors.append(major)
 
+page['html-main'] = frame_m.render(page=page)
+
+html = frame_b.render(page=page)
+
 with open('index.html','w') as output_file:
-
-	html = template.render(page=page)
-
 	output_file.write(html)
