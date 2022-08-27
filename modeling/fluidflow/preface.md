@@ -1,9 +1,9 @@
 ---
-title: 'Fluid Mechanics'
+title: 'Fluid Flow Modeling'
 
 ---
 
-### Fluid Meachanics
+### Fluid Mechanics
 
 What is matter and how to model its behavior?
 

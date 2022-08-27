@@ -1,6 +1,6 @@
 ---
 title:		'Javid Shiriyev'
-image:		'..\images\headshots\p2.jpg'
+image:		'../images/headshots/p2.jpg'
 image-alt:	"Javid's photo"
 degree:		'Javid Shiriyev, Ph.D.'
 position-1:	'BHOS - Senior Lecturer'
