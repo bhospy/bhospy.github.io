@@ -113,57 +113,6 @@ footer {
 
 /*Body-Center*/
 
-.home-collection {
-	overflow: hidden;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-bottom: 50px;
-}
-
-.home-repeated-icons {
-	width: 0px;
-	height: 0px;
-}
-
-.home-box {
-	border-style: solid;
-	border-color: white;
-	border-width: 2px;
-	font-size: 12px;
-	text-align: left;
-	width: 350px;
-	height: 160px;
-	min-width: 350px;
-	max-width: 350px;
-	padding: 5px 5px 10px 10px;
-	margin: 5px;
-	box-shadow: 5px 5px 5px rgb(200,200,240);
-	text-decoration: none;
-	color: black;
-
-}
-
-.home-box-title {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-bottom: 5px;
-}
-
-.home-box-title h3 {
-	padding: 5px 0px 5px 0px;
-}
-
-.home-box-title svg {
-	width: 25px;
-	height: 25px;
-}
-
 .sidebar {
 	float: left;
 	width: 130px;
@@ -175,17 +124,20 @@ footer {
 	list-style-type: none;
 }
 
-.sidebar.home {
+.sidebar.active {
+	display: block;
+}
+
+.sidebar.passive {
 	display: none;
+}
+
+.sidebar.pydemo {
 	width: 240px;
 	min-width: 240px;
 	max-width: 240px;
 	border-right: 1px solid gray;
 }
-
-.sidebar.home.active {
-	display: block;
-	}
 
 .sidebar-toggle {
 	display: none;
@@ -202,7 +154,7 @@ footer {
 	text-decoration: none;
 }
 
-.sidebar.home .sidebar-toggle {
+.sidebar.pydemo .sidebar-toggle {
 	background-color: none;
 }
 
@@ -220,7 +172,7 @@ footer {
 	text-decoration: none;
 }
 
-.sidebar.home .sidebar-accordion {
+.sidebar.pydemo .sidebar-accordion {
 	background-color: #f6f6f6;
 }
 
@@ -249,7 +201,7 @@ footer {
 	text-decoration: none;
 }
 
-.sidebar.home .sidebar-item a {
+.sidebar.pydemo .sidebar-item a {
 	padding-left: 8px;
 }
 
@@ -272,12 +224,78 @@ footer {
 	padding-left: 8px;
 }
 
+.compilation {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-bottom: 50px;
+}
+
+.compilation-box {
+	display: flex;
+	flex-direction: column;
+	align-items: top;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	font-size: 13px;
+	text-align: left;
+	width: 350px;
+	height: 160px;
+	min-width: 350px;
+	max-width: 350px;
+	padding: 5px 5px 10px 10px;
+	margin: 5px;
+	box-shadow: 5px 5px 5px rgb(200,200,240);
+	text-decoration: none;
+	color: black;
+}
+
+.compilation-box-title {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0px 10px 0px;
+}
+
+.compilation-box-title h3 {
+	padding: 5px 0px 5px 0px;
+}
+
+.compilation-box-title svg {
+	width: 25px;
+	height: 25px;
+}
+
+.compilation-box p {
+	font-size: 13px;
+}
+
+.compilation-icons {
+	width: 0px;
+	height: 0px;
+}
+
 .canvas {
 	width: 100%;
 	float: left;
 	overflow: hidden;
 	margin: 0px;
 	padding-bottom: 50px;
+}
+
+.canvas.active {
+	display: block;
+}
+
+.canvas.passive {
+	display: none;
 }
 
 .canvas-item {
@@ -412,7 +430,7 @@ footer {
 		background-color: #eee;
 	}
 
-	.sidebar.home {
+	.sidebar.pydemo {
 		max-width: 100%;
 		width: 100%;
 		border-right: none;

@@ -51,8 +51,10 @@ page = pages[smap['page-dirs'].index("pydemo")]
 
 page['html-ribbon'] = frame_r.render(pages=pages)
 
-with open('preface.html','r') as htmlfile:
-	page['html-preface'] = htmlfile.read()
+page['html-preface'] = markdown(page.content)
+
+with open('compilation.html','r') as htmlfile:
+	page['html-compilation'] = htmlfile.read()
 
 page.majors = []
 

@@ -30,16 +30,37 @@
       </nav>
 
       <main>
+
         {% if page['dir']=="." %}
-        <nav class="sidebar home">
+        {% if 'html-compilation' in page %}
+        <nav class="sidebar pydemo passive">
         {% else %}
-        <nav class="sidebar">
+        <nav class="sidebar pydemo active">
+        {% endif %}
+        {% else %}
+        {% if 'html-compilation' in page %}
+        <nav class="sidebar passive">
+        {% else %}
+        <nav class="sidebar active">
+        {% endif %}
         {% endif %}
           {{ page['html-sidebar'] }}
         </nav>
-        <div class="canvas">
+        
+        {% if 'html-compilation' in page %}
+        <div class="compilation">
+          {{ page['html-compilation'] }}
+        </div>
+        {% endif %}
+
+        {% if 'html-compilation' in page %}
+        <div class="canvas passive">
+        {% else %}
+        <div class="canvas active">
+        {% endif %}
           {{ page['html-canvas'] }}
         </div>
+
       </main>
 
       <page-footer></page-footer>

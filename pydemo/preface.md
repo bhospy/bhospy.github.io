@@ -4,4 +4,4 @@ title: PyDemo
 ---
 
 
-This section should inclide those three boxes!
+This section will include the structure and brief summary of PyDemo!
