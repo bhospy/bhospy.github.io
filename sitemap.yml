@@ -18,7 +18,7 @@ engineering-dirs:
 
 modeling-dirs:
   - python
-  - scicomp
+  - engmath
   - fluidflow
   - geomech
   - emfields
@@ -78,7 +78,7 @@ manage-markdowns:
 python-markdowns:
   - packages.md
 
-scicomp-markdowns:
+engmath-markdowns:
   - stats.md
   - optimize.md
   - mlearn.md
