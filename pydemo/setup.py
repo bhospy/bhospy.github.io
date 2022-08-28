@@ -51,11 +51,12 @@ for page_dir in smap['page-dirs']:
 
 page = pages[smap['page-dirs'].index("pydemo")]
 
-page['html-ribbon'] = frame_ribbon.render(pages=pages)
-
 page['html-preface'] = markdown(page.content)
 
-with open('compilation.html','r') as htmlfile:
+page_path = os.path.join(ppath,page['nick'])
+compilation_path = os.path.join(page_path,'compilation.html')
+
+with open(compilation_path,'r') as htmlfile:
 	page['html-compilation'] = htmlfile.read()
 
 page.majors = []
@@ -84,10 +85,12 @@ for major_dir in smap['pydemo-dirs']:
 
 	page.majors.append(major)
 
-page['html-sidebar'] = frame_sidebar.render(page=page)
-page['html-canvas'] = frame_canvas.render(page=page)
+page['html-ribbon'] 	= frame_ribbon.render(pages=pages)
+page['html-sidebar'] 	= frame_sidebar.render(page=page)
+page['html-canvas'] 	= frame_canvas.render(page=page)
 
-html = frame_base.render(page=page)
+index_html = frame_base.render(page=page)
+index_path = os.path.join(ppath,'index.html')
 
-with open('../index.html','w') as output_file:
-	output_file.write(html)
+with open(index_path,'w') as output_file:
+	output_file.write(index_html)

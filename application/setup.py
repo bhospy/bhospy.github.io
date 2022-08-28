@@ -22,9 +22,10 @@ with open(sitemap,'r') as ymlfile:
 
 template_env = Environment(loader=loader)
 
-frame_b = template_env.get_template("base.html")
-frame_r = template_env.get_template("ribbon.html")
-frame_m = template_env.get_template("default.html")
+frame_base 		= template_env.get_template("base.html")
+frame_ribbon 	= template_env.get_template("ribbon.html")
+frame_sidebar 	= template_env.get_template("sidebar.html")
+frame_canvas 	= template_env.get_template("canvas.html")
 
 pages = []
 
@@ -37,6 +38,8 @@ for page_dir in smap['page-dirs']:
 	with open(preface_path,'r') as mdfile:
 		page = frontmatter.loads(mdfile.read())
 
+	page['nick'] = page_dir
+
 	if page_dir=="pydemo":
 		page['dir'] = os.pardir
 	else:
@@ -47,8 +50,6 @@ for page_dir in smap['page-dirs']:
 	pages.append(page)
 
 page = pages[smap['page-dirs'].index("application")]
-
-page['html-ribbon'] = frame_r.render(pages=pages)
 
 page['html-preface'] = markdown(page.content)
 
@@ -78,9 +79,12 @@ for major_dir in smap['application-dirs']:
 
 	page.majors.append(major)
 
-page['html-main'] = frame_m.render(page=page)
+page['html-ribbon'] 	= frame_ribbon.render(pages=pages)
+page['html-sidebar'] 	= frame_sidebar.render(page=page)
+page['html-canvas'] 	= frame_canvas.render(page=page)
 
-html = frame_b.render(page=page)
+index_html = frame_base.render(page=page)
+index_path = os.path.join(cpath,'index.html')
 
-with open('index.html','w') as output_file:
-	output_file.write(html)
+with open(index_path,'w') as output_file:
+	output_file.write(index_html)
