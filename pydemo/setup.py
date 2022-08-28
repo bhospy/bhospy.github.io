@@ -87,5 +87,5 @@ page['html-canvas'] = frame_c.render(page=page)
 
 html = frame_b.render(page=page)
 
-with open('index.html','w') as output_file:
+with open('../index.html','w') as output_file:
 	output_file.write(html)
