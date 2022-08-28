@@ -31,18 +31,10 @@
 
       <main>
 
-        {% if page['dir']=="." %}
-        {% if 'html-compilation' in page %}
-        <nav class="sidebar pydemo passive">
+        {% if page['nick']=="pydemo" %}
+        <nav class="sidebar pydemo">
         {% else %}
-        <nav class="sidebar pydemo active">
-        {% endif %}
-        {% else %}
-        {% if 'html-compilation' in page %}
-        <nav class="sidebar passive">
-        {% else %}
-        <nav class="sidebar active">
-        {% endif %}
+        <nav class="sidebar">
         {% endif %}
           {{ page['html-sidebar'] }}
         </nav>
@@ -53,11 +45,7 @@
         </div>
         {% endif %}
 
-        {% if 'html-compilation' in page %}
-        <div class="canvas passive">
-        {% else %}
-        <div class="canvas active">
-        {% endif %}
+        <div class="canvas">
           {{ page['html-canvas'] }}
         </div>
 
@@ -69,8 +57,8 @@
 
     <script src="..\scripts\ribbon.js"></script>
     <script src="..\scripts\sidebar.js"></script>
-    <script src="..\scripts\compilation.js"></script>
     <script src="..\scripts\canvas.js"></script>
+    <script src="..\scripts\compilation.js"></script>
 
   </body>
 

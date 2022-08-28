@@ -124,14 +124,6 @@ footer {
 	list-style-type: none;
 }
 
-.sidebar.active {
-	display: block;
-}
-
-.sidebar.passive {
-	display: none;
-}
-
 .sidebar.pydemo {
 	width: 240px;
 	min-width: 240px;
@@ -288,14 +280,6 @@ footer {
 	overflow: hidden;
 	margin: 0px;
 	padding-bottom: 50px;
-}
-
-.canvas.active {
-	display: block;
-}
-
-.canvas.passive {
-	display: none;
 }
 
 .canvas-item {
