@@ -18,7 +18,7 @@ date: 'September, 2022'
 
 ## How can we describe the motion of any object?
 
-- By utilizing the general principles of continuum mechanics:
+By utilizing the general principles of continuum mechanics:
 
 | Conservation    | Equation             |
 | --------------- |:-------------------- |
