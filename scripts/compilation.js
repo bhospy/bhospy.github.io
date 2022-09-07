@@ -25,9 +25,13 @@ function changeMainView(ID) {
 	var panel = acc[ID].nextElementSibling;
 	
 	if (panel.style.display === "block") {
-		panel.style.display = "none";
+		if (!winmedia.matches) {
+			panel.style.display = "none";
+		}
 	} else {
-		panel.style.display = "block";
+		if (!winmedia.matches) {
+			panel.style.display = "block";
+		}
 	}
 
 	itemsPage[0].style.display = 'none';
