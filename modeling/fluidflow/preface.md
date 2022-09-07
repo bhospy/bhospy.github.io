@@ -22,9 +22,9 @@ By utilizing the general principles of continuum mechanics:
 
 | Conservation    | Equation             |
 | --------------- |:-------------------- |
-| of Mass         | Continuity Equation  |
-| of Momentum     | Equation of Motion   |
-| of Energy       | Equation of Energy   |
+| of mass         | Continuity Equation  |
+| of momentum     | Equation of Motion   |
+| of energy       | Equation of Energy   |
 
 ## Why should Petroleum Engineers know about Fluid Mechanics?
 
@@ -89,3 +89,4 @@ The distribution is as following:
 
 - [Transport Phenomena](https://www.amazon.com/Transport-Phenomena-Revised-Byron-Bird/dp/0470115394) by Bird, Stewart and Lightfoot
 - [Partial Differential Equations](https://www.amazon.com/Differential-Equations-Scientists-Engineers-Mathematics/dp/048667620X) for Scientists and Engineers by Stanley Farlow
+- Two-Phase Flow in Pipes by Brill and Beggs, 6th edition

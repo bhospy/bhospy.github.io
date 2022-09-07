@@ -1,10 +1,10 @@
 # Data
-*.bhos
 *.csv
 *.db
 *.inc
 *.txt
-*.xlsx
+*.xl*
+*.doc*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
