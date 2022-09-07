@@ -1,5 +1,5 @@
 ---
-title: 'Electro-Magnetic Modeling'
+title: 'Electromagnetic Modeling'
 
 ---
 
