@@ -86,15 +86,18 @@ engmath-markdowns:
   - numerics.md
 
 fluidflow-markdowns:
+  - fluidmech.md
   - blackoil.md
   - fracmed.md
 
 geomech-markdowns:
+  - geomechcomp.md
   - wstab.md
   - sandprod.md
   - hfprop.md
 
 emfields-markdowns:
+  - emcomp.md
   - reslog.md
 
 geomodel-markdowns:

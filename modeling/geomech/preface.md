@@ -1,5 +1,5 @@
 ---
-title: 'Computational Geomechanics'
+title: 'Geomechanical Modeling'
 
 ---
 

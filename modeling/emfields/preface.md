@@ -1,6 +1,6 @@
 ---
-title: 'Computational Electro-Magnetics'
+title: 'Electro-Magnetic Modeling'
 
 ---
 
-### Computational Electromagnetics
+### ElectroMagnetic Modeling
