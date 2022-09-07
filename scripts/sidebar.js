@@ -65,7 +65,7 @@ var canvasItems = document.querySelectorAll('.canvas-item');
 
 canvasItems[0].style.display = 'block'
 
-function changeCanvasItem(ID) {
+function changeCanvasItemFromSidebar(ID) {
 
   for (let i = 0; i < canvasItems.length; i++) {
     canvasItems[i].style.display = 'none';
@@ -77,4 +77,16 @@ function changeCanvasItem(ID) {
 
   sidebarLinks.classList.toggle('active')
   
+}
+
+function changeCanvasItemFromCanvas(CIID) {
+
+  for (let i = 0; i < canvasItems.length; i++) {
+    canvasItems[i].style.display = 'none';
+  }
+
+  var canvasItemById = document.getElementById(CIID);
+
+  canvasItemById.style.display = 'flex';
+
 }

@@ -299,8 +299,7 @@ footer {
 }
 
 .canvas-item.major {
-	display: flex;
-	flex-direction: column;
+	display: none;
 }
 
 .canvas-item-column-panel {
@@ -534,6 +533,10 @@ footer {
 
 	.canvas-item {
 		flex-direction: column-reverse;
+	}
+
+	.canvas-item.major {
+		flex-direction: column;
 	}
 
 	.canvas-item-column-panel {
