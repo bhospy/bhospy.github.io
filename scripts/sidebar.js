@@ -1,11 +1,25 @@
+var winmedia = window.matchMedia("(max-width: 600px)")
+
 const sidebarPyDemo = document.getElementsByClassName('sidebar pydemo')
 
 const sidebarToggle = document.getElementsByClassName('sidebar-toggle')[0]
 const sidebarLinks = document.getElementsByClassName('sidebar-links')[0]
 
+const sidebarPanels = document.getElementsByClassName('sidebar-panel')
+
 sidebarToggle.addEventListener('click', () => {
   sidebarLinks.classList.toggle('active')
 })
+
+function switchPanels() {
+
+  for (let i = 0; i < sidebarPanels.length; i++) {
+    sidebarPanels[i].style.display = 'none';
+  }
+
+}
+
+winmedia.addListener(switchPanels)
 
 var sidebarAccordions = document.getElementsByClassName("sidebar-accordion");
 
@@ -21,12 +35,16 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
       if (sidebarPyDemo.length === 0) {
         this.style.backgroundColor = "#eee";
       }
-      this.nextElementSibling.style.display = "none";
+      if (!winmedia.matches) {
+        this.nextElementSibling.style.display = "none";
+      }
     } else {
       if (sidebarPyDemo.length === 0) {
         this.style.backgroundColor = "#ccc";
       }
-      this.nextElementSibling.style.display = "block";
+      if (!winmedia.matches) {
+        this.nextElementSibling.style.display = "block";
+      }
     }
 
     for (let j = 0; j < sidebarAccordions.length; j++) {
@@ -34,7 +52,9 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
         if (sidebarPyDemo.length === 0) {
           sidebarAccordions[j].style.backgroundColor = "#eee";
         }
-        sidebarAccordions[j].nextElementSibling.style.display = 'none';
+        if (!winmedia.matches) {
+          sidebarAccordions[j].nextElementSibling.style.display = 'none';
+        }
       }
     }
 

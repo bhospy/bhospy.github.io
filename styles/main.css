@@ -76,7 +76,7 @@ footer {
 	background-color: #111;
 }
 
-.ribbon-links.active {
+.ribbon-links .active {
 	background-color: #4CAF50;
 }
 
@@ -138,7 +138,7 @@ footer {
 	cursor: pointer;
 	padding: 10px 16px;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	font-size: 14px;
 	border: none;
 	outline: none;
@@ -246,6 +246,7 @@ footer {
 	box-shadow: 5px 5px 5px rgb(200,200,240);
 	text-decoration: none;
 	color: black;
+	font-family: "Montserrat", sans-serif;
 }
 
 .compilation-box-title {
@@ -265,8 +266,17 @@ footer {
 	height: 25px;
 }
 
-.compilation-box p {
-	font-size: 13px;
+.compilation-box-text {
+	height: 100%;
+	max-width: 100%;
+}
+
+.compilation-box-text p {
+	font-size: 12px;
+	overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .compilation-icons {
@@ -286,6 +296,28 @@ footer {
 	display: none;
 	padding-top: 10px;
 	padding-left: 20px;
+}
+
+.canvas-item.major {
+	display: flex;
+	flex-direction: column;
+}
+
+.canvas-item-column-panel {
+	width: 100%;
+	display: none;
+	margin-bottom: 10px;
+}
+
+.canvas-item-column-panel a {
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+	padding: 3px 0px;
+}
+
+.canvas-item-column-panel a:hover {
+	font-weight: bold;
 }
 
 .canvas-item-column-one {
@@ -504,10 +536,16 @@ footer {
 		flex-direction: column-reverse;
 	}
 
+	.canvas-item-column-panel {
+		display: flex;
+		flex-direction: column;
+		/*align-items: center;*/
+	}
+
 	.canvas-item-column-two {
 		width: 100%;
 		justify-content: center;
-		/*align-items: center;*/
+		/*align-items: center;
 		/*margin: auto;*/
 	}
 

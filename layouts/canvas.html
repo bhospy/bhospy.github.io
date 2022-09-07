@@ -4,23 +4,28 @@
   </div>
 </div>
 {% for major in page.majors %}
-  <div class="canvas-item major">
-    <div class="canvas-item-column-one">
-      {{ major['html-preface'] }}
-    </div>
+<div class="canvas-item major">
+  <div class="canvas-item-column-panel">
+    {% for item in major.items %}
+      <a href="#">{{ item['title'] }}</a>
+    {% endfor %}
   </div>
+  <div class="canvas-item-column-one">
+    {{ major['html-preface'] }}
+  </div>
+</div>
   {% for item in major.items %}
-    <div class="canvas-item">
-      {% if 'html-column-1' in item %}
-        <div class="canvas-item-column-one">
-          {{ item['html-column-1'] }}
-        </div>
-      {% endif %}
-      {% if 'html-column-2' in item %}
-        <div class="canvas-item-column-two">
-          {{ item['html-column-2'] }}
-        </div>
-      {% endif %}
-    </div>
+  <div class="canvas-item">
+    {% if 'html-column-1' in item %}
+      <div class="canvas-item-column-one">
+        {{ item['html-column-1'] }}
+      </div>
+    {% endif %}
+    {% if 'html-column-2' in item %}
+      <div class="canvas-item-column-two">
+        {{ item['html-column-2'] }}
+      </div>
+    {% endif %}
+  </div>
   {% endfor %}
 {% endfor %}
