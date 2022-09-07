@@ -1,9 +1,9 @@
 ---
-title: 'Python Essentials'
+title: 'Python Programming'
 
 ---
 
-### Python Essentials
+### Python Pros
 
 Python is the best fit for the scientific computing because of the several reasons mentioned below:
 

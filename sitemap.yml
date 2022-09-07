@@ -76,7 +76,10 @@ manage-markdowns:
   - engethics.md
 
 python-markdowns:
-  - packages.md
+  - essentials.md
+  - oop.md
+  - packaging.md
+  - performance.md
 
 engmath-markdowns:
   - stats.md
