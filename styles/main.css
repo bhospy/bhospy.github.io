@@ -76,7 +76,7 @@ footer {
 	background-color: #111;
 }
 
-.ribbon-links .active {
+.ribbon-links.active {
 	background-color: #4CAF50;
 }
 
@@ -115,9 +115,9 @@ footer {
 
 .sidebar {
 	float: left;
-	width: 130px;
-	min-width: 130px;
-	max-width: 130px;
+	width: 132px;
+	min-width: 132px;
+	max-width: 132px;
 	height: 100%;
 	margin: 0px;
 	padding: 10px 10px 50px 0px;
@@ -168,7 +168,7 @@ footer {
 	background-color: #f6f6f6;
 }
 
-.sidebar .active, .sidebar-accordion:hover {
+.sidebar-accordion:hover {
 	background-color: #ccc;
 }
 

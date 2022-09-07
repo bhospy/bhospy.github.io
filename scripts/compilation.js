@@ -14,6 +14,7 @@ var itemsPage = document.querySelectorAll('.canvas-item.page');
 var itemsMajor = document.querySelectorAll('.canvas-item.major');
 
 function changeMainView(ID) {
+
 	sidebar.style.display = 'block';
 	canvas.style.display = 'block';
 
@@ -23,14 +24,14 @@ function changeMainView(ID) {
 
 	var panel = acc[ID].nextElementSibling;
 	
-  if (panel.style.display === "block") {
-    panel.style.display = "none";
-  } else {
-    panel.style.display = "block";
-  }
+	if (panel.style.display === "block") {
+		panel.style.display = "none";
+	} else {
+		panel.style.display = "block";
+	}
 
-  itemsPage[0].style.display = 'none';
+	itemsPage[0].style.display = 'none';
 
-  itemsMajor[ID].style.display = 'block';
+	itemsMajor[ID].style.display = 'block';
 
 };

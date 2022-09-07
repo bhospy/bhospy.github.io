@@ -3,4 +3,4 @@ title: 'Electromagnetic Modeling'
 
 ---
 
-### ElectroMagnetic Modeling
+### Electro-Magnetic Modeling
