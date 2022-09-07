@@ -3,4 +3,4 @@ title: Application
 
 ---
 
-### Bachelor Graduation Defense
+## Bachelor Graduation Defense

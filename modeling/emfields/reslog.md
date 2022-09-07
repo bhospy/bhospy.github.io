@@ -3,7 +3,7 @@ title: 'Wellbore Resistivity Modeling'
 
 ---
 
-### Wellbore Resistivity Modeling
+## Wellbore Resistivity Modeling
 
 This model is based on solving the integral form of the Maxwell equations which uses Method of Moment technique to compute the regions of perturbed conductivity.
 

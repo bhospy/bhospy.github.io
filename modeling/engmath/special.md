@@ -3,4 +3,4 @@ title: 'Advanced Mathematics'
 
 ---
 
-### Advanced Mathematics
+## Advanced Mathematics

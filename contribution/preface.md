@@ -3,7 +3,7 @@ title: 'Contribution'
 
 ---
 
-### How to contribute?
+## How to contribute?
 
 Writing Code
 

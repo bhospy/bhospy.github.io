@@ -1,3 +1,5 @@
+const sidebarPyDemo = document.getElementsByClassName('sidebar pydemo')
+
 const sidebarToggle = document.getElementsByClassName('sidebar-toggle')[0]
 const sidebarLinks = document.getElementsByClassName('sidebar-links')[0]
 
@@ -16,16 +18,22 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
     to highlight the button that controls the panel */
 
     if (this.nextElementSibling.style.display === "block") {
-      this.style.backgroundColor = "#eee";
+      if (sidebarPyDemo.length === 0) {
+        this.style.backgroundColor = "#eee";
+      }
       this.nextElementSibling.style.display = "none";
     } else {
-      this.style.backgroundColor = "#ccc";
+      if (sidebarPyDemo.length === 0) {
+        this.style.backgroundColor = "#ccc";
+      }
       this.nextElementSibling.style.display = "block";
     }
 
     for (let j = 0; j < sidebarAccordions.length; j++) {
       if (j!==i) {
-        sidebarAccordions[j].style.backgroundColor = "#eee";
+        if (sidebarPyDemo.length === 0) {
+          sidebarAccordions[j].style.backgroundColor = "#eee";
+        }
         sidebarAccordions[j].nextElementSibling.style.display = 'none';
       }
     }

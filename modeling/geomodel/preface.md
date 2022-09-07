@@ -3,4 +3,6 @@ title: 'Geomodeling'
 
 ---
 
-### Geomodeling
+## Geomodeling
+
+- Geostatistics

@@ -3,7 +3,7 @@ title: 'Geomechanical Modeling'
 
 ---
 
-### Computational Geomechanics
+## Computational Geomechanics
 
 Conventionally, the reservoir engineers have been using non-deformable reservoirs. In these models, pore volume can still change, but the bulk volume stays the constant, which means the shape of grid blocks will stay constant no matter what.
 
@@ -16,7 +16,7 @@ In these models, we always use basic geomechanical features without even realizi
 
 Real geomechanical modeling, on the other hand, incorporates the feature of deformable reservoir. In these reservoir models, pore volume can change and bulk volume can change as well, which means that the shape of grid block can change.
 
-### Deformable Reservoir Grids
+## Deformable Reservoir Grids
 
 On a well scale, geomechanical models can help to answer questions about:
 

@@ -3,11 +3,14 @@ title: 'Modeling'
 
 ---
 
-### Python Programming
+## Python Programming
 
-- Third-Party Packages
+- Python Essentials
+- Object Oriented Programming
+- Python Packaging
+- Performance Optimization
 
-### Scientific Computing
+## Scientific Computing
 This documentation and associated coding is aimed to contribute to SciPy. The main subjects are:
 
 - Statistics
@@ -16,25 +19,28 @@ This documentation and associated coding is aimed to contribute to SciPy. The ma
 - Advanced Mathematics
 - Numerical Solvers
 
-### Fluid Flow Modeling
+## Fluid Flow Modeling
 The main subjects are:
 
+- Fluid Mechanics
 - Black Oil Simulator
 - Complex Fracture Network
 
-### Geomechanical Modeling
+## Geomechanical Modeling
 The main subjects are:
 
+- Computational Geomechanics
 - Wellbore Satbility
 - Sand Production
 - Hydraulic Fracture Propagation
 
-### Electromagnetic Modeling
+## Electromagnetic Modeling
 The main subjects are:
 
+- Computational Electromagnetics
 - Wellbore Resistivity Modeling
 
-### Geomodeling
+## Geomodeling
 The main subjects are:
 
 - Geostatistics

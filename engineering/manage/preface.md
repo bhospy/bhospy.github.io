@@ -3,4 +3,8 @@ title: 'Management'
 
 ---
 
-### Management
+## Management
+
+- Petroleum Legislation
+- Property Valuation
+- Engineering Ethics

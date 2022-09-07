@@ -3,7 +3,7 @@ title: 'Python Programming'
 
 ---
 
-### Python Pros
+## Python Pros
 
 Python is the best fit for the scientific computing because of the several reasons mentioned below:
 
@@ -17,7 +17,7 @@ Python is the best fit for the scientific computing because of the several reaso
 - It has all the necessary tools to perform higher computations, it can handle parallel and series computations.
 
 
-### Installation
+## Installation
 
 Assuming that you are using Windows not having Python installed yet, below is the link to go over the process:
 
@@ -30,7 +30,7 @@ The link below will show you how to install NumPy, one of the most important mod
 Besides NumPy, we will need additional modules, Matplotlib, which is a visualization package used to generate graphs and decorate them, SciPy, Pandas, Scikit-Learn and SQLite. These modules can be installed pretty much the same way way you had for NumPy.
 Finally, check the installation by importing those modules from a python shell, as shown in the link provided.
 
-### Warning
+## Warning
 
 There are two main differences between the syntax of Python and other languages:
 
@@ -38,7 +38,7 @@ There are two main differences between the syntax of Python and other languages:
 - Python is indentation-sensitive, instead of curly braces, indentation is used to determine beginning and the end of code block. Do not leave unnecessary spaces at the beginning of the line of your script.
 
 
-### Version Control
+## Version Control
 
 We are going to use git as a version control system and GitHub as an online repository for our in-class development:
 
@@ -47,26 +47,6 @@ We are going to use git as a version control system and GitHub as an online repo
 - Coordinates work between multiple developers and records changes made.
 - You can revert back to specific versions of any file at any time as long as it is committed to the repository.
 - GitHub is a git repository hosting service with its own features easing the access control issues and collaboration efforts.
-
-
-### Course Outline
-
-Below is the list of topics we are going to cover in this course:
-
-- Python Essentials
-- Scientific Computing
-- Array Operations
-- Data Visualization
-- Optimization
-- Numerical Derivatives
-- Numerical Integration
-- Finite Difference Method
-- Finite Element Method
-- Parallel Computing
-- Data Analysis
-- Machine Learning
-- Database
-
 
 [//]: #
 

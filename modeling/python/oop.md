@@ -3,4 +3,13 @@ title: 'Object Oriented Programming'
 
 ---
 
-## Python Essentials
+## Object Oriented Programming
+
+- Python Classes
+- Objects
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Data Abstraction
+- Dunder methods
+- Meta-classes

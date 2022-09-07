@@ -3,17 +3,12 @@ title: 'Formation Evaluation'
 
 ---
 
-### Formation Evaluation
+## Formation Evaluation
 
-Geology
-
-Reservoir Fluids
-
-Geophysics
-
-Petrophysics
-
-Well Logging
-
-Well Testing
+- Geology
+- Reservoir Fluids
+- Geophysics
+- Petrophysics
+- Well Logging
+- Well Testing
 

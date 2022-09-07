@@ -1,7 +1,6 @@
 ---
 title: 'Wellbore Stability'
-status: False
 
 ---
 
-### Wellbore Stability Modeling
+## Wellbore Stability Modeling

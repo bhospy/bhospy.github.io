@@ -3,6 +3,8 @@ title: 'Python Packaging'
 
 ---
 
-### Python Packages
+## Python Packages
 
-Content to be added...
+- Array Operations
+- Data Visualization
+- Database Management
