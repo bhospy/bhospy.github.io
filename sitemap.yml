@@ -82,11 +82,11 @@ python-markdowns:
   - performance.md
 
 engmath-markdowns:
-  - stats.md
-  - optimize.md
-  - mlearn.md
-  - special.md
-  - numerics.md
+  - mathstats.md
+  - mathoptimize.md
+  - mathmlearn.md
+  - mathspecial.md
+  - mathnumerics.md
 
 fluidflow-markdowns:
   - fluidmech.md

@@ -75,6 +75,8 @@ for major_dir in smap['modeling-dirs']:
 			item = frontmatter.loads(mdfile.read())
 			item['html-column-1'] = markdown(item.content,extras=["tables"])
 
+		item.mdname = item_markdown.split(".")[0]
+		
 		major.items.append(item)
 
 	page.majors.append(major)

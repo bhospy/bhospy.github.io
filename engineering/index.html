@@ -58,115 +58,115 @@
 <div class="sidebar-links">
   
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(1)>Energy Resources</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(1)">Energy Resources</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(2)>Sustainable Energy</a>
+        <a href="#" onclick="changeCanvasItem(2)">Sustainable Energy</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(3)>Crude Transport</a>
+        <a href="#" onclick="changeCanvasItem(3)">Crude Transport</a>
       </div>
       
     
     </div>
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(4)>Formation Evaluation</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(4)">Formation Evaluation</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(5)>Geology</a>
+        <a href="#" onclick="changeCanvasItem(5)">Geology</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(6)>Reservoir Fluids</a>
+        <a href="#" onclick="changeCanvasItem(6)">Reservoir Fluids</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(7)>Geophysics</a>
+        <a href="#" onclick="changeCanvasItem(7)">Geophysics</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(8)>Petrophysics</a>
+        <a href="#" onclick="changeCanvasItem(8)">Petrophysics</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(9)>Well Logging</a>
+        <a href="#" onclick="changeCanvasItem(9)">Well Logging</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(10)>Well Testing</a>
+        <a href="#" onclick="changeCanvasItem(10)">Well Testing</a>
       </div>
       
     
     </div>
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(11)>Oil and Gas Upstream</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(11)">Oil and Gas Upstream</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(12)>Drilling Engineering</a>
+        <a href="#" onclick="changeCanvasItem(12)">Drilling Engineering</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(13)>Completion and Stimulation</a>
+        <a href="#" onclick="changeCanvasItem(13)">Completion and Stimulation</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(14)>Production Engineering</a>
+        <a href="#" onclick="changeCanvasItem(14)">Production Engineering</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(15)>Reservoir Engineering</a>
+        <a href="#" onclick="changeCanvasItem(15)">Reservoir Engineering</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(16)>Reservoir Geomechanics</a>
+        <a href="#" onclick="changeCanvasItem(16)">Reservoir Geomechanics</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(17)>Natural Gas Engineering</a>
+        <a href="#" onclick="changeCanvasItem(17)">Natural Gas Engineering</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(18)>Enhanced Oil Recovery</a>
+        <a href="#" onclick="changeCanvasItem(18)">Enhanced Oil Recovery</a>
       </div>
       
     
     </div>
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(19)>Management</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(19)">Management</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(20)>Petroleum Legislation</a>
+        <a href="#" onclick="changeCanvasItem(20)">Petroleum Legislation</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(21)>Property Valuation</a>
+        <a href="#" onclick="changeCanvasItem(21)">Property Valuation</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(22)>Engineering Ethics</a>
+        <a href="#" onclick="changeCanvasItem(22)">Engineering Ethics</a>
       </div>
       
     
@@ -232,9 +232,9 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">Sustainable Energy</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('susenergy')">Sustainable Energy</a>
     
-      <a href="#">Crude Transport</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('transport')">Crude Transport</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -250,7 +250,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="susenergy" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Sustainable Energy</h2>
@@ -260,7 +260,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="transport" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Crude Oil Transportation</h2>
@@ -274,17 +274,17 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">Geology</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geology')">Geology</a>
     
-      <a href="#">Reservoir Fluids</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('resfluids')">Reservoir Fluids</a>
     
-      <a href="#">Geophysics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geophysics')">Geophysics</a>
     
-      <a href="#">Petrophysics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('petrophysics')">Petrophysics</a>
     
-      <a href="#">Well Logging</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('wlogging')">Well Logging</a>
     
-      <a href="#">Well Testing</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('wtesting')">Well Testing</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -302,7 +302,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="geology" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Geology</h3>
@@ -312,7 +312,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="resfluids" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Reservoir Fluids</h3>
@@ -322,7 +322,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="geophysics" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Geophysics</h3>
@@ -332,7 +332,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="petrophysics" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Petrophysics</h3>
@@ -344,7 +344,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="wlogging" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Well Logging</h3>
@@ -403,7 +403,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="wtesting" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Well Testing</h3>
@@ -417,19 +417,19 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">Drilling Engineering</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('drilling')">Drilling Engineering</a>
     
-      <a href="#">Completion and Stimulation</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('completion')">Completion and Stimulation</a>
     
-      <a href="#">Production Engineering</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('production')">Production Engineering</a>
     
-      <a href="#">Reservoir Engineering</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('reservoir')">Reservoir Engineering</a>
     
-      <a href="#">Reservoir Geomechanics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geomechanics')">Reservoir Geomechanics</a>
     
-      <a href="#">Natural Gas Engineering</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('naturalgas')">Natural Gas Engineering</a>
     
-      <a href="#">Enhanced Oil Recovery</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('eor')">Enhanced Oil Recovery</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -448,7 +448,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="drilling" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Drilling Engineering</h2>
@@ -458,7 +458,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="completion" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Completion and Stimulation</h2>
@@ -468,7 +468,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="production" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Production Engineering</h2>
@@ -478,7 +478,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="reservoir" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Reservoir Engineering</h2>
@@ -488,7 +488,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="geomechanics" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Reservoir Geomechanics</h2>
@@ -498,7 +498,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="naturalgas" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Natural Gas Engineering</h2>
@@ -508,7 +508,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="eor" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Enhanced Oil Recovery</h2>
@@ -522,11 +522,11 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">Petroleum Legislation</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('legislation')">Petroleum Legislation</a>
     
-      <a href="#">Property Valuation</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('pvaluation')">Property Valuation</a>
     
-      <a href="#">Engineering Ethics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('engethics')">Engineering Ethics</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -541,7 +541,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="legislation" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Petroleum Legislation</h3>
@@ -551,7 +551,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="pvaluation" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Property Valuation</h3>
@@ -561,7 +561,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="engethics" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Engineering Ethics</h3>

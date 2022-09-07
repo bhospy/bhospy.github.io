@@ -81,6 +81,8 @@ for major_dir in smap['pydemo-dirs']:
 			item = frontmatter.loads(mdfile.read())
 			item['html-column-1'] = markdown(item.content)
 
+		item.mdname = item_markdown.split(".")[0]
+		
 		major.items.append(item)
 
 	page.majors.append(major)

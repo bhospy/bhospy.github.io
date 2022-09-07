@@ -58,12 +58,12 @@
 <div class="sidebar-links">
   
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(1)>2021-2022</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(1)">2021-2022</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(2)>HTR-Socar</a>
+        <a href="#" onclick="changeCanvasItem(2)">HTR-Socar</a>
       </div>
       
     
@@ -85,7 +85,7 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">HTR-Socar</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('htrsocar')">HTR-Socar</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -94,7 +94,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="htrsocar" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h2>Hand-Written Text Recognition</h2>

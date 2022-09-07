@@ -58,84 +58,84 @@
 <div class="sidebar-links">
   
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(1)>Datum</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(1)">Datum</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(2)>datum.textio</a>
+        <a href="#" onclick="changeCanvasItem(2)">datum.textio</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(3)>datum.dataview</a>
+        <a href="#" onclick="changeCanvasItem(3)">datum.dataview</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(4)>datum.geogrids</a>
+        <a href="#" onclick="changeCanvasItem(4)">datum.geogrids</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(5)>datum.ssitems</a>
+        <a href="#" onclick="changeCanvasItem(5)">datum.ssitems</a>
       </div>
       
     
     </div>
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(6)>SciComp</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(6)">SciComp</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(7)>scicomp.stats</a>
+        <a href="#" onclick="changeCanvasItem(7)">scicomp.stats</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(8)>scicomp.optimize</a>
+        <a href="#" onclick="changeCanvasItem(8)">scicomp.optimize</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(9)>scicomp.mlearn</a>
+        <a href="#" onclick="changeCanvasItem(9)">scicomp.mlearn</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(10)>scicomp.special</a>
+        <a href="#" onclick="changeCanvasItem(10)">scicomp.special</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(11)>scicomp.numerics</a>
+        <a href="#" onclick="changeCanvasItem(11)">scicomp.numerics</a>
       </div>
       
     
     </div>
   
-    <button class="sidebar-accordion" onclick=changeCanvasItem(12)>PorePy</button>
+    <button class="sidebar-accordion" onclick="changeCanvasItem(12)">PorePy</button>
     
     <div class="sidebar-panel">
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(13)>porepy.flow</a>
+        <a href="#" onclick="changeCanvasItem(13)">porepy.flow</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(14)>porepy.geomech</a>
+        <a href="#" onclick="changeCanvasItem(14)">porepy.geomech</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(15)>porepy.emfields</a>
+        <a href="#" onclick="changeCanvasItem(15)">porepy.emfields</a>
       </div>
       
     
       <div class="sidebar-item">
-        <a href="#" onclick=changeCanvasItem(16)>porepy.geomodel</a>
+        <a href="#" onclick="changeCanvasItem(16)">porepy.geomodel</a>
       </div>
       
     
@@ -206,13 +206,13 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">datum.textio</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('textio')">datum.textio</a>
     
-      <a href="#">datum.dataview</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('dataview')">datum.dataview</a>
     
-      <a href="#">datum.geogrids</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geogrids')">datum.geogrids</a>
     
-      <a href="#">datum.ssitems</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('ssitems')">datum.ssitems</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -223,7 +223,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="textio" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>TextIO</h3>
@@ -333,7 +333,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="dataview" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>DataView</h3>
@@ -355,7 +355,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="geogrids" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>GeoGrids</h3>
@@ -375,7 +375,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="ssitems" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Sub-Surface Items</h3>
@@ -399,15 +399,15 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">scicomp.stats</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('stats')">scicomp.stats</a>
     
-      <a href="#">scicomp.optimize</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('optimize')">scicomp.optimize</a>
     
-      <a href="#">scicomp.mlearn</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('mlearn')">scicomp.mlearn</a>
     
-      <a href="#">scicomp.special</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('special')">scicomp.special</a>
     
-      <a href="#">scicomp.numerics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('numerics')">scicomp.numerics</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -418,7 +418,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="stats" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Statistics</h3>
@@ -428,7 +428,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="optimize" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Optimization Algorithms</h3>
@@ -438,7 +438,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="mlearn" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Machine Learning Algorithms</h3>
@@ -448,7 +448,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="special" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Advanced Mathematics</h3>
@@ -458,7 +458,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="numerics" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Numerical Methods</h3>
@@ -478,13 +478,13 @@
 <div class="canvas-item major">
   <div class="canvas-item-column-panel">
     
-      <a href="#">porepy.flow</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('fluidflow')">porepy.flow</a>
     
-      <a href="#">porepy.geomech</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geomech')">porepy.geomech</a>
     
-      <a href="#">porepy.emfields</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('emfields')">porepy.emfields</a>
     
-      <a href="#">porepy.geomodel</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geomodel')">porepy.geomodel</a>
     
   </div>
   <div class="canvas-item-column-one">
@@ -495,7 +495,7 @@
   </div>
 </div>
   
-  <div class="canvas-item">
+  <div id="fluidflow" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>FluidFlow</h3>
@@ -505,7 +505,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="geomech" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Geomechanics</h3>
@@ -515,7 +515,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="emfields" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Electro-Magnetic Fields</h3>
@@ -525,7 +525,7 @@
     
   </div>
   
-  <div class="canvas-item">
+  <div id="geomodel" class="canvas-item">
     
       <div class="canvas-item-column-one">
         <h3>Geo-Model</h3>

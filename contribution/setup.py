@@ -77,6 +77,8 @@ for major_dir in smap['contribution-dirs']:
 			item['html-column-1'] = markdown(item.content)
 			item['html-column-2'] = frame_profile.render(item=item)
 
+		item.mdname = item_markdown.split(".")[0]
+		
 		major.items.append(item)
 
 	page.majors.append(major)
