@@ -55,8 +55,8 @@ resources-markdowns:
 
 formeval-markdowns:
   - geology.md
-  - resfluids.md
   - geophysics.md
+  - resfluids.md
   - petrophysics.md
   - wlogging.md
   - wtesting.md
