@@ -1,6 +1,6 @@
 ---
-title: 'Geophysics'
+title: 'Seismic Measurements'
 
 ---
 
-### Geophysics
+## Seismic Measurements

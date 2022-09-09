@@ -1,5 +1,5 @@
 ---
-title: 'Petrophysics'
+title: 'Laboratory Petrophysics'
 
 ---
 
