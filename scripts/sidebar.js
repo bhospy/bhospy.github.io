@@ -7,8 +7,10 @@ const sidebarLinks = document.getElementsByClassName('sidebar-links')[0]
 
 const sidebarPanels = document.getElementsByClassName('sidebar-panel')
 
+const pageTitle = sidebarToggle.textContent
+
 sidebarToggle.addEventListener('click', () => {
-  sidebarLinks.classList.toggle('active')
+  sidebarLinks.classList.toggle('active');
 })
 
 function switchPanels() {
@@ -30,6 +32,8 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
 
     /* Toggle between adding and removing the "active" class,
     to highlight the button that controls the panel */
+
+    sidebarToggle.textContent = [pageTitle,'-',this.textContent].join(' ');
 
     if (this.nextElementSibling.style.display === "block") {
       if (sidebarPyDemo.length === 0) {
