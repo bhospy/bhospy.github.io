@@ -228,7 +228,7 @@ footer {
 	padding-bottom: 50px;
 }
 
-.compilation-box {
+/*.compilation-box {
 	display: flex;
 	flex-direction: column;
 	align-items: top;
@@ -282,7 +282,7 @@ footer {
 .compilation-icons {
 	width: 0px;
 	height: 0px;
-}
+}*/
 
 .canvas {
 	width: 100%;
