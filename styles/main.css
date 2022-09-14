@@ -146,12 +146,7 @@ footer {
 	text-decoration: none;
 }
 
-.sidebar.pydemo .sidebar-toggle {
-	background-color: none;
-}
-
 .sidebar-accordion {
-	background-color: #eee;
 	color: #444;
 	cursor: pointer;
 	padding: 10px 10px;
@@ -164,11 +159,11 @@ footer {
 	text-decoration: none;
 }
 
-.sidebar.pydemo .sidebar-accordion {
-	background-color: #f6f6f6;
+.sidebar.library .sidebar-accordion {
+	background-color: #eee;
 }
 
-.sidebar-accordion:hover {
+.sidebar.library .sidebar-accordion:hover {
 	background-color: #ccc;
 }
 

@@ -1,11 +1,12 @@
-var winmedia = window.matchMedia("(max-width: 600px)")
+var winmedia = window.matchMedia("(max-width: 600px)");
 
-const sidebarPyDemo = document.getElementsByClassName('sidebar pydemo')
+const sidebarPyDemo = document.getElementsByClassName('sidebar pydemo');
+const sidebarToggle = document.getElementsByClassName('sidebar-toggle')[0];
+const sidebarLinks = document.getElementsByClassName('sidebar-links')[0];
+const sidebarAccordions = document.getElementsByClassName("sidebar-accordion");
+const sidebarPanels = document.getElementsByClassName('sidebar-panel');
 
-const sidebarToggle = document.getElementsByClassName('sidebar-toggle')[0]
-const sidebarLinks = document.getElementsByClassName('sidebar-links')[0]
-
-const sidebarPanels = document.getElementsByClassName('sidebar-panel')
+var canvasItems = document.querySelectorAll('.canvas-item');
 
 const pageTitle = sidebarToggle.textContent
 
@@ -22,8 +23,6 @@ function switchPanels() {
 }
 
 winmedia.addListener(switchPanels)
-
-var sidebarAccordions = document.getElementsByClassName("sidebar-accordion");
 
 // sidebarAccordions[0].classList.toggle("active");
 
@@ -65,8 +64,6 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
   });
 }
 
-var canvasItems = document.querySelectorAll('.canvas-item');
-
 canvasItems[0].style.display = 'block'
 
 function changeCanvasItemFromSidebar(ID) {
@@ -74,13 +71,11 @@ function changeCanvasItemFromSidebar(ID) {
   for (let i = 0; i < canvasItems.length; i++) {
     canvasItems[i].style.display = 'none';
   }
-
   // var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-
   canvasItems[ID].style.display = 'flex';
 
-  sidebarLinks.classList.toggle('active')
-  
+  sidebarLinks.classList.toggle('active');
+
 }
 
 function changeCanvasItemFromCanvas(CIID) {

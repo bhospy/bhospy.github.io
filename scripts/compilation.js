@@ -3,15 +3,19 @@ const canvas = document.getElementsByClassName('canvas')[0];
 
 const compilation = document.getElementsByClassName('compilation');
 
+const sidebarPyDemoToggle = document.getElementsByClassName('sidebar-toggle')[0];
+
+const pagePyDemoTitle = sidebarPyDemoToggle.textContent;
+
+var sidebarPyDemoAccordions = document.getElementsByClassName("sidebar-accordion");
+
+var itemsPage = document.querySelectorAll('.canvas-item.page');
+var itemsMajor = document.querySelectorAll('.canvas-item.major');
+
 if (compilation.length > 0) {
 	sidebar.style.display = 'none'
 	canvas.style.display = 'none'
 };
-
-var acc = document.getElementsByClassName("sidebar-accordion");
-
-var itemsPage = document.querySelectorAll('.canvas-item.page');
-var itemsMajor = document.querySelectorAll('.canvas-item.major');
 
 function changeMainView(ID) {
 
@@ -20,9 +24,11 @@ function changeMainView(ID) {
 
 	compilation[0].style.display = 'none';
 
-	acc[ID].classList.toggle("active");
+	sidebarPyDemoAccordions[ID].classList.toggle("active");
 
-	var panel = acc[ID].nextElementSibling;
+	var panel = sidebarPyDemoAccordions[ID].nextElementSibling;
+
+	sidebarPyDemoToggle.textContent = [pagePyDemoTitle,'-',sidebarPyDemoAccordions[ID].textContent].join(' ');
 	
 	if (panel.style.display === "block") {
 		if (!winmedia.matches) {
