@@ -1,5 +1,8 @@
 sidebarToggle.addEventListener('click', () => {
   sidebarLinks.classList.toggle('active');
+  for (let i = 0; i < canvasPanels.length; i++) {
+    canvasPanels[i].classList.remove("active")
+  }
 })
 
 function switchPanels() {
@@ -7,6 +10,7 @@ function switchPanels() {
   for (let i = 0; i < sidebarAccordions.length; i++) {
     sidebarAccordions[i].classList.remove("active");
     sidebarPanels[i].classList.remove("active");
+    canvasPanels[i].classList.toggle("active")
   }
 
 }
@@ -19,7 +23,6 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
     sidebarToggle.textContent = [pageTitle,'-',this.textContent].join(' ');
 
     if (!winmedia.matches) {
-
       for (let j = 0; j < sidebarAccordions.length; j++) {
         if (j===i) {
           sidebarAccordions[j].classList.toggle("active");
@@ -29,6 +32,8 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
           sidebarAccordions[j].nextElementSibling.classList.remove("active");
         }
       }
+    } else {
+      canvasPanels[i].classList.toggle("active")
     }
 
   });

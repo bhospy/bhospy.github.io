@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 .hybrid .button {
   position: relative;

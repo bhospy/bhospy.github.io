@@ -231,8 +231,9 @@ footer {
 }
 
 .hybrid {
-	overflow: hidden;
 	display: none;
+	overflow: hidden;
+	float: left;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 30px;
@@ -272,10 +273,10 @@ footer {
 }
 
 .canvas .item.major .panel {
-	background-color: #f4f0ec;
-	width: 100%;
 	display: none;
+	width: 100%;
 	margin-bottom: 10px;
+	background-color: #f4f0ec;
 }
 
 .canvas .item.major .panel a {
@@ -521,9 +522,14 @@ footer {
 	}
 
 	.canvas .item.major .panel {
-		display: flex;
+		display: none;
+		padding-top: 10px;
 		flex-direction: column;
 		/*align-items: center;*/
+	}
+
+	.canvas .item.major .panel.active {
+		display: flex;
 	}
 
 	.canvas .item .column-two {

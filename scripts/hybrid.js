@@ -1,15 +1,8 @@
-if (typeof hybrid !== 'undefined') {
-	hybrid.classList.toggle("active")
-} else {
-	sidebar.classList.toggle("active")
-	canvas.classList.toggle("active")
-}
-
 function changeMainView(ID) {
 
+	hybrid.classList.remove('active');
 	sidebar.classList.toggle('active');
 	canvas.classList.toggle('active');
-	hybrid.classList.toggle('active');
 
 	sidebarToggle.textContent = [pageTitle,'-',sidebarAccordions[ID].textContent].join(' ');
 
