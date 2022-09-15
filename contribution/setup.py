@@ -54,6 +54,8 @@ page = pages[smap['page-dirs'].index("contribution")]
 
 page['html-preface'] = markdown(page.content)
 
+page.mdname = "contribution"
+
 page.majors = []
 
 for major_dir in smap['contribution-dirs']:
@@ -66,6 +68,8 @@ for major_dir in smap['contribution-dirs']:
 		major = frontmatter.loads(mdfile.read())
 		major['html-preface'] = markdown(major.content)
 
+	major.mdname = major_dir
+	
 	major.items = []
 
 	for item_markdown in smap[f"{major_dir}-markdowns"]:

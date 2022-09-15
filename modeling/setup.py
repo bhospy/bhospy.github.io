@@ -53,6 +53,8 @@ page = pages[smap['page-dirs'].index("modeling")]
 
 page['html-preface'] = markdown(page.content,extras=["tables"])
 
+page.mdname = "modeling"
+
 page.majors = []
 
 for major_dir in smap['modeling-dirs']:
@@ -64,6 +66,8 @@ for major_dir in smap['modeling-dirs']:
 	with open(preface_path,'r') as mdfile:
 		major = frontmatter.loads(mdfile.read())
 		major['html-preface'] = markdown(major.content,extras=["tables"])
+
+	major.mdname = major_dir
 
 	major.items = []
 

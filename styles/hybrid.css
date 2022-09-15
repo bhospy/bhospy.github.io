@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.compilation .button {
+.hybrid .button {
   position: relative;
   padding: 1em 1.5em;
   border: none;
@@ -21,7 +21,7 @@
 }
 
 
-/*.compilation .button {
+/*.hybrid .button {
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -37,12 +37,12 @@
   font-family: "Montserrat", sans-serif;
 }*/
 
-  .compilation .button.type1 {
+  .hybrid .button.type1 {
     color: black; 
   }
 
-    .compilation .button.type1.type1::after,
-    .compilation .button.type1.type1::before {
+    .hybrid .button.type1.type1::after,
+    .hybrid .button.type1.type1::before {
       content: '';
       display: block;
       position: absolute;
@@ -53,7 +53,7 @@
       border-radius: 2px; 
     }
 
-    .compilation .button.type1.type1::after {
+    .hybrid .button.type1.type1::after {
       bottom: 0;
       right: 0;
       border-top-color: transparent;
@@ -62,7 +62,7 @@
       border-right-color: #566473; 
     }
 
-    .compilation .button.type1.type1::before {
+    .hybrid .button.type1.type1::before {
       top: 0;
       left: 0;
       border-bottom-color: transparent;
@@ -71,18 +71,18 @@
       border-left-color: #566473; 
     }
 
-    .compilation .button.type1.type1:hover:after,
-    .compilation .button.type1.type1:hover:before {
+    .hybrid .button.type1.type1:hover:after,
+    .hybrid .button.type1.type1:hover:before {
       width: 100%;
       height: 100%; 
     }
 
-  .compilation .button.type2 {
+  .hybrid .button.type2 {
     color: #16a085; 
   }
 
-    .compilation .button.type2.type2:after,
-    .compilation .button.type2.type2:before {
+    .hybrid .button.type2.type2:after,
+    .hybrid .button.type2.type2:before {
       content: '';
       display: block;
       position: absolute;
@@ -95,21 +95,21 @@
       transform: scale(0.85); 
     }
 
-    .compilation .button.type2.type2:hover:before {
+    .hybrid .button.type2.type2:hover:before {
       top: 0;
       transform: scale(1); 
     }
 
-    .compilation .button.type2.type2:hover:after {
+    .hybrid .button.type2.type2:hover:after {
       transform: scale(1); 
     }
 
-  .compilation .button.type3 {
+  .hybrid .button.type3 {
     color: #435a6b; 
   }
 
-    .compilation .button.type3.type3::after,
-    .compilation .button.type3.type3::before {
+    .hybrid .button.type3.type3::after,
+    .hybrid .button.type3.type3::before {
       content: '';
       display: block;
       position: absolute;
@@ -120,7 +120,7 @@
       border-radius: 2px; 
     }
 
-    .compilation .button.type3.type3::after {
+    .hybrid .button.type3.type3::after {
       bottom: 0;
       right: 0;
       border-top-color: transparent;
@@ -129,7 +129,7 @@
       border-right-color: #435a6b;
     }
 
-    .compilation .button.type3.type3::before {
+    .hybrid .button.type3.type3::before {
       top: 0;
       left: 0;
       border-bottom-color: transparent;
@@ -138,8 +138,8 @@
       border-left-color: #435a6b;
     }
 
-    .compilation .button.type3.type3:hover:after,
-    .compilation .button.type3.type3:hover:before {
+    .hybrid .button.type3.type3:hover:after,
+    .hybrid .button.type3.type3:hover:before {
       border-bottom-color: #435a6b;
       border-right-color: #435a6b;
       border-top-color: #435a6b;
@@ -148,11 +148,11 @@
       height: 100%; 
     }
 
-  .compilation .button.type4 {
+  .hybrid .button.type4 {
     color: red; 
   }
 
-    .compilation .button.type4::after {
+    .hybrid .button.type4::after {
       content: '';
       display: block;
       position: absolute;
@@ -163,15 +163,15 @@
       transition: width 0.3s ease-in-out; 
     }
 
-    .compilation .button.type4::after {
+    .hybrid .button.type4::after {
       bottom: 0; 
     }
 
-    .compilation .button.type4:hover::after {
+    .hybrid .button.type4:hover::after {
       width: 50px; 
     }
 
-.compilation .button .title {
+.hybrid .button .title {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -179,21 +179,21 @@
   padding: 5px 0px 10px 0px;
 }
 
-.compilation .button .title h3 {
+.hybrid .button .title h3 {
   padding: 5px 0px 5px 0px;
 }
 
-.compilation .button .title svg {
+.hybrid .button .title svg {
   width: 25px;
   height: 25px;
 }
 
-.compilation .button .text {
+.hybrid .button .text {
   height: 100%;
   max-width: 100%;
 }
 
-.compilation .button .text p {
+.hybrid .button .text p {
   font-size: 12px;
   overflow: hidden;
   display: -webkit-box;
@@ -201,7 +201,7 @@
   -webkit-box-orient: vertical;
 }
 
-.compilation .icon {
+.hybrid .icon {
   width: 0px;
   height: 0px;
 }

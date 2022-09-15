@@ -13,7 +13,7 @@
     <title>Formation Evaluation</title>
 
     <link rel="stylesheet" href="..\styles\main.css">
-    <link rel="stylesheet" href="..\styles\compilation_button.css">
+    <link rel="stylesheet" href="..\styles\hybrid.css">
 
   </head>
 
@@ -27,10 +27,10 @@
       <page-header></page-header>
 
       <nav class="ribbon">
-        <div class="ribbon-title">
+        <div class="title">
   <a href="..">PyDemo</a>
 </div>
-<div class="ribbon-links">
+<div class="links">
   <ul>
     
     <li><a href="..\engineering" class="passive">Engineering</a></li>
@@ -43,7 +43,7 @@
     
   </ul>
 </div>
-<a href="#" class="ribbon-toggle">
+<a href="#" class="toggle">
   <span class="bar"></span>
   <span class="bar"></span>
   <span class="bar"></span>
@@ -55,140 +55,143 @@
         
         <nav class="sidebar library">
         
-          <button class="sidebar-toggle">Modeling</button>
-<div class="sidebar-links">
+          <button class="toggle">Modeling</button>
+
+<div class="links">
+
+
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(1)">Python Programming</button>
   
+  <div class="panel">
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(1)">Python Programming</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(2)">Python Essentials</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(3)">Object Oriented Programming</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(4)">Python Packaging</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(5)">Performance Optimization</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(2)">Python Essentials</a>
     </div>
+    
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(6)">Engineering Mathematics</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(7)">Statistics</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(8)">Inverse Theory</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(9)">Data Science</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(10)">Advanced Mathematics</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(11)">Numerical Solvers</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(3)">Object Oriented Programming</a>
     </div>
+    
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(12)">Fluid Flow Modeling</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(13)">Fluid Mechanics</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(14)">Black Oil Simulator</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(15)">Complex Fracture Network</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(4)">Python Packaging</a>
     </div>
+    
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(16)">Geomechanical Modeling</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(17)">Computational Geomechanics</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(18)">Wellbore Stability</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(19)">Sand Production</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(20)">Hydraulic Fracture Propagation</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(5)">Performance Optimization</a>
     </div>
+    
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(21)">Electromagnetic Modeling</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(22)">Computational Electro-Magnetics</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(23)">Wellbore Resistivity Modeling</a>
-      </div>
-      
-    
-    </div>
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(6)">Engineering Mathematics</button>
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(24)">Geomodeling</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(25)">Geostatistics</a>
-      </div>
-      
-    
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(7)">Statistics</a>
     </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(8)">Inverse Theory</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(9)">Data Science</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(10)">Advanced Mathematics</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(11)">Numerical Solvers</a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(12)">Fluid Flow Modeling</button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(13)">Fluid Mechanics</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(14)">Black Oil Simulator</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(15)">Complex Fracture Network</a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(16)">Geomechanical Modeling</button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(17)">Computational Geomechanics</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(18)">Wellbore Stability</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(19)">Sand Production</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(20)">Hydraulic Fracture Propagation</a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(21)">Electromagnetic Modeling</button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(22)">Computational Electro-Magnetics</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(23)">Wellbore Resistivity Modeling</a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(24)">Geomodeling</button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(25)">Geostatistics</a>
+    </div>
+    
+  
+  </div>
+
   
 </div>
         </nav>
@@ -196,8 +199,8 @@
         
 
         <div class="canvas">
-          <div class="canvas-item page">
-  <div class="canvas-item-column-one">
+          <div id="modeling" class="item page">
+  <div class="column-one">
     <h2>Python Programming</h2>
 
 <ul>
@@ -260,19 +263,19 @@
   </div>
 </div>
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="pynotes" class="item major">
+  <div class="panel">
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('essentials')">Python Essentials</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('pyessentials')">Python Essentials</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('oop')">Object Oriented Programming</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('pybasedoop')">Object Oriented Programming</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('packaging')">Python Packaging</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('pypackaging')">Python Packaging</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('performance')">Performance Optimization</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('pyperfopt')">Performance Optimization</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Python Pros</h2>
 
 <p>Python is the best fit for the scientific computing because of the several reasons mentioned below:</p>
@@ -329,9 +332,9 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
 </div>
   
-  <div id="essentials" class="canvas-item">
+  <div id="pyessentials" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Python Essentials</h2>
 
 <p>Below is the list of topics we are going to cover in this course:</p>
@@ -365,9 +368,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="oop" class="canvas-item">
+  <div id="pybasedoop" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Object Oriented Programming</h2>
 
 <ul>
@@ -386,9 +389,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="packaging" class="canvas-item">
+  <div id="pypackaging" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Python Packages</h2>
 
 <ul>
@@ -402,9 +405,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="performance" class="canvas-item">
+  <div id="pyperfopt" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Performance Optimization</h2>
 
 <ul>
@@ -422,29 +425,29 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="mathnotes" class="item major">
+  <div class="panel">
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('mathstats')">Statistics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('statsnotes')">Statistics</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('mathoptimize')">Inverse Theory</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('optimizenotes')">Inverse Theory</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('mathmlearn')">Data Science</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('mlearnnotes')">Data Science</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('mathspecial')">Advanced Mathematics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('specialnotes')">Advanced Mathematics</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('mathnumerics')">Numerical Solvers</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('numericsnotes')">Numerical Solvers</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Engineering Mathematics</h2>
 
   </div>
 </div>
   
-  <div id="mathstats" class="canvas-item">
+  <div id="statsnotes" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Statistics</h3>
 
 <ul>
@@ -456,9 +459,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="mathoptimize" class="canvas-item">
+  <div id="optimizenotes" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Inverse Theory</h2>
 
 <ul>
@@ -470,9 +473,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="mathmlearn" class="canvas-item">
+  <div id="mlearnnotes" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Data Science</h2>
 
 <p>Supervised and unsupervised algotihms</p>
@@ -486,9 +489,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="mathspecial" class="canvas-item">
+  <div id="specialnotes" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Advanced Mathematics</h2>
 
       </div>
@@ -496,9 +499,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="mathnumerics" class="canvas-item">
+  <div id="numericsnotes" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Numerical Solvers</h2>
 
 <ul>
@@ -514,8 +517,8 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="flownotes" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('fluidmech')">Fluid Mechanics</a>
     
@@ -524,15 +527,15 @@ Finally, check the installation by importing those modules from a python shell, 
       <a href="#" onclick="changeCanvasItemFromCanvas('fracmed')">Complex Fracture Network</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Fluid Flow Modeling</h2>
 
   </div>
 </div>
   
-  <div id="fluidmech" class="canvas-item">
+  <div id="fluidmech" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>What is matter and how to model its behavior?</h2>
 
 <ul>
@@ -686,9 +689,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="blackoil" class="canvas-item">
+  <div id="blackoil" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Black Oil Simulator</h3>
 
 <p>The motivation is to build a Python based reservoir simulator running field scale models at high performance. Current status is the model has been running 3D structures and has been validated for two phase immiscibe flow.</p>
@@ -698,9 +701,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="fracmed" class="canvas-item">
+  <div id="fracmed" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Complex Fracture Network Modeling</h3>
 
 <p>Fluid Flow Through Fractured Porous Media</p>
@@ -711,8 +714,8 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="geomechnotes" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('geomechcomp')">Computational Geomechanics</a>
     
@@ -723,7 +726,7 @@ Finally, check the installation by importing those modules from a python shell, 
       <a href="#" onclick="changeCanvasItemFromCanvas('hfprop')">Hydraulic Fracture Propagation</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Computational Geomechanics</h2>
 
 <p>Conventionally, the reservoir engineers have been using non-deformable reservoirs. In these models, pore volume can still change, but the bulk volume stays the constant, which means the shape of grid blocks will stay constant no matter what.</p>
@@ -762,9 +765,9 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
 </div>
   
-  <div id="geomechcomp" class="canvas-item">
+  <div id="geomechcomp" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Computational Geomechanics</h2>
 
       </div>
@@ -772,9 +775,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="wstab" class="canvas-item">
+  <div id="wstab" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Wellbore Stability Modeling</h2>
 
       </div>
@@ -782,9 +785,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="sandprod" class="canvas-item">
+  <div id="sandprod" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Sand Production</h2>
 
       </div>
@@ -792,9 +795,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="hfprop" class="canvas-item">
+  <div id="hfprop" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Hydraulic Fracture Propagation</h2>
 
       </div>
@@ -803,23 +806,23 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="emnotes" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('emcomp')">Computational Electro-Magnetics</a>
     
       <a href="#" onclick="changeCanvasItemFromCanvas('reslog')">Wellbore Resistivity Modeling</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h3>Electro-Magnetic Modeling</h3>
 
   </div>
 </div>
   
-  <div id="emcomp" class="canvas-item">
+  <div id="emcomp" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Computational Electromagnetics</h2>
 
       </div>
@@ -827,9 +830,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="reslog" class="canvas-item">
+  <div id="reslog" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Wellbore Resistivity Modeling</h2>
 
 <p>This model is based on solving the integral form of the Maxwell equations which uses Method of Moment technique to compute the regions of perturbed conductivity.</p>
@@ -844,13 +847,13 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="geomodelnotes" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('geostats')">Geostatistics</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Geomodeling</h2>
 
 <ul>
@@ -860,9 +863,9 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
 </div>
   
-  <div id="geostats" class="canvas-item">
+  <div id="geostats" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Geostatistical Modeling</h2>
 
 <p>Oil and gas reservoirs are highly heterogeneous. To manage such reservoirs, one must learn and develop a quantitative understanding of statistics and probability. The main objective of this course is to use basic statistical concepts and methods for the characterization and modelling of spatial heterogeneity which has applications in production planning, formation evaluation and reservoir modelling. Students will be encouraged to use high level programming languages (e.g., python and MATLAB) to do the hard work.</p>
@@ -881,10 +884,11 @@ Finally, check the installation by importing those modules from a python shell, 
       
     </div>
 
+    <script src="..\scripts\main.js"></script>
     <script src="..\scripts\ribbon.js"></script>
     <script src="..\scripts\sidebar.js"></script>
     <script src="..\scripts\canvas.js"></script>
-    <script src="..\scripts\compilation.js"></script>
+    <script src="..\scripts\hybrid.js"></script>
 
   </body>
 

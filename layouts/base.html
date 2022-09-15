@@ -13,7 +13,7 @@
     <title>Formation Evaluation</title>
 
     <link rel="stylesheet" href="..\styles\main.css">
-    <link rel="stylesheet" href="..\styles\compilation_button.css">
+    <link rel="stylesheet" href="..\styles\hybrid.css">
 
   </head>
 
@@ -40,9 +40,9 @@
           {{ page['html-sidebar'] }}
         </nav>
         
-        {% if 'html-compilation' in page %}
-        <div class="compilation">
-          {{ page['html-compilation'] }}
+        {% if 'html-hybrid' in page %}
+        <div class="hybrid">
+          {{ page['html-hybrid'] }}
         </div>
         {% endif %}
 
@@ -56,10 +56,11 @@
       
     </div>
 
+    <script src="..\scripts\main.js"></script>
     <script src="..\scripts\ribbon.js"></script>
     <script src="..\scripts\sidebar.js"></script>
     <script src="..\scripts\canvas.js"></script>
-    <script src="..\scripts\compilation.js"></script>
+    <script src="..\scripts\hybrid.js"></script>
 
   </body>
 

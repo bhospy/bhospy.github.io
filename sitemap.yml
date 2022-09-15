@@ -17,12 +17,12 @@ engineering-dirs:
   - manage
 
 modeling-dirs:
-  - python
-  - engmath
-  - fluidflow
-  - geomech
-  - emfields
-  - geomodel
+  - pynotes
+  - mathnotes
+  - flownotes
+  - geomechnotes
+  - emnotes
+  - geomodelnotes
 
 application-dirs:
   - 2021-2022
@@ -55,9 +55,9 @@ resources-markdowns:
 
 formeval-markdowns:
   - geology.md
-  - geophysics.md
+  - seismic.md
   - resfluids.md
-  - petrophysics.md
+  - labpetro.md
   - wlogging.md
   - wtesting.md
 
@@ -66,7 +66,7 @@ upstream-markdowns:
   - completion.md 
   - production.md
   - reservoir.md
-  - geomechanics.md
+  - enggeomech.md
   - naturalgas.md
   - eor.md
 
@@ -75,35 +75,35 @@ manage-markdowns:
   - pvaluation.md
   - engethics.md
 
-python-markdowns:
-  - essentials.md
-  - oop.md
-  - packaging.md
-  - performance.md
+pynotes-markdowns:
+  - pyessentials.md
+  - pybasedoop.md
+  - pypackaging.md
+  - pyperfopt.md
 
-engmath-markdowns:
-  - mathstats.md
-  - mathoptimize.md
-  - mathmlearn.md
-  - mathspecial.md
-  - mathnumerics.md
+mathnotes-markdowns:
+  - statsnotes.md
+  - optimizenotes.md
+  - mlearnnotes.md
+  - specialnotes.md
+  - numericsnotes.md
 
-fluidflow-markdowns:
+flownotes-markdowns:
   - fluidmech.md
   - blackoil.md
   - fracmed.md
 
-geomech-markdowns:
+geomechnotes-markdowns:
   - geomechcomp.md
   - wstab.md
   - sandprod.md
   - hfprop.md
 
-emfields-markdowns:
+emnotes-markdowns:
   - emcomp.md
   - reslog.md
 
-geomodel-markdowns:
+geomodelnotes-markdowns:
   - geostats.md
 
 2021-2022-markdowns:

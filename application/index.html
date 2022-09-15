@@ -13,7 +13,7 @@
     <title>Formation Evaluation</title>
 
     <link rel="stylesheet" href="..\styles\main.css">
-    <link rel="stylesheet" href="..\styles\compilation_button.css">
+    <link rel="stylesheet" href="..\styles\hybrid.css">
 
   </head>
 
@@ -27,10 +27,10 @@
       <page-header></page-header>
 
       <nav class="ribbon">
-        <div class="ribbon-title">
+        <div class="title">
   <a href="..">PyDemo</a>
 </div>
-<div class="ribbon-links">
+<div class="links">
   <ul>
     
     <li><a href="..\engineering" class="passive">Engineering</a></li>
@@ -43,7 +43,7 @@
     
   </ul>
 </div>
-<a href="#" class="ribbon-toggle">
+<a href="#" class="toggle">
   <span class="bar"></span>
   <span class="bar"></span>
   <span class="bar"></span>
@@ -55,20 +55,23 @@
         
         <nav class="sidebar library">
         
-          <button class="sidebar-toggle">Application</button>
-<div class="sidebar-links">
+          <button class="toggle">Application</button>
+
+<div class="links">
+
+
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(1)">2021-2022</button>
   
+  <div class="panel">
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(1)">2021-2022</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(2)">HTR-Socar</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(2)">HTR-Socar</a>
     </div>
+    
+  
+  </div>
+
   
 </div>
         </nav>
@@ -76,28 +79,28 @@
         
 
         <div class="canvas">
-          <div class="canvas-item page">
-  <div class="canvas-item-column-one">
+          <div id="application" class="item page">
+  <div class="column-one">
     <h2>Bachelor Graduation Defense</h2>
 
   </div>
 </div>
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="2021-2022" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('htrsocar')">HTR-Socar</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Academic Year of 2021-2022</h2>
 
   </div>
 </div>
   
-  <div id="htrsocar" class="canvas-item">
+  <div id="htrsocar" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h2>Hand-Written Text Recognition</h2>
 
 <p>Socar Operation Units</p>
@@ -116,10 +119,11 @@
       
     </div>
 
+    <script src="..\scripts\main.js"></script>
     <script src="..\scripts\ribbon.js"></script>
     <script src="..\scripts\sidebar.js"></script>
     <script src="..\scripts\canvas.js"></script>
-    <script src="..\scripts\compilation.js"></script>
+    <script src="..\scripts\hybrid.js"></script>
 
   </body>
 

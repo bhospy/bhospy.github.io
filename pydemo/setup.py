@@ -54,10 +54,12 @@ page = pages[smap['page-dirs'].index("pydemo")]
 page['html-preface'] = markdown(page.content)
 
 page_path = os.path.join(ppath,page['nick'])
-compilation_path = os.path.join(page_path,'compilation.html')
+hybrid_path = os.path.join(page_path,'hybrid.html')
 
-with open(compilation_path,'r') as htmlfile:
-	page['html-compilation'] = htmlfile.read()
+with open(hybrid_path,'r') as htmlfile:
+	page['html-hybrid'] = htmlfile.read()
+
+page.mdname = "pydemo"
 
 page.majors = []
 
@@ -70,6 +72,8 @@ for major_dir in smap['pydemo-dirs']:
 	with open(preface_path,'r') as mdfile:
 		major = frontmatter.loads(mdfile.read())
 		major['html-preface'] = markdown(major.content)
+
+	major.mdname = major_dir
 
 	major.items = []
 

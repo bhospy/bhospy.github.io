@@ -13,7 +13,7 @@
     <title>Formation Evaluation</title>
 
     <link rel="stylesheet" href="..\styles\main.css">
-    <link rel="stylesheet" href="..\styles\compilation_button.css">
+    <link rel="stylesheet" href="..\styles\hybrid.css">
 
   </head>
 
@@ -27,10 +27,10 @@
       <page-header></page-header>
 
       <nav class="ribbon">
-        <div class="ribbon-title">
+        <div class="title">
   <a href="..">PyDemo</a>
 </div>
-<div class="ribbon-links">
+<div class="links">
   <ul>
     
     <li><a href="..\engineering" class="passive">Engineering</a></li>
@@ -43,7 +43,7 @@
     
   </ul>
 </div>
-<a href="#" class="ribbon-toggle">
+<a href="#" class="toggle">
   <span class="bar"></span>
   <span class="bar"></span>
   <span class="bar"></span>
@@ -55,20 +55,23 @@
         
         <nav class="sidebar library">
         
-          <button class="sidebar-toggle">Contribution</button>
-<div class="sidebar-links">
+          <button class="toggle">Contribution</button>
+
+<div class="links">
+
+
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(1)">Author</button>
   
+  <div class="panel">
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(1)">Author</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(2)">Javid Shiriyev</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(2)">Javid Shiriyev</a>
     </div>
+    
+  
+  </div>
+
   
 </div>
         </nav>
@@ -76,8 +79,8 @@
         
 
         <div class="canvas">
-          <div class="canvas-item page">
-  <div class="canvas-item-column-one">
+          <div id="contribution" class="item page">
+  <div class="column-one">
     <h2>How to contribute?</h2>
 
 <p>Writing Code</p>
@@ -91,21 +94,21 @@
   </div>
 </div>
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="author" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('jshiriyev')">Javid Shiriyev</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Author</h2>
 
   </div>
 </div>
   
-  <div id="jshiriyev" class="canvas-item">
+  <div id="jshiriyev" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Summary</h3>
 
 <p>My research revolves around studying fluid flow modeling through porous media, including the problems associated with uncertainty handling in data collection and model incorporation. I acquire the rudiments of mechanics and the basics of data science and have taught fluid and rock mechanics, reservoir characterization and petrophysics-related courses. Besides teaching, currently, I am also involved in the field development planning for Gum-Daniz and Bahar fields.</p>
@@ -180,7 +183,7 @@
       </div>
     
     
-      <div class="canvas-item-column-two">
+      <div class="column-two">
         
   <img src="../images/headshots/p2.jpg" alt="Javid's photo">
 
@@ -222,10 +225,11 @@
       
     </div>
 
+    <script src="..\scripts\main.js"></script>
     <script src="..\scripts\ribbon.js"></script>
     <script src="..\scripts\sidebar.js"></script>
     <script src="..\scripts\canvas.js"></script>
-    <script src="..\scripts\compilation.js"></script>
+    <script src="..\scripts\hybrid.js"></script>
 
   </body>
 

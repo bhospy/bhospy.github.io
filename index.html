@@ -12,38 +12,38 @@
 
     <title>Formation Evaluation</title>
 
-    <link rel="stylesheet" href="..\styles\main.css">
-    <link rel="stylesheet" href="..\styles\compilation_button.css">
+    <link rel="stylesheet" href="styles\main.css">
+    <link rel="stylesheet" href="styles\hybrid.css">
 
   </head>
 
   <body>
 
-    <script src="..\scripts\header.js"></script>
-    <script src="..\scripts\footer.js"></script>
+    <script src="scripts\header.js"></script>
+    <script src="scripts\footer.js"></script>
 
     <div id="page-container">
 
       <page-header></page-header>
 
       <nav class="ribbon">
-        <div class="ribbon-title">
+        <div class="title">
   <a href=".">PyDemo</a>
 </div>
-<div class="ribbon-links">
+<div class="links">
   <ul>
     
-    <li><a href="..\engineering" class="passive">Engineering</a></li>
+    <li><a href="engineering" class="passive">Engineering</a></li>
     
-    <li><a href="..\modeling" class="passive">Modeling</a></li>
+    <li><a href="modeling" class="passive">Modeling</a></li>
     
-    <li><a href="..\application" class="passive">Application</a></li>
+    <li><a href="application" class="passive">Application</a></li>
     
-    <li><a href="..\contribution" class="passive">Contribution</a></li>
+    <li><a href="contribution" class="passive">Contribution</a></li>
     
   </ul>
 </div>
-<a href="#" class="ribbon-toggle">
+<a href="#" class="toggle">
   <span class="bar"></span>
   <span class="bar"></span>
   <span class="bar"></span>
@@ -55,98 +55,101 @@
         
         <nav class="sidebar pydemo">
         
-          <button class="sidebar-toggle">PyDemo</button>
-<div class="sidebar-links">
+          <button class="toggle">PyDemo</button>
+
+<div class="links">
+
+
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(1)">Datum</button>
   
+  <div class="panel">
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(1)">Datum</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(2)">datum.textio</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(3)">datum.dataview</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(4)">datum.geogrids</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(5)">datum.ssitems</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(2)">datum.textio</a>
     </div>
+    
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(6)">SciComp</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(7)">scicomp.stats</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(8)">scicomp.optimize</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(9)">scicomp.mlearn</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(10)">scicomp.special</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(11)">scicomp.numerics</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(3)">datum.dataview</a>
     </div>
+    
   
-    <button class="sidebar-accordion" onclick="changeCanvasItemFromSidebar(12)">PorePy</button>
-    
-    <div class="sidebar-panel">
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(13)">porepy.flow</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(14)">porepy.geomech</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(15)">porepy.emfields</a>
-      </div>
-      
-    
-      <div class="sidebar-item">
-        <a href="#" onclick="changeCanvasItemFromSidebar(16)">porepy.geomodel</a>
-      </div>
-      
-    
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(4)">datum.geogrids</a>
     </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(5)">datum.ssitems</a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(6)">SciComp</button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(7)">scicomp.stats</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(8)">scicomp.optimize</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(9)">scicomp.mlearn</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(10)">scicomp.special</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(11)">scicomp.numerics</a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(12)">PorePy</button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(13)">porepy.flow</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(14)">porepy.geomech</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(15)">porepy.emfields</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(16)">porepy.geomodel</a>
+    </div>
+    
+  
+  </div>
+
   
 </div>
         </nav>
         
         
-        <div class="compilation">
+        <div class="hybrid">
           <button class="button type1" onclick=changeMainView(0)>
   <div class="title">
     <h3>datum</h3>
@@ -197,15 +200,15 @@
         
 
         <div class="canvas">
-          <div class="canvas-item page">
-  <div class="canvas-item-column-one">
+          <div id="pydemo" class="item page">
+  <div class="column-one">
     <p>This section will include the structure and brief summary of PyDemo!</p>
 
   </div>
 </div>
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="datum" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('textio')">datum.textio</a>
     
@@ -216,7 +219,7 @@
       <a href="#" onclick="changeCanvasItemFromCanvas('ssitems')">datum.ssitems</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Datum</h2>
 
 <p>datum provides python scripts for generating data frame that can execute all kinds of excel-like functions such as sorting, filtering, etc. It also has visualization script that enable automated graphical representation. Future version will provide grid generation for numerical calculations.</p>
@@ -224,9 +227,9 @@
   </div>
 </div>
   
-  <div id="textio" class="canvas-item">
+  <div id="textio" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>TextIO</h3>
 
 <p>datum.core.column()</p>
@@ -334,9 +337,9 @@
     
   </div>
   
-  <div id="dataview" class="canvas-item">
+  <div id="dataview" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>DataView</h3>
 
 <p>dataview.TimeView()</p>
@@ -356,9 +359,9 @@
     
   </div>
   
-  <div id="geogrids" class="canvas-item">
+  <div id="geogrids" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>GeoGrids</h3>
 
 <p>geogrids.Line()</p>
@@ -376,9 +379,9 @@
     
   </div>
   
-  <div id="ssitems" class="canvas-item">
+  <div id="ssitems" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Sub-Surface Items</h3>
 
 <p>ssitems.Fluids()</p>
@@ -397,8 +400,8 @@
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="scicomp" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('stats')">scicomp.stats</a>
     
@@ -411,7 +414,7 @@
       <a href="#" onclick="changeCanvasItemFromCanvas('numerics')">scicomp.numerics</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>Scientific Computing Tools</h2>
 
 <p>SciComp provides python scripts for statistical and numerical calculations. Popular forward and backward algorithms are included in four modules which are stats, optimize, special and numerics.</p>
@@ -419,9 +422,9 @@
   </div>
 </div>
   
-  <div id="stats" class="canvas-item">
+  <div id="stats" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Statistics</h3>
 
       </div>
@@ -429,9 +432,9 @@
     
   </div>
   
-  <div id="optimize" class="canvas-item">
+  <div id="optimize" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Optimization Algorithms</h3>
 
       </div>
@@ -439,9 +442,9 @@
     
   </div>
   
-  <div id="mlearn" class="canvas-item">
+  <div id="mlearn" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Machine Learning Algorithms</h3>
 
       </div>
@@ -449,9 +452,9 @@
     
   </div>
   
-  <div id="special" class="canvas-item">
+  <div id="special" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Advanced Mathematics</h3>
 
       </div>
@@ -459,9 +462,9 @@
     
   </div>
   
-  <div id="numerics" class="canvas-item">
+  <div id="numerics" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Numerical Methods</h3>
 
 <p>numerics.finelm</p>
@@ -476,8 +479,8 @@
   </div>
   
 
-<div class="canvas-item major">
-  <div class="canvas-item-column-panel">
+<div id="porepy" class="item major">
+  <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('fluidflow')">porepy.flow</a>
     
@@ -488,7 +491,7 @@
       <a href="#" onclick="changeCanvasItemFromCanvas('geomodel')">porepy.geomodel</a>
     
   </div>
-  <div class="canvas-item-column-one">
+  <div class="column-one">
     <h2>PorePy</h2>
 
 <p>PorePy contains a set of modules to model porous medium and wellbore. The modeling capabilites include flow analysis, geomechanical calculations, wellbore resisitivity computation and geostatistical estimations.</p>
@@ -496,9 +499,9 @@
   </div>
 </div>
   
-  <div id="fluidflow" class="canvas-item">
+  <div id="fluidflow" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>FluidFlow</h3>
 
       </div>
@@ -506,9 +509,9 @@
     
   </div>
   
-  <div id="geomech" class="canvas-item">
+  <div id="geomech" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Geomechanics</h3>
 
       </div>
@@ -516,9 +519,9 @@
     
   </div>
   
-  <div id="emfields" class="canvas-item">
+  <div id="emfields" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Electro-Magnetic Fields</h3>
 
       </div>
@@ -526,9 +529,9 @@
     
   </div>
   
-  <div id="geomodel" class="canvas-item">
+  <div id="geomodel" class="item minor">
     
-      <div class="canvas-item-column-one">
+      <div class="column-one">
         <h3>Geo-Model</h3>
 
       </div>
@@ -545,10 +548,11 @@
       
     </div>
 
-    <script src="..\scripts\ribbon.js"></script>
-    <script src="..\scripts\sidebar.js"></script>
-    <script src="..\scripts\canvas.js"></script>
-    <script src="..\scripts\compilation.js"></script>
+    <script src="scripts\main.js"></script>
+    <script src="scripts\ribbon.js"></script>
+    <script src="scripts\sidebar.js"></script>
+    <script src="scripts\canvas.js"></script>
+    <script src="scripts\hybrid.js"></script>
 
   </body>
 

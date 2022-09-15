@@ -1,14 +1,3 @@
-var winmedia = window.matchMedia("(max-width: 600px)");
-
-const sidebarPyDemo = document.getElementsByClassName('sidebar pydemo');
-const sidebarToggle = document.getElementsByClassName('sidebar-toggle')[0];
-const sidebarLinks = document.getElementsByClassName('sidebar-links')[0];
-const sidebarAccordions = document.getElementsByClassName("sidebar-accordion");
-const sidebarPanels = document.getElementsByClassName('sidebar-panel');
-
-var canvasItems = document.querySelectorAll('.canvas-item');
-
-const pageTitle = sidebarToggle.textContent
 
 sidebarToggle.addEventListener('click', () => {
   sidebarLinks.classList.toggle('active');
@@ -35,16 +24,10 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
     sidebarToggle.textContent = [pageTitle,'-',this.textContent].join(' ');
 
     if (this.nextElementSibling.style.display === "block") {
-      if (sidebarPyDemo.length === 0) {
-        this.style.backgroundColor = "#eee";
-      }
       if (!winmedia.matches) {
         this.nextElementSibling.style.display = "none";
       }
     } else {
-      if (sidebarPyDemo.length === 0) {
-        this.style.backgroundColor = "#ccc";
-      }
       if (!winmedia.matches) {
         this.nextElementSibling.style.display = "block";
       }
@@ -52,9 +35,6 @@ for (let i = 0; i < sidebarAccordions.length; i++) {
 
     for (let j = 0; j < sidebarAccordions.length; j++) {
       if (j!==i) {
-        if (sidebarPyDemo.length === 0) {
-          sidebarAccordions[j].style.backgroundColor = "#eee";
-        }
         if (!winmedia.matches) {
           sidebarAccordions[j].nextElementSibling.style.display = 'none';
         }
