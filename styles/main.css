@@ -114,11 +114,16 @@ footer {
 /*Body-Center*/
 
 .sidebar {
+	display: none;
 	float: left;
 	height: 100%;
 	margin: 0px;
 	padding: 10px 10px 50px 0px;
 	list-style-type: none;
+}
+
+.sidebar.active {
+	display: block;
 }
 
 .sidebar.pydemo {
@@ -162,12 +167,24 @@ footer {
 	text-decoration: none;
 }
 
+/*.sidebar.pydemo .accordion {
+	background-color: none;
+}
+
+.sidebar.pydemo .accordion.active {
+	background-color: none;
+}
+*/
+.sidebar.pydemo .accordion:hover {
+	font-weight: bold;
+}
+
 .sidebar.library .accordion {
 	background-color: #eee;
 }
 
-.sidebar.library .accordion:focus {
-	background-color: #eee;
+.sidebar.library .accordion.active {
+	background-color: #ccc;
 }
 
 .sidebar.library .accordion:hover {
@@ -175,10 +192,14 @@ footer {
 }
 
 .sidebar .panel {
+	display: none;
 	padding: 0 28 20 10px;
 	background-color: white;
-	display: none;
 	overflow: hidden;
+}
+
+.sidebar .panel.active {
+	display: block;
 }
 
 .sidebar .item {
@@ -211,7 +232,7 @@ footer {
 
 .hybrid {
 	overflow: hidden;
-	display: flex;
+	display: none;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 30px;
@@ -221,7 +242,12 @@ footer {
 	padding-bottom: 50px;
 }
 
+.hybrid.active {
+	display: flex;
+}
+
 .canvas {
+	display: none;
 	width: 100%;
 	float: left;
 	overflow: hidden;
@@ -229,17 +255,20 @@ footer {
 	padding-bottom: 50px;
 }
 
-.canvas .item.page{
+.canvas.active {
+	display: block;
+}
+
+.canvas .item {
 	display: none;
 }
 
 .canvas .item.major {
 	width: 100%;
-	display: none;
 }
 
-.canvas .item.minor{
-	display: none;
+.canvas .item.active {
+	display: flex;
 }
 
 .canvas .item.major .panel {
@@ -490,7 +519,6 @@ footer {
 	.canvas .item.minor {
 		flex-direction: column-reverse;
 	}
-
 
 	.canvas .item.major .panel {
 		display: flex;
