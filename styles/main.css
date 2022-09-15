@@ -457,7 +457,6 @@ footer {
 	}
 
 	.sidebar {
-		display: block;
 		height: auto;
 		position: relative;
 		overflow: hidden;
@@ -478,7 +477,6 @@ footer {
 
 	.sidebar .toggle {
 		display: block;
-		width: 100%;
 	}
 
 	.sidebar .links {
