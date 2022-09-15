@@ -15,4 +15,6 @@ function changeMainView(ID) {
 
 	canvasMajorItems[ID].classList.toggle("active")
 
+	canvasPanels[ID].classList.toggle("active")
+
 };
