@@ -481,6 +481,7 @@ footer {
 
 	.sidebar .links {
 		display: none;
+		background-color: #707070;
 		width: 100%;
 	}
 
@@ -494,7 +495,17 @@ footer {
 		padding-right: 20px;
 		display: block;
 		overflow: hidden;
-		text-align: left;
+		text-align: center;
+		background-color: inherit;
+		color: #fffff0;
+	}
+
+	.sidebar.pydemo .accordion {
+		background-color: inherit;
+	}
+
+	.sidebar.library .accordion {
+		background-color: inherit;
 	}
 
 	.sidebar .item {
@@ -504,6 +515,7 @@ footer {
 	.canvas {
 		width: 100%;
 		overflow: hidden;
+		padding-top: 10px;
 		padding-right: 0px;
 	}
 
@@ -521,7 +533,6 @@ footer {
 
 	.canvas .item.major .panel {
 		display: none;
-		padding-top: 10px;
 		flex-direction: column;
 		/*align-items: center;*/
 	}

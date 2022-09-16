@@ -4,7 +4,7 @@ function changeMainView(ID) {
 	sidebar.classList.toggle('active');
 	canvas.classList.toggle('active');
 
-	sidebarToggle.textContent = [pageTitle,'-',sidebarAccordions[ID].textContent].join(' ');
+	sidebarToggle.textContent = [pageTitle,'>>',sidebarAccordions[ID].textContent].join(' ');
 
 	if (!winmedia.matches) {
 		sidebarAccordions[ID].classList.toggle("active");

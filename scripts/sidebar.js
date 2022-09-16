@@ -20,7 +20,7 @@ winmedia.addListener(switchPanels)
 for (let i = 0; i < sidebarAccordions.length; i++) {
   sidebarAccordions[i].addEventListener("click", function() {
 
-    sidebarToggle.textContent = [pageTitle,'-',this.textContent].join(' ');
+    sidebarToggle.textContent = [pageTitle,'>>',this.textContent].join(' ');
 
     if (!winmedia.matches) {
       for (let j = 0; j < sidebarAccordions.length; j++) {
