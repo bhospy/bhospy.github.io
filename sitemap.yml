@@ -12,7 +12,7 @@ pydemo-dirs:
 
 engineering-dirs:
   - resources
-  - formeval
+  - petrophysics
   - upstream
   - manage
 
@@ -53,11 +53,11 @@ resources-markdowns:
   - susenergy.md
   - transport.md
 
-formeval-markdowns:
+petrophysics-markdowns:
   - geology.md
   - seismic.md
   - resfluids.md
-  - labpetro.md
+  - resrocks.md
   - wlogging.md
   - wtesting.md
 
