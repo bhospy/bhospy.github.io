@@ -6,9 +6,9 @@ title: 'Petrophysicist Perspective'
 ## Petrophysicist Perspective
 
 - Geology
+- Seismic Measurements
 - Reservoir Fluids
-- Geophysics
-- Petrophysics
+- Core Analysis
 - Well Logging
 - Well Testing
 
