@@ -1,9 +1,9 @@
 ---
-title: 'Petrophysicist Perspective'
+title: 'Petrophysics Concepts'
 
 ---
 
-## Petrophysicist Perspective
+## Petrophysics Concepts
 
 - Geology
 - Seismic Measurements
