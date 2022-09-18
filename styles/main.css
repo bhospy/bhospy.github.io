@@ -297,6 +297,14 @@ footer {
 	background: rgb(241,241,241);
 }
 
+.canvas .item .column-one h1 {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	font-size: 17px;
+	padding: 8px 0px 8px 1px;
+}
+
 .canvas .item .column-one h2 {
 	width: 100%;
 	display: block;
