@@ -50,8 +50,9 @@ porepy-markdowns:
   - geomodel.md
 
 resources-markdowns:
-  - susenergy.md
   - supplychain.md
+  - petroleum.md
+  - susenergy.md
   - transport.md
   - hydrogen.md
 
