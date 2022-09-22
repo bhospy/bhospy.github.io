@@ -51,7 +51,9 @@ porepy-markdowns:
 
 resources-markdowns:
   - susenergy.md
+  - supplychain.md
   - transport.md
+  - hydrogen.md
 
 petrophysics-markdowns:
   - geology.md
