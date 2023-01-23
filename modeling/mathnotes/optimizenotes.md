@@ -1,8 +1,8 @@
 ---
-title: 'Inverse Theory'
+title: 'Optimization'
 
 ---
 
-## Inverse Theory
+## Optimization
 
-- Optimization
+- Inverse Theory

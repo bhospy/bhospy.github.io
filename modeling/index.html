@@ -97,7 +97,7 @@
     
   
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(8)">Inverse Theory</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(8)">Optimization</a>
     </div>
     
   
@@ -106,45 +106,45 @@
     </div>
     
   
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(10)">Fluid Flow Modeling</button>
+  
+  <div class="panel">
+  
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(10)">Advanced Mathematics</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(11)">Fluid Mechanics</a>
     </div>
     
   
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(11)">Numerical Solvers</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(12)">Numerical Solvers</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(13)">Black Oil Simulator</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(14)">Complex Fracture Network</a>
     </div>
     
   
   </div>
 
-  <button class="accordion" onclick="changeCanvasItemFromSidebar(12)">Fluid Flow Modeling</button>
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(15)">Geomechanical Modeling</button>
   
   <div class="panel">
   
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(13)">Fluid Mechanics</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(16)">Computational Geomechanics</a>
     </div>
     
   
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(14)">Black Oil Simulator</a>
-    </div>
-    
-  
-    <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(15)">Complex Fracture Network</a>
-    </div>
-    
-  
-  </div>
-
-  <button class="accordion" onclick="changeCanvasItemFromSidebar(16)">Geomechanical Modeling</button>
-  
-  <div class="panel">
-  
-    <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(17)">Computational Geomechanics</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(17)">Numerical Solver</a>
     </div>
     
   
@@ -175,18 +175,23 @@
     
   
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(23)">Wellbore Resistivity Modeling</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(23)">Numerical Solvers</a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(24)">Wellbore Resistivity Modeling</a>
     </div>
     
   
   </div>
 
-  <button class="accordion" onclick="changeCanvasItemFromSidebar(24)">Geomodeling</button>
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(25)">Geomodeling</button>
   
   <div class="panel">
   
     <div class="item">
-      <a href="#" onclick="changeCanvasItemFromSidebar(25)">Geostatistics</a>
+      <a href="#" onclick="changeCanvasItemFromSidebar(26)">Geostatistics</a>
     </div>
     
   
@@ -430,13 +435,9 @@ Finally, check the installation by importing those modules from a python shell, 
     
       <a href="#" onclick="changeCanvasItemFromCanvas('statsnotes')">Statistics</a>
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('optimizenotes')">Inverse Theory</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('optimizenotes')">Optimization</a>
     
       <a href="#" onclick="changeCanvasItemFromCanvas('mlearnnotes')">Data Science</a>
-    
-      <a href="#" onclick="changeCanvasItemFromCanvas('specialnotes')">Advanced Mathematics</a>
-    
-      <a href="#" onclick="changeCanvasItemFromCanvas('numericsnotes')">Numerical Solvers</a>
     
   </div>
   <div class="column-one">
@@ -462,10 +463,10 @@ Finally, check the installation by importing those modules from a python shell, 
   <div id="optimizenotes" class="item minor">
     
       <div class="column-one">
-        <h2>Inverse Theory</h2>
+        <h2>Optimization</h2>
 
 <ul>
-<li>Optimization</li>
+<li>Inverse Theory</li>
 </ul>
 
       </div>
@@ -489,38 +490,13 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
-  <div id="specialnotes" class="item minor">
-    
-      <div class="column-one">
-        <h2>Advanced Mathematics</h2>
-
-      </div>
-    
-    
-  </div>
-  
-  <div id="numericsnotes" class="item minor">
-    
-      <div class="column-one">
-        <h2>Numerical Solvers</h2>
-
-<ul>
-<li>Numerical Derivatives</li>
-<li>Numerical Integration</li>
-<li>Finite Difference Method</li>
-<li>Finite Element Method</li>
-</ul>
-
-      </div>
-    
-    
-  </div>
-  
 
 <div id="flownotes" class="item major">
   <div class="panel">
     
       <a href="#" onclick="changeCanvasItemFromCanvas('fluidmech')">Fluid Mechanics</a>
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('findifference')">Numerical Solvers</a>
     
       <a href="#" onclick="changeCanvasItemFromCanvas('blackoil')">Black Oil Simulator</a>
     
@@ -689,6 +665,23 @@ Finally, check the installation by importing those modules from a python shell, 
     
   </div>
   
+  <div id="findifference" class="item minor">
+    
+      <div class="column-one">
+        <h2>Numerical Solvers</h2>
+
+<ul>
+<li>Numerical Derivatives</li>
+<li>Numerical Integration</li>
+<li>Finite Difference Method</li>
+<li>Finite Element Method</li>
+</ul>
+
+      </div>
+    
+    
+  </div>
+  
   <div id="blackoil" class="item minor">
     
       <div class="column-one">
@@ -717,7 +710,9 @@ Finally, check the installation by importing those modules from a python shell, 
 <div id="geomechnotes" class="item major">
   <div class="panel">
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('geomechcomp')">Computational Geomechanics</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('geomech')">Computational Geomechanics</a>
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('finelement')">Numerical Solver</a>
     
       <a href="#" onclick="changeCanvasItemFromCanvas('wstab')">Wellbore Stability</a>
     
@@ -765,10 +760,24 @@ Finally, check the installation by importing those modules from a python shell, 
   </div>
 </div>
   
-  <div id="geomechcomp" class="item minor">
+  <div id="geomech" class="item minor">
     
       <div class="column-one">
         <h2>Computational Geomechanics</h2>
+
+      </div>
+    
+    
+  </div>
+  
+  <div id="finelement" class="item minor">
+    
+      <div class="column-one">
+        <h2>Finite Element</h2>
+
+<ul>
+<li>Numerical Solver</li>
+</ul>
 
       </div>
     
@@ -811,6 +820,8 @@ Finally, check the installation by importing those modules from a python shell, 
     
       <a href="#" onclick="changeCanvasItemFromCanvas('emcomp')">Computational Electro-Magnetics</a>
     
+      <a href="#" onclick="changeCanvasItemFromCanvas('mmnotes')">Numerical Solvers</a>
+    
       <a href="#" onclick="changeCanvasItemFromCanvas('reslog')">Wellbore Resistivity Modeling</a>
     
   </div>
@@ -824,6 +835,23 @@ Finally, check the installation by importing those modules from a python shell, 
     
       <div class="column-one">
         <h2>Computational Electromagnetics</h2>
+
+      </div>
+    
+    
+  </div>
+  
+  <div id="mmnotes" class="item minor">
+    
+      <div class="column-one">
+        <h2>Numerical Solvers</h2>
+
+<ul>
+<li>Numerical Derivatives</li>
+<li>Numerical Integration</li>
+<li>Finite Difference Method</li>
+<li>Finite Element Method</li>
+</ul>
 
       </div>
     

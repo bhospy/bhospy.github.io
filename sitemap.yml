@@ -12,7 +12,7 @@ pydemo-dirs:
 
 engineering-dirs:
   - resources
-  - petrophysics
+  - formation
   - upstream
   - manage
 
@@ -56,9 +56,10 @@ resources-markdowns:
   - transport.md
   - hydrogen.md
 
-petrophysics-markdowns:
+formation-markdowns:
   - geology.md
   - seismic.md
+  - petrophysics.md
   - resfluids.md
   - resrocks.md
   - wlogging.md
@@ -88,22 +89,23 @@ mathnotes-markdowns:
   - statsnotes.md
   - optimizenotes.md
   - mlearnnotes.md
-  - specialnotes.md
-  - numericsnotes.md
 
 flownotes-markdowns:
   - fluidmech.md
+  - findifference.md
   - blackoil.md
   - fracmed.md
 
 geomechnotes-markdowns:
-  - geomechcomp.md
+  - geomech.md
+  - finelement.md
   - wstab.md
   - sandprod.md
   - hfprop.md
 
 emnotes-markdowns:
   - emcomp.md
+  - mmnotes.md
   - reslog.md
 
 geomodelnotes-markdowns:
