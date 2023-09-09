@@ -1,8 +1,0 @@
----
-title: 'Geomodeling'
-
----
-
-## Geomodeling
-
-- Geostatistics

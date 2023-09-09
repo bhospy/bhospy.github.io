@@ -1,5 +1,5 @@
 ---
-title: 'Engineering Mathematics'
+title: 'Scientific Computing'
 
 ---
 
