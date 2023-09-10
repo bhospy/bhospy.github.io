@@ -1,7 +1,9 @@
 page-dirs:
+  - pydemo
   - lectures
   - modeling
   - research
+  - about
 
 lectures-dirs:
   - energy_systems

@@ -63,33 +63,33 @@ page.mdname = "pydemo"
 
 page.majors = []
 
-for major_dir in smap['pydemo-dirs']:
+# for major_dir in smap['pydemo-dirs']:
 
-	major_path = os.path.join(cpath,major_dir)
+# 	major_path = os.path.join(cpath,major_dir)
 
-	preface_path = os.path.join(major_path,'preface.md')
+# 	preface_path = os.path.join(major_path,'preface.md')
 
-	with open(preface_path,'r') as mdfile:
-		major = frontmatter.loads(mdfile.read())
-		major['html-preface'] = markdown(major.content)
+# 	with open(preface_path,'r') as mdfile:
+# 		major = frontmatter.loads(mdfile.read())
+# 		major['html-preface'] = markdown(major.content)
 
-	major.mdname = major_dir
+# 	major.mdname = major_dir
 
-	major.items = []
+# 	major.items = []
 
-	for item_markdown in smap[f"{major_dir}-markdowns"]:
+# 	for item_markdown in smap[f"{major_dir}-markdowns"]:
 
-		item_path = os.path.join(major_path,item_markdown)
+# 		item_path = os.path.join(major_path,item_markdown)
 
-		with open(item_path,'r') as mdfile:
-			item = frontmatter.loads(mdfile.read())
-			item['html-column-1'] = markdown(item.content)
+# 		with open(item_path,'r') as mdfile:
+# 			item = frontmatter.loads(mdfile.read())
+# 			item['html-column-1'] = markdown(item.content)
 
-		item.mdname = item_markdown.split(".")[0]
+# 		item.mdname = item_markdown.split(".")[0]
 		
-		major.items.append(item)
+# 		major.items.append(item)
 
-	page.majors.append(major)
+# 	page.majors.append(major)
 
 page['html-ribbon'] 	= frame_ribbon.render(pages=pages)
 page['html-sidebar'] 	= frame_sidebar.render(page=page)
