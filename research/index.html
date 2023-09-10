@@ -28,18 +28,14 @@
 
       <nav class="ribbon">
         <div class="title">
-  <a href="..">PyDemo</a>
+  <a href="..\lectures">Engineering</a>
 </div>
 <div class="links">
   <ul>
     
-    <li><a href="..\engineering" class="passive">Lectures</a></li>
-    
     <li><a href="..\modeling" class="passive">Modeling</a></li>
     
-    <li><a href="..\application" class="active">Research</a></li>
-    
-    <li><a href="..\contribution" class="passive">About</a></li>
+    <li><a href="..\research" class="active">Research</a></li>
     
   </ul>
 </div>
@@ -72,6 +68,76 @@
   
   </div>
 
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(3)"></button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(4)"></a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(5)"></a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(6)"></button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(7)"></a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(8)"></button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(9)"></a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(10)"></a>
+    </div>
+    
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(11)"></a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(12)"></button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(13)"></a>
+    </div>
+    
+  
+  </div>
+
+  <button class="accordion" onclick="changeCanvasItemFromSidebar(14)"></button>
+  
+  <div class="panel">
+  
+    <div class="item">
+      <a href="#" onclick="changeCanvasItemFromSidebar(15)"></a>
+    </div>
+    
+  
+  </div>
+
   
 </div>
         </nav>
@@ -79,17 +145,17 @@
         
 
         <div class="canvas">
-          <div id="application" class="item page">
+          <div id="research" class="item page">
   <div class="column-one">
-    <h2>Bachelor Graduation Defense</h2>
+    <h2>Research Topics</h2>
 
   </div>
 </div>
 
-<div id="2021-2022" class="item major">
+<div id="ai_implementation" class="item major">
   <div class="panel">
     
-      <a href="#" onclick="changeCanvasItemFromCanvas('htrsocar')">HTR-Socar</a>
+      <a href="#" onclick="changeCanvasItemFromCanvas('hand_written_text_recognition')">HTR-Socar</a>
     
   </div>
   <div class="column-one">
@@ -98,12 +164,163 @@
   </div>
 </div>
   
-  <div id="htrsocar" class="item minor">
+  <div id="hand_written_text_recognition" class="item minor">
     
       <div class="column-one">
         <h2>Hand-Written Text Recognition</h2>
 
 <p>Socar Operation Units</p>
+
+      </div>
+    
+    
+  </div>
+  
+
+<div id="wellbore_monitoring" class="item major">
+  <div class="panel">
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('hydraulic_fracture_diagnostics')"></a>
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('fiber_optics')"></a>
+    
+  </div>
+  <div class="column-one">
+    <p>preface.md</p>
+
+  </div>
+</div>
+  
+  <div id="hydraulic_fracture_diagnostics" class="item minor">
+    
+      <div class="column-one">
+        <p></p>
+
+      </div>
+    
+    
+  </div>
+  
+  <div id="fiber_optics" class="item minor">
+    
+      <div class="column-one">
+        <p>fiber_optics.md</p>
+
+      </div>
+    
+    
+  </div>
+  
+
+<div id="sand_control" class="item major">
+  <div class="panel">
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('completion_types')"></a>
+    
+  </div>
+  <div class="column-one">
+    <p>preface.md</p>
+
+  </div>
+</div>
+  
+  <div id="completion_types" class="item minor">
+    
+      <div class="column-one">
+        <p>completion_types.md</p>
+
+      </div>
+    
+    
+  </div>
+  
+
+<div id="eor" class="item major">
+  <div class="panel">
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('gas_injection')"></a>
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('thermal_injection')"></a>
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('chemical_injection')"></a>
+    
+  </div>
+  <div class="column-one">
+    <p>preface.md</p>
+
+  </div>
+</div>
+  
+  <div id="gas_injection" class="item minor">
+    
+      <div class="column-one">
+        <p></p>
+
+      </div>
+    
+    
+  </div>
+  
+  <div id="thermal_injection" class="item minor">
+    
+      <div class="column-one">
+        <p>thermal_injection.md</p>
+
+      </div>
+    
+    
+  </div>
+  
+  <div id="chemical_injection" class="item minor">
+    
+      <div class="column-one">
+        <p>chemical_injection.md</p>
+
+      </div>
+    
+    
+  </div>
+  
+
+<div id="ccus" class="item major">
+  <div class="panel">
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('carbon_flow_modeling')"></a>
+    
+  </div>
+  <div class="column-one">
+    <p></p>
+
+  </div>
+</div>
+  
+  <div id="carbon_flow_modeling" class="item minor">
+    
+      <div class="column-one">
+        <p></p>
+
+      </div>
+    
+    
+  </div>
+  
+
+<div id="geothermal" class="item major">
+  <div class="panel">
+    
+      <a href="#" onclick="changeCanvasItemFromCanvas('enhanced_geothermal_systems')"></a>
+    
+  </div>
+  <div class="column-one">
+    <p>preface.md</p>
+
+  </div>
+</div>
+  
+  <div id="enhanced_geothermal_systems" class="item minor">
+    
+      <div class="column-one">
+        <p>enhanced<em>geothermal</em>systems.md</p>
 
       </div>
     

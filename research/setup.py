@@ -45,19 +45,19 @@ for page_dir in smap['page-dirs']:
 	else:
 		page['dir'] = os.path.join(os.pardir,page_dir)
 		
-	page['status'] = "active" if page_dir=="application" else "passive"
+	page['status'] = "active" if page_dir=="research" else "passive"
 	
 	pages.append(page)
 
-page = pages[smap['page-dirs'].index("application")]
+page = pages[smap['page-dirs'].index("research")]
 
 page['html-preface'] = markdown(page.content)
 
-page.mdname = "application"
+page.mdname = "research"
 
 page.majors = []
 
-for major_dir in smap['application-dirs']:
+for major_dir in smap['research-dirs']:
 
 	major_path = os.path.join(cpath,major_dir)
 

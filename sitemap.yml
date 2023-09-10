@@ -1,9 +1,7 @@
 page-dirs:
-  - pydemo
   - lectures
   - modeling
   - research
-  - about
 
 lectures-dirs:
   - energy_systems
@@ -23,6 +21,7 @@ modeling-dirs:
   - material_balance
   - reservoir_simulation
   - production_analysis
+  - borehole_modeling
 
 research-dirs:
   - ai_implementation
@@ -43,9 +42,9 @@ energy_systems-markdowns:
 
 formation_evaluation-markdowns:
   - petrophysics.md
-  - coreanalysis.md
-  - wlogging.md
-  - wtesting.md
+  - core_analysis.md
+  - well_logging.md
+  - well_testing.md
   - geomodeling.md
 
 reservoir_engineering-markdowns:
@@ -61,43 +60,65 @@ engineering_economy-markdowns:
   - property_valuation.md
 
 engineering_ethics-markdowns:
-  - engethics.md
+  - codes.md
 
-pythone_programming-markdowns:
+python_programming-markdowns:
   - essentials.md
   - object_oriented.md
   - packaging.md
   - performance_optimization.md
 
 scientific_computing-markdowns:
-  - statsnotes.md
   - optimizenotes.md
-  - mlearnnotes.md
 
 mechanical_engineering-markdowns:
   - fluidmech.md
 
 data_science-markdowns:
-  - statistics.md
+  - data_analysis.md
   - machine_learning.md
 
-geomechnotes-markdowns:
-  - geomech.md
-  - finelement.md
-  - wstab.md
-  - sandprod.md
-  - hfprop.md
+petrophysics-markdowns:
+  - core_analysis.md
+  - log_analysis.md
 
-emnotes-markdowns:
-  - emcomp.md
-  - mmnotes.md
-  - reslog.md
+geomodeling-markdowns:
+  - geostatistics.md
 
-geomodelnotes-markdowns:
-  - geostats.md
+fluid_modeling-markdowns:
+  - phase_analysis.md
+  - compositional_analysis.md
 
-2021-2022-markdowns:
-  - htrsocar.md
+material_balance-markdowns:
+  - volumetric.md
 
-author-markdowns:
-  - jshiriyev.md
+reservoir_simulation-markdowns:
+  - blackoil.md
+
+production_analysis-markdowns:
+  - well_testing.md
+
+borehole_modeling-markdowns:
+  - geomechanics.md
+  - resistivity_modeling.md
+
+ai_implementation-markdowns:
+  - hand_written_text_recognition.md
+
+wellbore_monitoring-markdowns:
+  - hydraulic_fracture_diagnostics.md
+  - fiber_optics.md
+
+sand_control-markdowns:
+  - completion_types.md
+
+eor-markdowns:
+  - gas_injection.md
+  - thermal_injection.md
+  - chemical_injection.md
+
+ccus-markdowns:
+  - carbon_flow_modeling.md
+
+geothermal-markdowns:
+  - enhanced_geothermal_systems.md
