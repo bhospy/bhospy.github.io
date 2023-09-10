@@ -1,6 +1,0 @@
----
-title: scicomp.stats
-
----
-
-### Statistics

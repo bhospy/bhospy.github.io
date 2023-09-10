@@ -1,6 +1,6 @@
 ---
-title: Application
+title: Research
 
 ---
 
-## Bachelor Graduation Defense
+## Research Topics

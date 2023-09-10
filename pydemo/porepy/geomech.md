@@ -1,6 +1,0 @@
----
-title: porepy.geomech
-
----
-
-### Geomechanics

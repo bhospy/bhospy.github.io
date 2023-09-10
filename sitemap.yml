@@ -1,100 +1,85 @@
 page-dirs:
   - pydemo
-  - engineering
+  - lectures
   - modeling
-  - application
-  - contribution
+  - research
+  - about
 
-pydemo-dirs:
-  - datum
-  - scicomp
-  - porepy
-
-engineering-dirs:
-  - resources
-  - formation
-  - upstream
-  - manage
+lectures-dirs:
+  - energy_systems
+  - formation_evaluation
+  - reservoir_engineering
+  - engineering_economy
+  - engineering_ethics
+  - python_programming
+  - scientific_computing
+  - mechanical_engineering
+  - data_science
 
 modeling-dirs:
-  - pynotes
-  - mathnotes
-  - flownotes
-  - geomechnotes
-  - emnotes
-  - geomodelnotes
+  - petrophysics
+  - geomodeling
+  - fluid_modeling
+  - material_balance
+  - reservoir_simulation
+  - production_analysis
 
-application-dirs:
-  - 2021-2022
+research-dirs:
+  - ai_implementation
+  - wellbore_monitoring
+  - sand_control
+  - eor
+  - ccus
+  - geothermal
 
-contribution-dirs:
-  - author
-
-datum-markdowns:
-  - textio.md
-  - dataview.md
-  - geogrids.md
-  - ssitems.md
-
-scicomp-markdowns:
-  - stats.md
-  - optimize.md
-  - mlearn.md
-  - special.md
-  - numerics.md
-
-porepy-markdowns:
-  - fluidflow.md
-  - geomech.md
-  - emfields.md
-  - geomodel.md
-
-resources-markdowns:
-  - supplychain.md
-  - petroleum.md
-  - susenergy.md
-  - transport.md
+energy_systems-markdowns:
+  - energy_sources.md
+  - supply_chain_analysis.md
+  - legislation.md
+  - cruide_transport.md
+  - gas_storage.md
+  - methane_mitigation.md
   - hydrogen.md
 
-formation-markdowns:
-  - geology.md
-  - seismic.md
+formation_evaluation-markdowns:
   - petrophysics.md
-  - resfluids.md
-  - resrocks.md
+  - coreanalysis.md
   - wlogging.md
   - wtesting.md
+  - geomodeling.md
 
-upstream-markdowns:
-  - drilling.md 
-  - completion.md 
-  - production.md
-  - reservoir.md
-  - enggeomech.md
-  - naturalgas.md
-  - eor.md
+reservoir_engineering-markdowns:
+  - reservoir_fluids.md 
+  - reserve_estimation.md 
+  - material_balance.md
+  - decline_curve_analysis.md
+  - reservoir_simulation.md
+  - reservoir_management.md
+  - gas_reservoirs.md
 
-manage-markdowns:
-  - legislation.md
-  - pvaluation.md
+engineering_economy-markdowns:
+  - property_valuation.md
+
+engineering_ethics-markdowns:
   - engethics.md
 
-pynotes-markdowns:
-  - pyessentials.md
-  - pybasedoop.md
-  - pypackaging.md
-  - pyperfopt.md
+pythone_programming-markdowns:
+  - essentials.md
+  - object_oriented.md
+  - packaging.md
+  - performance_optimization.md
 
-mathnotes-markdowns:
+scientific_computing-markdowns:
   - statsnotes.md
   - optimizenotes.md
   - mlearnnotes.md
 
-flownotes-markdowns:
+mechanical_engineering-markdowns:
   - fluidmech.md
-  - findifference.md
-  - blackoil.md
-  - fracmed.md
+
+data_science-markdowns:
+  - statistics.md
+  - machine_learning.md
 
 geomechnotes-markdowns:
   - geomech.md

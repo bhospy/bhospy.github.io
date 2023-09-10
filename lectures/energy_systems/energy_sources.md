@@ -1,5 +1,5 @@
 ---
-title: 'Energy Resources'
+title: 'Energy Sources'
 
 ---
 
@@ -7,5 +7,5 @@ title: 'Energy Resources'
 
 Conventional, Unconventional and Alternative Energy Resources
 
-- Sustainable Energy
-- Crude Transport
+- Geothermal Energy
+- Petroleum Engineering

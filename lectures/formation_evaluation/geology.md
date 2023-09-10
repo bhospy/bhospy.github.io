@@ -1,6 +1,0 @@
----
-title: 'Geology'
-
----
-
-## Geology
