@@ -1,5 +1,5 @@
 ---
-title: 'Wellbore Resistivity Modeling'
+title: 'Resistivity Modeling'
 
 ---
 

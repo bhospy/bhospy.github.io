@@ -1,5 +1,5 @@
 ---
-title:		'Javid Shiriyev'
+title:		'About'
 image:		'../images/headshots/p2.jpg'
 image-alt:	"Javid's photo"
 degree:		'Javid Shiriyev, Ph.D.'

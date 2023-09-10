@@ -1,6 +1,6 @@
 ---
-title: "2021-2022"
+title: "AI Implementation"
 
 ---
 
-## Academic Year of 2021-2022
+## 

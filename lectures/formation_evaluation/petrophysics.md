@@ -1,5 +1,5 @@
 ---
-title: 'Petrophysics Concepts'
+title: 'Petrophysics'
 
 ---
 

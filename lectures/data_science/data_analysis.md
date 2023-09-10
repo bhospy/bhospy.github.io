@@ -1,5 +1,5 @@
 ---
-title: 'Statistics'
+title: 'Data Analysis'
 
 ---
 

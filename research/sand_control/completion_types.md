@@ -1,1 +1,4 @@
-completion_types.md
+---
+title: 'Completion Types'
+
+---

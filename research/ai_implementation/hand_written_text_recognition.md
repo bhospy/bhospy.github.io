@@ -1,8 +1,7 @@
 ---
-title: "HTR-Socar"
+title: "Text Recognition"
 
 ---
 
 ## Hand-Written Text Recognition
 
-Socar Operation Units

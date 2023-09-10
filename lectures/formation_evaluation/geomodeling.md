@@ -1,5 +1,5 @@
 ---
-title: 'Geostatistics'
+title: 'Geomodeling'
 
 ---
 
