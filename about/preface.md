@@ -1,14 +1,14 @@
 ---
-title:		'About'
-image:		'../images/headshots/p2.jpg'
-image-alt:	"Javid's photo"
-degree:		'Javid Shiriyev, Ph.D.'
-position-1:	'BHOS - Senior Lecturer'
-position-2:	'BEOC - Simulation Engineer'
-email:		'shiriyevcavid@gmail.com'
-scholar:	'https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en'
-github:		'https://github.com/jshiriyev/'
-linkedin:	'https://www.linkedin.com/in/jshiriyev/'
+title: 'About'
+image: '../images/headshots/p2.jpg'
+image-alt: "Javid's photo"
+degree: 'Javid Shiriyev, Ph.D.'
+position-1: 'BHOS - Senior Lecturer'
+position-2: 'BEOC - Simulation Engineer'
+email: 'shiriyevcavid@gmail.com'
+scholar: 'https://scholar.google.com/citations?user=YvggY5wAAAAJ&hl=en'
+github: 'https://github.com/jshiriyev/'
+linkedin: 'https://www.linkedin.com/in/jshiriyev/'
 
 ---
 
