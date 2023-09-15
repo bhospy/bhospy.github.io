@@ -13,7 +13,7 @@ lectures-dirs:
   - engineering_ethics
   - python_programming
   - scientific_computing
-  - mechanical_engineering
+  - mechanics
   - data_science
 
 modeling-dirs:
@@ -73,7 +73,7 @@ python_programming-markdowns:
 scientific_computing-markdowns:
   - optimizenotes.md
 
-mechanical_engineering-markdowns:
+mechanics-markdowns:
   - fluidmech.md
 
 data_science-markdowns:
