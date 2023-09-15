@@ -3,6 +3,4 @@ title: 'Data Analysis'
 
 ---
 
-### Statistics
-
-- Data Analysis
+# Data Analysis

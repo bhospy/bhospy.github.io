@@ -79,6 +79,8 @@ mechanical_engineering-markdowns:
 data_science-markdowns:
   - data_analysis.md
   - machine_learning.md
+  - big_data_analytics.md
+  - natural_language_processing.md
 
 petrophysics-markdowns:
   - core_analysis.md
