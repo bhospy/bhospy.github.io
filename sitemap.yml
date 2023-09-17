@@ -71,10 +71,14 @@ python_programming-markdowns:
   - performance_optimization.md
 
 scientific_computing-markdowns:
-  - optimizenotes.md
+  - optimization.md
+  - numerical_analysis.md
 
 mechanics-markdowns:
-  - fluidmech.md
+  - material_strength.md
+  - thermodynamics.md
+  - fluid_mechanics.md
+  - quantum_mechanics.md
 
 data_science-markdowns:
   - data_analysis.md
