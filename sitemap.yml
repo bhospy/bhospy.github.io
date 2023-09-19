@@ -54,11 +54,12 @@ reservoir_engineering-markdowns:
   - reserve_estimation.md 
   - material_balance.md
   - decline_curve_analysis.md
+  - gas_reservoirs.md
   - reservoir_simulation.md
   - reservoir_management.md
-  - gas_reservoirs.md
 
 engineering_economy-markdowns:
+  - energy_economics.md
   - property_valuation.md
 
 engineering_ethics-markdowns:
@@ -69,6 +70,7 @@ python_programming-markdowns:
   - object_oriented.md
   - packaging.md
   - performance_optimization.md
+  - high_performance_computing.md
 
 scientific_computing-markdowns:
   - optimization.md
