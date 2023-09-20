@@ -113,22 +113,43 @@ borehole_modeling-markdowns:
   - resistivity_modeling.md
 
 ai_implementation-markdowns:
-  - hand_written_text_recognition.md
+  - text_recognition.md
+  - npt_minimization.md
+  - reservoir_surveillance.md
+  - production_optimization.md
 
 wellbore_monitoring-markdowns:
+  - wellbore_flow_profiling.md
+  - corrosion_scaling_detection.md
+  - gas_lift_optimization.md
+  - injection_well_monitoring.md
+  - fiber_optic_sensing.md
   - hydraulic_fracture_diagnostics.md
-  - fiber_optics.md
 
 sand_control-markdowns:
-  - completion_types.md
+  - real_time_monitoring.md
+  - sand_prediction_models.md
+  - chemical_consolidation.md
+  - multi_phase_flow_modeling.md
 
 eor-markdowns:
   - gas_injection.md
   - thermal_injection.md
   - chemical_injection.md
+  - reservoir_characterization.md
 
 ccus-markdowns:
-  - carbon_flow_modeling.md
+  - geological_characterization.md
+  - caprock_integrity_analysis.md
+  - well_monitoring.md
+  - storage_in_depleted_reservoirs.md
+  - storage_in_saline_aquifers.md
+  - storage_in_unconventionals.md
+  - reservoir_simulation.md
 
 geothermal-markdowns:
+  - reservoir_characterization.md
   - enhanced_geothermal_systems.md
+  - abandoned_oil_gas_wells.md
+  - geomechanical_assessment.md
+  - reservoir_monitoring.md

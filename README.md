@@ -2,13 +2,6 @@
 
 Roadmap
 
-- Add Research of AI implementation
-- Add Research of Wellbore Monitoring
-- Add Research of Sand Control
-- Add Research of Enhanced Oil Recovery
-- Add Research of Carbon Capture, Utilization, Storage
-- Add Research of Geothermal Applications
-
 - Add Google Drive Links to the Lectures
 
 - Add log depthview interpretation to PyDemo
@@ -24,3 +17,4 @@ Roadmap
 - Complete all the modeling part
 
 - improve css
+- correct the jump
