@@ -25,15 +25,15 @@ Optimization is significant for several reasons:
 
 Optimization involves several key concepts:
 
-1. **Objective Function:** This function represents the quantity to be minimized or maximized. It defines the goal of the optimization problem.
+- **Objective Function:** This function represents the quantity to be minimized or maximized. It defines the goal of the optimization problem.
 
-2. **Decision Variables:** These variables are the parameters or choices that can be adjusted to optimize the objective function.
+- **Decision Variables:** These variables are the parameters or choices that can be adjusted to optimize the objective function.
 
-3. **Constraints:** Constraints are conditions or limitations that must be satisfied while optimizing. They define the feasible region of solutions.
+- **Constraints:** Constraints are conditions or limitations that must be satisfied while optimizing. They define the feasible region of solutions.
 
-4. **Local vs. Global Optima:** Optimization problems can have local optima (best solutions within a limited region) and a global optimum (the absolute best solution across all possible choices).
+- **Local vs. Global Optima:** Optimization problems can have local optima (best solutions within a limited region) and a global optimum (the absolute best solution across all possible choices).
 
-5. **Optimization Algorithms:** These are techniques used to search for the best solution, such as gradient descent, genetic algorithms, and linear programming.
+- **Optimization Algorithms:** These are techniques used to search for the best solution, such as gradient descent, genetic algorithms, and linear programming.
 
 ## Common Types of Optimization
 

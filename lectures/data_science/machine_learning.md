@@ -25,17 +25,17 @@ Machine learning is significant for several reasons:
 
 Machine learning involves several key concepts:
 
-1. **Data:** Data is the foundation of machine learning. It includes both the input (features) and the desired output (labels) used to train models.
+- **Data:** Data is the foundation of machine learning. It includes both the input (features) and the desired output (labels) used to train models.
 
-2. **Algorithms:** Machine learning algorithms are mathematical models that learn patterns from data and make predictions or decisions.
+- **Algorithms:** Machine learning algorithms are mathematical models that learn patterns from data and make predictions or decisions.
 
-3. **Training:** Models are trained by exposing them to labeled data, allowing them to learn from examples and adjust their internal parameters.
+- **Training:** Models are trained by exposing them to labeled data, allowing them to learn from examples and adjust their internal parameters.
 
-4. **Supervised vs. Unsupervised Learning:** Supervised learning involves training models with labeled data, while unsupervised learning deals with unlabeled data for tasks like clustering and dimensionality reduction.
+- **Supervised vs. Unsupervised Learning:** Supervised learning involves training models with labeled data, while unsupervised learning deals with unlabeled data for tasks like clustering and dimensionality reduction.
 
-5. **Model Evaluation:** The performance of machine learning models is assessed using metrics such as accuracy, precision, recall, and F1-score.
+- **Model Evaluation:** The performance of machine learning models is assessed using metrics such as accuracy, precision, recall, and F1-score.
 
-6. **Overfitting and Generalization:** Models must strike a balance between fitting the training data well (no overfitting) and generalizing to unseen data.
+- **Overfitting and Generalization:** Models must strike a balance between fitting the training data well (no overfitting) and generalizing to unseen data.
 
 ## Common Applications
 

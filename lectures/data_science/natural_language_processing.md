@@ -25,15 +25,15 @@ NLP is significant for several reasons:
 
 NLP involves several key concepts:
 
-1. **Text Preprocessing:** This step involves tasks like tokenization (splitting text into words or sentences), stemming (reducing words to their root form), and removing stop words (common words like "the" and "and").
+- **Text Preprocessing:** This step involves tasks like tokenization (splitting text into words or sentences), stemming (reducing words to their root form), and removing stop words (common words like "the" and "and").
 
-2. **Named Entity Recognition (NER):** NER identifies and classifies named entities in text, such as names of people, places, organizations, and dates.
+- **Named Entity Recognition (NER):** NER identifies and classifies named entities in text, such as names of people, places, organizations, and dates.
 
-3. **Part-of-Speech Tagging (POS):** POS tagging assigns grammatical categories (e.g., noun, verb, adjective) to words in a sentence.
+- **Part-of-Speech Tagging (POS):** POS tagging assigns grammatical categories (e.g., noun, verb, adjective) to words in a sentence.
 
-4. **Sentiment Analysis:** This involves determining the sentiment or emotional tone of a piece of text, often used in social media monitoring and customer feedback analysis.
+- **Sentiment Analysis:** This involves determining the sentiment or emotional tone of a piece of text, often used in social media monitoring and customer feedback analysis.
 
-5. **Machine Translation:** NLP enables the automatic translation of text from one language to another, as seen in tools like Google Translate.
+- **Machine Translation:** NLP enables the automatic translation of text from one language to another, as seen in tools like Google Translate.
 
 ## Common Applications
 

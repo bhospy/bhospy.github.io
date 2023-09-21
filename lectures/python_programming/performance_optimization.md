@@ -23,25 +23,25 @@ Performance optimization in Python is significant for several reasons:
 
 To optimize Python code effectively, consider these key strategies:
 
-1. **Profiling:** Use profiling tools like `cProfile` and `memory_profiler` to identify bottlenecks and memory-hungry parts of your code.
+- **Profiling:** Use profiling tools like `cProfile` and `memory_profiler` to identify bottlenecks and memory-hungry parts of your code.
 
-2. **Algorithm Selection:** Choose the most appropriate algorithms and data structures for your problem to reduce computational complexity.
+- **Algorithm Selection:** Choose the most appropriate algorithms and data structures for your problem to reduce computational complexity.
 
-3. **Vectorization:** Utilize libraries like NumPy for vectorized operations, which can significantly speed up numerical computations.
+- **Vectorization:** Utilize libraries like NumPy for vectorized operations, which can significantly speed up numerical computations.
 
-4. **Caching:** Implement caching mechanisms to store and reuse results of expensive computations.
+- **Caching:** Implement caching mechanisms to store and reuse results of expensive computations.
 
-5. **Concurrency:** Use multi-threading and multiprocessing for parallel execution of tasks when applicable.
+- **Concurrency:** Use multi-threading and multiprocessing for parallel execution of tasks when applicable.
 
-6. **Lazy Evaluation:** Employ lazy evaluation techniques to defer calculations until they are actually needed.
+- **Lazy Evaluation:** Employ lazy evaluation techniques to defer calculations until they are actually needed.
 
-7. **Memory Management:** Be mindful of memory usage and avoid unnecessary object creation.
+- **Memory Management:** Be mindful of memory usage and avoid unnecessary object creation.
 
-8. **Reducing I/O Operations:** Minimize file I/O, network requests, and database queries, as they are typically slower operations.
+- **Reducing I/O Operations:** Minimize file I/O, network requests, and database queries, as they are typically slower operations.
 
-9. **Just-in-Time Compilation:** Consider using Just-in-Time (JIT) compilation tools like Numba or Cython for performance-critical parts of your code.
+- **Just-in-Time Compilation:** Consider using Just-in-Time (JIT) compilation tools like Numba or Cython for performance-critical parts of your code.
 
-10. **Profiling and Benchmarking:** Continuously profile and benchmark your code to measure the impact of optimizations and identify areas for improvement.
+- **Profiling and Benchmarking:** Continuously profile and benchmark your code to measure the impact of optimizations and identify areas for improvement.
 
 ## Tools for Performance Optimization
 

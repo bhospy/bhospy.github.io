@@ -25,11 +25,11 @@ Gas consumption patterns vary throughout the year due to factors such as weather
 
 Underground gas storage facilities come in several forms, with the most common types being:
 
-1. **Depleted Reservoirs:** These facilities repurpose depleted oil or gas reservoirs for gas storage. They are well-suited for large-capacity storage due to their existing infrastructure.
+- **Depleted Reservoirs:** These facilities repurpose depleted oil or gas reservoirs for gas storage. They are well-suited for large-capacity storage due to their existing infrastructure.
 
-2. **Salt Caverns:** Salt caverns, created by leaching salt deposits, provide highly secure and flexible storage options, especially for short-term and peak demand requirements.
+- **Salt Caverns:** Salt caverns, created by leaching salt deposits, provide highly secure and flexible storage options, especially for short-term and peak demand requirements.
 
-3. **Aquifer Storage:** Aquifers, underground rock formations that can store gas, are used for medium to long-term storage. They offer environmental advantages and are often used in combination with other storage types.
+- **Aquifer Storage:** Aquifers, underground rock formations that can store gas, are used for medium to long-term storage. They offer environmental advantages and are often used in combination with other storage types.
 
 ## Operational Considerations
 

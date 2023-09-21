@@ -11,9 +11,9 @@ Energy sources are the fundamental components that power our world, driving ever
 
 Energy sources can be broadly categorized into two main groups:
 
-1. **Non-Renewable Energy Sources:** These are finite resources that cannot be naturally replenished within a human timescale. Non-renewable energy sources include fossil fuels like coal, oil, and natural gas, as well as nuclear energy. While these sources have been the backbone of energy production for decades, their use raises concerns about environmental impact, greenhouse gas emissions, and resource depletion.
+- **Non-Renewable Energy Sources:** These are finite resources that cannot be naturally replenished within a human timescale. Non-renewable energy sources include fossil fuels like coal, oil, and natural gas, as well as nuclear energy. While these sources have been the backbone of energy production for decades, their use raises concerns about environmental impact, greenhouse gas emissions, and resource depletion.
 
-2. **Renewable Energy Sources:** These are resources that are naturally replenished and are considered sustainable over the long term. Renewable energy sources encompass solar energy, wind energy, hydropower, geothermal energy, and biomass. They are hailed for their environmental benefits and potential to reduce carbon emissions.
+- **Renewable Energy Sources:** These are resources that are naturally replenished and are considered sustainable over the long term. Renewable energy sources encompass solar energy, wind energy, hydropower, geothermal energy, and biomass. They are hailed for their environmental benefits and potential to reduce carbon emissions.
 
 ## Importance of Energy Source Selection
 

@@ -25,15 +25,15 @@ Big data analytics is significant for several reasons:
 
 Big data analytics involves several key concepts:
 
-1. **Volume, Velocity, Variety:** These are the three V's of big data: Volume refers to the vast amount of data, Velocity to the speed at which data is generated and processed, and Variety to the diverse types of data, including structured and unstructured data.
+- **Volume, Velocity, Variety:** These are the three V's of big data: Volume refers to the vast amount of data, Velocity to the speed at which data is generated and processed, and Variety to the diverse types of data, including structured and unstructured data.
 
-2. **Data Storage and Processing:** Big data requires storage and processing solutions capable of handling large-scale data. Technologies like Hadoop, Spark, and cloud computing platforms are commonly used.
+- **Data Storage and Processing:** Big data requires storage and processing solutions capable of handling large-scale data. Technologies like Hadoop, Spark, and cloud computing platforms are commonly used.
 
-3. **Data Integration:** Combining data from various sources into a unified format for analysis is a critical step in big data analytics.
+- **Data Integration:** Combining data from various sources into a unified format for analysis is a critical step in big data analytics.
 
-4. **Machine Learning and AI:** Machine learning and artificial intelligence techniques are used to extract insights, make predictions, and automate decision-making.
+- **Machine Learning and AI:** Machine learning and artificial intelligence techniques are used to extract insights, make predictions, and automate decision-making.
 
-5. **Data Visualization:** Creating visual representations of data helps communicate insights effectively to stakeholders.
+- **Data Visualization:** Creating visual representations of data helps communicate insights effectively to stakeholders.
 
 ## Common Applications
 

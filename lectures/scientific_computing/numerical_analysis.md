@@ -25,19 +25,19 @@ Numerical analysis is significant for several reasons:
 
 Numerical analysis involves several core concepts:
 
-1. **Numerical Approximation:** The process of finding approximate solutions to mathematical problems, often using iterative algorithms.
+- **Numerical Approximation:** The process of finding approximate solutions to mathematical problems, often using iterative algorithms.
 
-2. **Interpolation and Extrapolation:** Techniques for estimating values between or beyond known data points.
+- **Interpolation and Extrapolation:** Techniques for estimating values between or beyond known data points.
 
-3. **Numerical Integration:** Methods for approximating definite integrals of functions, essential for calculating areas, volumes, and cumulative quantities.
+- **Numerical Integration:** Methods for approximating definite integrals of functions, essential for calculating areas, volumes, and cumulative quantities.
 
-4. **Numerical Differentiation:** Techniques for approximating derivatives of functions, useful in solving differential equations and optimization problems.
+- **Numerical Differentiation:** Techniques for approximating derivatives of functions, useful in solving differential equations and optimization problems.
 
-5. **Root Finding:** Algorithms to locate the roots (zeros) of equations, including nonlinear equations and systems of equations.
+- **Root Finding:** Algorithms to locate the roots (zeros) of equations, including nonlinear equations and systems of equations.
 
-6. **Linear Algebra:** The study of numerical methods for solving systems of linear equations and eigenvalue problems.
+- **Linear Algebra:** The study of numerical methods for solving systems of linear equations and eigenvalue problems.
 
-7. **Numerical Solutions of Differential Equations:** Methods for solving ordinary and partial differential equations numerically, crucial in physics, engineering, and scientific simulations.
+- **Numerical Solutions of Differential Equations:** Methods for solving ordinary and partial differential equations numerically, crucial in physics, engineering, and scientific simulations.
 
 ## Common Applications
 

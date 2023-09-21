@@ -23,15 +23,15 @@ Energy economics holds paramount importance for various reasons:
 
 Several key concepts are central to energy economics:
 
-1. **Supply and Demand:** Energy economics examines the factors influencing the supply and demand for various energy resources, such as oil, natural gas, coal, and renewables.
+- **Supply and Demand:** Energy economics examines the factors influencing the supply and demand for various energy resources, such as oil, natural gas, coal, and renewables.
 
-2. **Energy Pricing:** Analysis of energy pricing mechanisms, including factors that affect energy prices, such as production costs, market dynamics, and government policies.
+- **Energy Pricing:** Analysis of energy pricing mechanisms, including factors that affect energy prices, such as production costs, market dynamics, and government policies.
 
-3. **Energy Markets:** Study of energy market structures, such as competitive markets, monopolies, and regulatory frameworks, and their impact on energy access and affordability.
+- **Energy Markets:** Study of energy market structures, such as competitive markets, monopolies, and regulatory frameworks, and their impact on energy access and affordability.
 
-4. **Energy Policy:** The development and evaluation of energy policies that balance economic, environmental, and social objectives.
+- **Energy Policy:** The development and evaluation of energy policies that balance economic, environmental, and social objectives.
 
-5. **Energy Efficiency:** Strategies for improving energy efficiency, reducing energy waste, and enhancing resource utilization.
+- **Energy Efficiency:** Strategies for improving energy efficiency, reducing energy waste, and enhancing resource utilization.
 
 ## Factors Influencing Energy Economics
 

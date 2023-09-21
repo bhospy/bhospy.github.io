@@ -11,11 +11,11 @@ Reservoir fluids, including oil, natural gas, and water, are the lifeblood of th
 
 Reservoir fluids typically consist of the following components:
 
-1. **Crude Oil:** Crude oil is a complex mixture of hydrocarbons, which are compounds composed of hydrogen and carbon atoms. The composition of crude oil can vary widely from one reservoir to another, resulting in different properties and characteristics.
+- **Crude Oil:** Crude oil is a complex mixture of hydrocarbons, which are compounds composed of hydrogen and carbon atoms. The composition of crude oil can vary widely from one reservoir to another, resulting in different properties and characteristics.
 
-2. **Natural Gas:** Natural gas primarily consists of methane (CH4) but may also contain small amounts of other hydrocarbons, such as ethane, propane, and butane. It is a valuable energy source used for heating, electricity generation, and industrial processes.
+- **Natural Gas:** Natural gas primarily consists of methane (CH4) but may also contain small amounts of other hydrocarbons, such as ethane, propane, and butane. It is a valuable energy source used for heating, electricity generation, and industrial processes.
 
-3. **Formation Water:** Formation water is the brine that resides in the pore spaces of a reservoir rock. It is often high in salinity and can vary in composition depending on the reservoir's geological history.
+- **Formation Water:** Formation water is the brine that resides in the pore spaces of a reservoir rock. It is often high in salinity and can vary in composition depending on the reservoir's geological history.
 
 ## Significance of Reservoir Fluids
 

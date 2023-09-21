@@ -17,17 +17,17 @@ The importance of engineering ethics cannot be overstated. Engineers have the ab
 
 ## Key Principles of Engineering Ethics
 
-1. **Safety:** Engineers must prioritize the safety and well-being of the public in all their endeavors. This includes designing systems and products that minimize risks and potential harm.
+- **Safety:** Engineers must prioritize the safety and well-being of the public in all their endeavors. This includes designing systems and products that minimize risks and potential harm.
 
-2. **Honesty and Integrity:** Engineers should be honest and transparent in their work, providing accurate information to clients, colleagues, and the public. They must not engage in deceptive practices.
+- **Honesty and Integrity:** Engineers should be honest and transparent in their work, providing accurate information to clients, colleagues, and the public. They must not engage in deceptive practices.
 
-3. **Environmental Responsibility:** Engineers should consider the environmental impact of their projects and seek sustainable solutions that minimize negative consequences.
+- **Environmental Responsibility:** Engineers should consider the environmental impact of their projects and seek sustainable solutions that minimize negative consequences.
 
-4. **Professional Competence:** Engineers must strive for excellence in their work, continually updating their knowledge and skills to ensure they can meet the demands of their profession.
+- **Professional Competence:** Engineers must strive for excellence in their work, continually updating their knowledge and skills to ensure they can meet the demands of their profession.
 
-5. **Conflict of Interest:** Engineers should avoid conflicts of interest that could compromise their professional judgment and objectivity.
+- **Conflict of Interest:** Engineers should avoid conflicts of interest that could compromise their professional judgment and objectivity.
 
-6. **Respect for Others:** Engineers should treat all individuals with respect and fairness, regardless of their race, gender, religion, or background.
+- **Respect for Others:** Engineers should treat all individuals with respect and fairness, regardless of their race, gender, religion, or background.
 
 ## Conclusion
 

@@ -329,11 +329,21 @@ footer {
 	padding: 8px 0px 8px 1px;
 }
 
+.canvas .item .column-one p {
+	font-size: 13px;
+	padding: 8px 0px 8px 1px;
+}
+
 .canvas .item .column-one ul li {
 	background: rgb(241,241,241);
 	width: 100%;
 	font-size: 13px;
 	padding: 3px 3px;
+}
+
+.canvas .item .column-one ul li:hover {
+	color: #0078d4; /* Change the color on hover */
+  cursor: pointer; /* Add a pointer cursor on hover */
 }
 
 .canvas .item .column-one ul p {
@@ -374,6 +384,7 @@ footer {
 }
 
 .canvas .item .column-one ul {
+	list-style: disc;
 	list-style-type: square;
 	background: rgb(241,241,241);
 	padding: 0px 0px 5px 30px;

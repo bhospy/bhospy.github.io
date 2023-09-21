@@ -35,23 +35,23 @@ Efficient transportation and storage of hydrogen are critical for several reason
 
 Hydrogen can be transported using various methods, including:
 
-1. **Gaseous Hydrogen:** Compressing hydrogen into high-pressure tanks or transporting it in tube trailers.
+- **Gaseous Hydrogen:** Compressing hydrogen into high-pressure tanks or transporting it in tube trailers.
 
-2. **Liquid Hydrogen:** Cooling hydrogen to extremely low temperatures (-253°C or -423°F) to liquefy it for transport, typically in cryogenic tankers.
+- **Liquid Hydrogen:** Cooling hydrogen to extremely low temperatures (-253°C or -423°F) to liquefy it for transport, typically in cryogenic tankers.
 
-3. **Chemical Compounds:** Using chemical carriers like ammonia, which can store and release hydrogen when needed, offering a potentially safer and more efficient transport method.
+- **Chemical Compounds:** Using chemical carriers like ammonia, which can store and release hydrogen when needed, offering a potentially safer and more efficient transport method.
 
 ## Hydrogen Storage
 
 Hydrogen storage solutions are crucial for maintaining a consistent and reliable hydrogen supply. Common storage methods include:
 
-1. **Pressurized Storage:** Storing hydrogen in high-pressure tanks, suitable for stationary applications and some vehicle types.
+- **Pressurized Storage:** Storing hydrogen in high-pressure tanks, suitable for stationary applications and some vehicle types.
 
-2. **Cryogenic Storage:** Storing hydrogen in liquid form at extremely low temperatures, primarily used in industrial and aerospace applications.
+- **Cryogenic Storage:** Storing hydrogen in liquid form at extremely low temperatures, primarily used in industrial and aerospace applications.
 
-3. **Solid-State Storage:** Developing materials that can absorb and release hydrogen at moderate temperatures and pressures, offering potential advancements in storage technology.
+- **Solid-State Storage:** Developing materials that can absorb and release hydrogen at moderate temperatures and pressures, offering potential advancements in storage technology.
 
-4. **Hydrogen Underground Storage:** Injecting hydrogen into depleted gas reservoirs or salt caverns, providing large-scale storage capacity and flexibility.
+- **Hydrogen Underground Storage:** Injecting hydrogen into depleted gas reservoirs or salt caverns, providing large-scale storage capacity and flexibility.
 
 ## Emerging Trends and Future Prospects
 

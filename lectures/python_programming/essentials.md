@@ -25,19 +25,19 @@ Python's significance in the world of programming can be attributed to several k
 
 To get started with Python, here are some essential concepts and elements:
 
-1. **Variables and Data Types:** Python supports various data types, including integers, floats, strings, and booleans. Variables are used to store data.
+- **Variables and Data Types:** Python supports various data types, including integers, floats, strings, and booleans. Variables are used to store data.
 
-2. **Control Structures:** Python includes conditional statements (if, elif, else) and loops (for, while) for controlling program flow.
+- **Control Structures:** Python includes conditional statements (if, elif, else) and loops (for, while) for controlling program flow.
 
-3. **Functions:** Functions in Python allow you to encapsulate code for reuse, enhancing modularity and readability.
+- **Functions:** Functions in Python allow you to encapsulate code for reuse, enhancing modularity and readability.
 
-4. **Data Structures:** Python provides built-in data structures like lists, tuples, dictionaries, and sets, making it easy to work with collections of data.
+- **Data Structures:** Python provides built-in data structures like lists, tuples, dictionaries, and sets, making it easy to work with collections of data.
 
-5. **Libraries and Modules:** Python's extensive standard library and third-party modules offer pre-built functions and tools for various tasks.
+- **Libraries and Modules:** Python's extensive standard library and third-party modules offer pre-built functions and tools for various tasks.
 
-6. **File Handling:** Python allows you to read from and write to files, making it suitable for tasks involving data input/output.
+- **File Handling:** Python allows you to read from and write to files, making it suitable for tasks involving data input/output.
 
-7. **Exception Handling:** Exception handling mechanisms enable you to gracefully manage errors and exceptions in your code.
+- **Exception Handling:** Exception handling mechanisms enable you to gracefully manage errors and exceptions in your code.
 
 ## Getting Started
 

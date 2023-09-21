@@ -25,21 +25,21 @@ Data analysis is significant for several reasons:
 
 Data analysis involves several key stages:
 
-1. **Data Collection:** Gathering relevant data from various sources, including surveys, sensors, databases, or online platforms.
+- **Data Collection:** Gathering relevant data from various sources, including surveys, sensors, databases, or online platforms.
 
-2. **Data Preprocessing:** Cleaning and preparing data for analysis, which includes handling missing values, outliers, and ensuring data consistency.
+- **Data Preprocessing:** Cleaning and preparing data for analysis, which includes handling missing values, outliers, and ensuring data consistency.
 
-3. **Exploratory Data Analysis (EDA):** Visualizing and summarizing data to gain a preliminary understanding of its characteristics and potential patterns.
+- **Exploratory Data Analysis (EDA):** Visualizing and summarizing data to gain a preliminary understanding of its characteristics and potential patterns.
 
-4. **Data Transformation:** Converting or aggregating data to make it suitable for specific analysis techniques.
+- **Data Transformation:** Converting or aggregating data to make it suitable for specific analysis techniques.
 
-5. **Statistical Analysis:** Applying statistical methods to uncover relationships, dependencies, or correlations in the data.
+- **Statistical Analysis:** Applying statistical methods to uncover relationships, dependencies, or correlations in the data.
 
-6. **Machine Learning:** Utilizing machine learning algorithms for tasks such as classification, regression, clustering, and anomaly detection.
+- **Machine Learning:** Utilizing machine learning algorithms for tasks such as classification, regression, clustering, and anomaly detection.
 
-7. **Data Visualization:** Creating visual representations of data, such as charts and graphs, to communicate findings effectively.
+- **Data Visualization:** Creating visual representations of data, such as charts and graphs, to communicate findings effectively.
 
-8. **Interpretation and Reporting:** Analyzing results and presenting them in a comprehensible manner, often with recommendations or insights.
+- **Interpretation and Reporting:** Analyzing results and presenting them in a comprehensible manner, often with recommendations or insights.
 
 ## Common Methods and Tools
 

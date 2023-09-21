@@ -25,15 +25,15 @@ Quantum mechanics is significant for several reasons:
 
 Quantum mechanics is characterized by several key principles:
 
-1. **Wave-Particle Duality:** Particles, such as electrons and photons, exhibit both particle-like and wave-like properties. This duality challenges classical notions of particles as distinct entities.
+- **Wave-Particle Duality:** Particles, such as electrons and photons, exhibit both particle-like and wave-like properties. This duality challenges classical notions of particles as distinct entities.
 
-2. **Quantization of Energy:** Energy levels in quantum systems are quantized, meaning they can only take on specific discrete values. This leads to phenomena like discrete atomic spectra.
+- **Quantization of Energy:** Energy levels in quantum systems are quantized, meaning they can only take on specific discrete values. This leads to phenomena like discrete atomic spectra.
 
-3. **Uncertainty Principle:** The Heisenberg Uncertainty Principle states that it is impossible to simultaneously know the precise position and momentum of a particle. This introduces inherent uncertainty into quantum measurements.
+- **Uncertainty Principle:** The Heisenberg Uncertainty Principle states that it is impossible to simultaneously know the precise position and momentum of a particle. This introduces inherent uncertainty into quantum measurements.
 
-4. **Superposition:** Quantum systems can exist in multiple states simultaneously, known as superposition. This property is fundamental to quantum computing.
+- **Superposition:** Quantum systems can exist in multiple states simultaneously, known as superposition. This property is fundamental to quantum computing.
 
-5. **Entanglement:** Particles that have interacted at some point become entangled, meaning their properties are correlated, even when separated by large distances. Einstein famously referred to this as "spooky action at a distance."
+- **Entanglement:** Particles that have interacted at some point become entangled, meaning their properties are correlated, even when separated by large distances. Einstein famously referred to this as "spooky action at a distance."
 
 ## Common Applications
 

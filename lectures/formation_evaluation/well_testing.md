@@ -15,15 +15,15 @@ Well testing is a process of evaluating the performance and characteristics of a
 
 Well testing serves several key objectives:
 
-1. **Reservoir Characterization:** It helps in determining essential reservoir properties, allowing engineers and geoscientists to create accurate models of the subsurface.
+- **Reservoir Characterization:** It helps in determining essential reservoir properties, allowing engineers and geoscientists to create accurate models of the subsurface.
 
-2. **Production Optimization:** Well testing provides insights into the well's performance and aids in optimizing production rates and strategies.
+- **Production Optimization:** Well testing provides insights into the well's performance and aids in optimizing production rates and strategies.
 
-3. **Fluid Behavior Analysis:** It helps in understanding the behavior of reservoir fluids under various conditions, including phase behavior and fluid flow mechanisms.
+- **Fluid Behavior Analysis:** It helps in understanding the behavior of reservoir fluids under various conditions, including phase behavior and fluid flow mechanisms.
 
-4. **Reservoir Connectivity:** Well testing can reveal reservoir connectivity by assessing interference between wells.
+- **Reservoir Connectivity:** Well testing can reveal reservoir connectivity by assessing interference between wells.
 
-5. **Enhanced Oil Recovery (EOR):** Data from well tests inform decisions related to EOR techniques, increasing hydrocarbon recovery.
+- **Enhanced Oil Recovery (EOR):** Data from well tests inform decisions related to EOR techniques, increasing hydrocarbon recovery.
 
 ## Types of Well Tests
 

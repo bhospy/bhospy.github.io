@@ -11,43 +11,43 @@ Mechanics is a fundamental branch of physics and engineering that studies the be
 
 Mechanics encompasses a wide range of topics and principles that have broad applications in science and engineering. Here are key areas that define the scope of this discipline:
 
-### 1. Classical Mechanics
+### Classical Mechanics
 
 Classical mechanics, often referred to as Newtonian mechanics, deals with the motion of objects under the influence of forces. It includes topics like kinematics (the study of motion), dynamics (the study of forces and motion), and statics (the study of equilibrium in systems at rest).
 
-### 2. Dynamics
+### Dynamics
 
 Dynamics explores how forces cause changes in the motion of objects. It includes the study of acceleration, momentum, energy, and the laws of motion, as formulated by Sir Isaac Newton.
 
-### 3. Kinematics
+### Kinematics
 
 Kinematics is concerned with describing the motion of objects without considering the forces that cause it. It involves concepts such as displacement, velocity, and acceleration.
 
-### 4. Fluid Mechanics
+### Fluid Mechanics
 
 Fluid mechanics focuses on the behavior of fluids (liquids and gases) under the influence of forces. Topics include fluid dynamics, fluid statics, and the study of fluid flow in pipes, channels, and around objects.
 
-### 5. Solid Mechanics
+### Solid Mechanics
 
 Solid mechanics studies the behavior of solid materials under various loads and conditions. It includes the analysis of stress and strain, deformation, elasticity, plasticity, and fracture mechanics.
 
-### 6. Thermodynamics
+### Thermodynamics
 
 Thermodynamics deals with the principles governing heat, work, and energy transfer. It is crucial for understanding energy conversion processes, such as engines and refrigeration systems.
 
-### 7. Quantum Mechanics
+### Quantum Mechanics
 
 Quantum mechanics is a branch of physics that focuses on the behavior of particles at the atomic and subatomic scale. It provides the foundation for understanding quantum physics and its applications.
 
-### 8. Special and General Relativity
+### Special and General Relativity
 
 Special relativity, formulated by Albert Einstein, addresses the physics of objects moving at high speeds, while general relativity describes the effects of gravity on the fabric of spacetime.
 
-### 9. Applications in Engineering
+### Applications in Engineering
 
 Mechanics forms the basis for engineering disciplines such as civil engineering, mechanical engineering, aerospace engineering, and materials science. It is essential for designing structures, machines, and systems.
 
-### 10. Research and Innovation
+### Research and Innovation
 
 Mechanics is a dynamic field with ongoing research to advance our understanding of physical phenomena and develop new technologies in fields like robotics, aerospace, and materials science.
 

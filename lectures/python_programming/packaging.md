@@ -25,17 +25,17 @@ Python packaging holds paramount importance in software development for several 
 
 Python packaging involves several key components:
 
-1. **Modules and Packages:** Modules are individual Python files containing functions and classes. Packages are directories containing modules and a special `__init__.py` file to indicate they are Python packages.
+- **Modules and Packages:** Modules are individual Python files containing functions and classes. Packages are directories containing modules and a special `__init__.py` file to indicate they are Python packages.
 
-2. **setup.py:** This script defines metadata about the project, such as its name, version, author, and dependencies. It's used for building, distributing, and installing the package.
+- **setup.py:** This script defines metadata about the project, such as its name, version, author, and dependencies. It's used for building, distributing, and installing the package.
 
-3. **`requirements.txt`:** A text file listing project dependencies, which can be generated automatically and used to install dependencies with pip.
+- **`requirements.txt`:** A text file listing project dependencies, which can be generated automatically and used to install dependencies with pip.
 
-4. **`__init__.py`:** This file within a package directory makes it a Python package and can contain initialization code for the package.
+- **`__init__.py`:** This file within a package directory makes it a Python package and can contain initialization code for the package.
 
-5. **`__main__.py`:** This file defines the behavior of the package when it's run as a script.
+- **`__main__.py`:** This file defines the behavior of the package when it's run as a script.
 
-6. **Virtual Environments:** Virtual environments are isolated environments for Python projects, ensuring that project-specific dependencies do not interfere with each other.
+- **Virtual Environments:** Virtual environments are isolated environments for Python projects, ensuring that project-specific dependencies do not interfere with each other.
 
 ## Tools for Python Packaging
 

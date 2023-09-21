@@ -25,13 +25,13 @@ OOP has become a fundamental and widely adopted programming paradigm for several
 
 OOP is built on several core principles:
 
-1. **Classes and Objects:** Classes define the blueprint for objects, specifying their attributes (properties) and behaviors (methods).
+- **Classes and Objects:** Classes define the blueprint for objects, specifying their attributes (properties) and behaviors (methods).
 
-2. **Encapsulation:** Encapsulation refers to the practice of bundling data (attributes) and the methods that operate on that data within a single unit, or object. This unit restricts direct access to some of an object's components and prevents unintended interference.
+- **Encapsulation:** Encapsulation refers to the practice of bundling data (attributes) and the methods that operate on that data within a single unit, or object. This unit restricts direct access to some of an object's components and prevents unintended interference.
 
-3. **Inheritance:** Inheritance allows one class (the subclass or derived class) to inherit properties and behaviors from another class (the superclass or base class). This promotes code reuse and supports the creation of hierarchical structures.
+- **Inheritance:** Inheritance allows one class (the subclass or derived class) to inherit properties and behaviors from another class (the superclass or base class). This promotes code reuse and supports the creation of hierarchical structures.
 
-4. **Polymorphism:** Polymorphism enables objects of different classes to be treated as objects of a common superclass. It allows for flexibility in method implementations, facilitating dynamic behavior based on the specific object's type.
+- **Polymorphism:** Polymorphism enables objects of different classes to be treated as objects of a common superclass. It allows for flexibility in method implementations, facilitating dynamic behavior based on the specific object's type.
 
 ## Implementing OOP
 

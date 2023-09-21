@@ -23,13 +23,13 @@ Gas reservoirs play a pivotal role in the energy landscape for several reasons:
 
 Gas reservoirs are categorized based on their geological characteristics and gas composition:
 
-1. **Conventional Gas Reservoirs:** These reservoirs contain primarily methane (CH4) and are often found in porous rock formations, such as sandstone or limestone.
+- **Conventional Gas Reservoirs:** These reservoirs contain primarily methane (CH4) and are often found in porous rock formations, such as sandstone or limestone.
 
-2. **Unconventional Gas Reservoirs:** Unconventional reservoirs, including shale gas, tight gas, and coalbed methane, involve complex geological structures and unconventional extraction techniques.
+- **Unconventional Gas Reservoirs:** Unconventional reservoirs, including shale gas, tight gas, and coalbed methane, involve complex geological structures and unconventional extraction techniques.
 
-3. **Associated Gas:** Gas that is produced along with crude oil is referred to as associated gas. It is often separated and utilized as a valuable byproduct of oil production.
+- **Associated Gas:** Gas that is produced along with crude oil is referred to as associated gas. It is often separated and utilized as a valuable byproduct of oil production.
 
-4. **Non-Associated Gas:** Non-associated gas reservoirs contain natural gas as the primary hydrocarbon and are not associated with significant oil deposits.
+- **Non-Associated Gas:** Non-associated gas reservoirs contain natural gas as the primary hydrocarbon and are not associated with significant oil deposits.
 
 ## Gas Reservoir Properties
 

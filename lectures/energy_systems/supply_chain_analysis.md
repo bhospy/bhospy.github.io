@@ -11,15 +11,15 @@ Supply chain analysis is a critical framework for understanding the intricate ne
 
 The energy supply chain is a complex web of interconnected components that span the entire energy lifecycle, from resource extraction to end-user consumption. It involves various stages, each with its own set of challenges and considerations:
 
-1. **Resource Exploration and Extraction:** This initial phase involves identifying, extracting, and processing energy resources. For fossil fuels, it includes activities like drilling for oil or mining coal. In the case of renewable energy, it covers harnessing energy from sources such as sunlight, wind, or water.
+- **Resource Exploration and Extraction:** This initial phase involves identifying, extracting, and processing energy resources. For fossil fuels, it includes activities like drilling for oil or mining coal. In the case of renewable energy, it covers harnessing energy from sources such as sunlight, wind, or water.
 
-2. **Energy Conversion:** Energy resources must often undergo conversion processes to be suitable for consumption. This includes refining crude oil into usable fuels, converting sunlight into electricity using solar panels, or generating electricity from wind turbines.
+- **Energy Conversion:** Energy resources must often undergo conversion processes to be suitable for consumption. This includes refining crude oil into usable fuels, converting sunlight into electricity using solar panels, or generating electricity from wind turbines.
 
-3. **Transportation and Distribution:** Energy must be efficiently transported from its source to consumers. This involves infrastructure like pipelines, power grids, and transmission lines, which can span vast distances and traverse various terrains.
+- **Transportation and Distribution:** Energy must be efficiently transported from its source to consumers. This involves infrastructure like pipelines, power grids, and transmission lines, which can span vast distances and traverse various terrains.
 
-4. **Storage:** Energy storage is crucial for managing fluctuations in supply and demand. Batteries, pumped hydro storage, and other technologies play a vital role in stabilizing energy supply chains.
+- **Storage:** Energy storage is crucial for managing fluctuations in supply and demand. Batteries, pumped hydro storage, and other technologies play a vital role in stabilizing energy supply chains.
 
-5. **Consumption:** Finally, energy is consumed by end-users, including households, industries, and transportation. The efficiency of energy use at this stage is a key consideration for sustainable energy systems.
+- **Consumption:** Finally, energy is consumed by end-users, including households, industries, and transportation. The efficiency of energy use at this stage is a key consideration for sustainable energy systems.
 
 ## Importance of Supply Chain Analysis
 

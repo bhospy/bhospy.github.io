@@ -11,17 +11,17 @@ Legislation plays a pivotal role in shaping the energy landscape, guiding the de
 
 Energy legislation encompasses a wide range of laws, regulations, and policies at local, national, and international levels. These legal frameworks are designed to achieve several key objectives:
 
-1. **Energy Security:** Legislation seeks to ensure a stable and reliable energy supply, minimizing disruptions and vulnerabilities in the energy infrastructure. It often addresses issues of national security and resilience.
+- **Energy Security:** Legislation seeks to ensure a stable and reliable energy supply, minimizing disruptions and vulnerabilities in the energy infrastructure. It often addresses issues of national security and resilience.
 
-2. **Environmental Protection:** Environmental legislation sets standards for emissions, pollutants, and resource conservation, aiming to reduce the environmental impact of energy production and consumption.
+- **Environmental Protection:** Environmental legislation sets standards for emissions, pollutants, and resource conservation, aiming to reduce the environmental impact of energy production and consumption.
 
-3. **Energy Efficiency:** Legislation promotes energy efficiency measures in industries, transportation, and buildings, contributing to energy conservation and reduced energy costs.
+- **Energy Efficiency:** Legislation promotes energy efficiency measures in industries, transportation, and buildings, contributing to energy conservation and reduced energy costs.
 
-4. **Renewable Energy Promotion:** Governments worldwide enact legislation to encourage the development and adoption of renewable energy sources such as wind, solar, and hydropower, often through incentives and subsidies.
+- **Renewable Energy Promotion:** Governments worldwide enact legislation to encourage the development and adoption of renewable energy sources such as wind, solar, and hydropower, often through incentives and subsidies.
 
-5. **Market Competition:** Legislation often regulates energy markets to promote competition, prevent monopolies, and ensure fair pricing for consumers.
+- **Market Competition:** Legislation often regulates energy markets to promote competition, prevent monopolies, and ensure fair pricing for consumers.
 
-6. **Climate Change Mitigation:** Many countries have introduced legislation to meet international commitments to reduce greenhouse gas emissions, such as the Paris Agreement, by implementing carbon pricing mechanisms and clean energy targets.
+- **Climate Change Mitigation:** Many countries have introduced legislation to meet international commitments to reduce greenhouse gas emissions, such as the Paris Agreement, by implementing carbon pricing mechanisms and clean energy targets.
 
 ## Key Legislation Areas
 

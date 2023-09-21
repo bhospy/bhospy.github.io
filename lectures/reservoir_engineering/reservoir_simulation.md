@@ -23,15 +23,15 @@ Reservoir simulation holds paramount importance in the oil and gas industry for 
 
 Reservoir simulation involves the use of mathematical models to simulate fluid flow, heat transfer, and mass transport within a reservoir. Several methods and techniques are employed, including:
 
-1. **Finite Difference Method:** This numerical technique divides the reservoir into a grid, with differential equations representing fluid behavior solved at discrete grid points.
+- **Finite Difference Method:** This numerical technique divides the reservoir into a grid, with differential equations representing fluid behavior solved at discrete grid points.
 
-2. **Finite Element Method:** It uses a similar grid-based approach but with more flexibility in grid shape and size, making it suitable for complex geometries.
+- **Finite Element Method:** It uses a similar grid-based approach but with more flexibility in grid shape and size, making it suitable for complex geometries.
 
-3. **Control Volume Method:** This method divides the reservoir into control volumes, allowing for mass and energy conservation equations to be solved in each volume.
+- **Control Volume Method:** This method divides the reservoir into control volumes, allowing for mass and energy conservation equations to be solved in each volume.
 
-4. **Streamline Simulation:** Streamline simulation models the movement of streamlines in the reservoir, which are paths followed by fluid particles, making it efficient for certain types of reservoirs.
+- **Streamline Simulation:** Streamline simulation models the movement of streamlines in the reservoir, which are paths followed by fluid particles, making it efficient for certain types of reservoirs.
 
-5. **Compositional Simulation:** Compositional simulation models the behavior of individual components in the reservoir fluid, accounting for phase changes and compositional variations.
+- **Compositional Simulation:** Compositional simulation models the behavior of individual components in the reservoir fluid, accounting for phase changes and compositional variations.
 
 ## Factors Influencing Reservoir Simulation
 

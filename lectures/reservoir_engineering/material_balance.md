@@ -23,17 +23,17 @@ Material balance plays a pivotal role in petroleum engineering for several reaso
 
 Various methods and approaches are employed for material balance analysis, including:
 
-1. **Original Oil in Place (OOIP):** OOIP estimates the total volume of oil initially present in the reservoir based on geological data, such as reservoir size, porosity, and fluid properties.
+- **Original Oil in Place (OOIP):** OOIP estimates the total volume of oil initially present in the reservoir based on geological data, such as reservoir size, porosity, and fluid properties.
 
-2. **Waterdrive Analysis:** This method assesses reservoir performance by analyzing the movement of water within the reservoir as oil is produced, helping to predict future reservoir behavior.
+- **Waterdrive Analysis:** This method assesses reservoir performance by analyzing the movement of water within the reservoir as oil is produced, helping to predict future reservoir behavior.
 
-3. **Gasdrive Analysis:** Similar to waterdrive analysis, this approach focuses on the displacement of gas within the reservoir during production, particularly relevant for gas reservoirs.
+- **Gasdrive Analysis:** Similar to waterdrive analysis, this approach focuses on the displacement of gas within the reservoir during production, particularly relevant for gas reservoirs.
 
-4. **PVT (Pressure-Volume-Temperature) Analysis:** PVT analysis involves the study of fluid properties, including phase behavior and compressibility, under reservoir conditions.
+- **PVT (Pressure-Volume-Temperature) Analysis:** PVT analysis involves the study of fluid properties, including phase behavior and compressibility, under reservoir conditions.
 
-5. **Material Balance Equations:** Material balance equations are mathematical models that relate reservoir variables, such as fluid volumes, pressure, and production rates, to estimate reserves and assess reservoir performance.
+- **Material Balance Equations:** Material balance equations are mathematical models that relate reservoir variables, such as fluid volumes, pressure, and production rates, to estimate reserves and assess reservoir performance.
 
-6. **Decline Curve Analysis:** This method involves analyzing production data over time to estimate recoverable reserves based on production decline patterns.
+- **Decline Curve Analysis:** This method involves analyzing production data over time to estimate recoverable reserves based on production decline patterns.
 
 ## Factors Influencing Material Balance
 

@@ -15,13 +15,13 @@ Crude oil is a hydrocarbon-rich liquid extracted from deep underground reservoir
 
 The journey of crude oil from its source to refineries, industries, and end-users involves a vast and intricate transportation network. Crude oil must traverse great distances, often crossing countries and continents, before reaching its final destination. Key components of the crude oil transportation system include:
 
-1. **Pipelines:** Pipelines are the backbone of crude oil transportation, offering a safe and efficient means of moving large volumes of oil overland. They crisscross the landscape, connecting production fields to refineries and distribution hubs.
+- **Pipelines:** Pipelines are the backbone of crude oil transportation, offering a safe and efficient means of moving large volumes of oil overland. They crisscross the landscape, connecting production fields to refineries and distribution hubs.
 
-2. **Tankers:** Tanker ships play a crucial role in transporting crude oil across oceans and seas. These massive vessels can carry millions of barrels of oil, ensuring the global reach of crude oil trade.
+- **Tankers:** Tanker ships play a crucial role in transporting crude oil across oceans and seas. These massive vessels can carry millions of barrels of oil, ensuring the global reach of crude oil trade.
 
-3. **Trucks and Rail:** For shorter distances and remote locations, trucks and rail transport are used to move crude oil from extraction sites to nearby processing facilities or transportation hubs.
+- **Trucks and Rail:** For shorter distances and remote locations, trucks and rail transport are used to move crude oil from extraction sites to nearby processing facilities or transportation hubs.
 
-4. **Infrastructure:** The infrastructure supporting crude oil transportation includes storage tanks, loading terminals, and offloading facilities at ports and refineries.
+- **Infrastructure:** The infrastructure supporting crude oil transportation includes storage tanks, loading terminals, and offloading facilities at ports and refineries.
 
 ## Challenges and Environmental Considerations
 

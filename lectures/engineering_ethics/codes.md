@@ -23,15 +23,15 @@ Professional codes in engineering ethics hold paramount importance for several r
 
 Professional codes in engineering ethics typically encompass key elements, including:
 
-1. **Professional Integrity:** Engineers are expected to act with honesty, fairness, and integrity in all professional activities.
+- **Professional Integrity:** Engineers are expected to act with honesty, fairness, and integrity in all professional activities.
 
-2. **Public Safety and Welfare:** The safety, health, and welfare of the public are paramount concerns, and engineers are obligated to prioritize these considerations in their work.
+- **Public Safety and Welfare:** The safety, health, and welfare of the public are paramount concerns, and engineers are obligated to prioritize these considerations in their work.
 
-3. **Conflicts of Interest:** Engineers should avoid conflicts of interest that could compromise their professional judgment and objectivity.
+- **Conflicts of Interest:** Engineers should avoid conflicts of interest that could compromise their professional judgment and objectivity.
 
-4. **Competence:** Engineers must perform within their areas of competence and continuously update their knowledge and skills.
+- **Competence:** Engineers must perform within their areas of competence and continuously update their knowledge and skills.
 
-5. **Environmental Responsibility:** Engineers are encouraged to consider the environmental impact of their work and to promote sustainability.
+- **Environmental Responsibility:** Engineers are encouraged to consider the environmental impact of their work and to promote sustainability.
 
 ## Adherence to Professional Codes
 

@@ -25,15 +25,15 @@ HPC holds paramount importance for several reasons:
 
 HPC systems consist of several key components:
 
-1. **Supercomputers:** Supercomputers are high-performance machines with massive computing power, often featuring thousands of processors and extensive memory.
+- **Supercomputers:** Supercomputers are high-performance machines with massive computing power, often featuring thousands of processors and extensive memory.
 
-2. **Cluster Computing:** HPC clusters are networks of interconnected computers or nodes, working together to solve complex problems in parallel.
+- **Cluster Computing:** HPC clusters are networks of interconnected computers or nodes, working together to solve complex problems in parallel.
 
-3. **Parallel Processing:** HPC relies on parallel processing techniques, where tasks are divided into smaller subtasks that can be executed concurrently, improving computational efficiency.
+- **Parallel Processing:** HPC relies on parallel processing techniques, where tasks are divided into smaller subtasks that can be executed concurrently, improving computational efficiency.
 
-4. **High-Speed Interconnects:** High-speed network connections and interconnects enable efficient communication between nodes in a cluster.
+- **High-Speed Interconnects:** High-speed network connections and interconnects enable efficient communication between nodes in a cluster.
 
-5. **Accelerated Computing:** Graphics Processing Units (GPUs) and specialized hardware accelerators are used to enhance computing speed for specific tasks.
+- **Accelerated Computing:** Graphics Processing Units (GPUs) and specialized hardware accelerators are used to enhance computing speed for specific tasks.
 
 ## Applications of High-Performance Computing
 

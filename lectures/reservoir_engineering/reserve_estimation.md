@@ -23,15 +23,15 @@ Reserve estimation is vital for multiple reasons:
 
 Several methods are used for reserve estimation, including:
 
-1. **Volumetric Method:** This method estimates reserves by calculating the volume of hydrocarbons in place within a reservoir using geological and engineering data, including reservoir dimensions, porosity, and saturation.
+- **Volumetric Method:** This method estimates reserves by calculating the volume of hydrocarbons in place within a reservoir using geological and engineering data, including reservoir dimensions, porosity, and saturation.
 
-2. **Material Balance Method:** Material balance equations analyze the reservoir's pressure, fluid properties, and production history to estimate reserves. This method is especially useful for mature reservoirs.
+- **Material Balance Method:** Material balance equations analyze the reservoir's pressure, fluid properties, and production history to estimate reserves. This method is especially useful for mature reservoirs.
 
-3. **Production Decline Analysis:** By analyzing production data over time, decline curve analysis can estimate reserves based on the production rate decline and well behavior.
+- **Production Decline Analysis:** By analyzing production data over time, decline curve analysis can estimate reserves based on the production rate decline and well behavior.
 
-4. **Reservoir Simulation:** Numerical reservoir simulation models use complex algorithms to simulate fluid flow within the reservoir, providing detailed reserve estimates under various operating scenarios.
+- **Reservoir Simulation:** Numerical reservoir simulation models use complex algorithms to simulate fluid flow within the reservoir, providing detailed reserve estimates under various operating scenarios.
 
-5. **Analytical Methods:** These methods use mathematical and statistical approaches to estimate reserves, such as probabilistic models that account for uncertainty.
+- **Analytical Methods:** These methods use mathematical and statistical approaches to estimate reserves, such as probabilistic models that account for uncertainty.
 
 ## Factors Influencing Reserve Estimation
 
@@ -49,11 +49,11 @@ Reserve estimation is influenced by various factors, including:
 
 Reserves are typically categorized into three main classifications:
 
-1. **Proven (1P) Reserves:** These are reserves that are highly certain to be recoverable based on geological and engineering data and well-established production techniques.
+- **Proven (1P) Reserves:** These are reserves that are highly certain to be recoverable based on geological and engineering data and well-established production techniques.
 
-2. **Probable (2P) Reserves:** These reserves have a higher degree of uncertainty but are still likely to be recoverable under reasonable conditions.
+- **Probable (2P) Reserves:** These reserves have a higher degree of uncertainty but are still likely to be recoverable under reasonable conditions.
 
-3. **Possible (3P) Reserves:** These reserves represent additional potential resources, but their recovery is less certain and may require more advanced recovery methods.
+- **Possible (3P) Reserves:** These reserves represent additional potential resources, but their recovery is less certain and may require more advanced recovery methods.
 
 ## Emerging Trends
 

@@ -23,15 +23,15 @@ Decline curve analysis holds significant importance in the oil and gas industry 
 
 Various methods and models are employed for decline curve analysis, including:
 
-1. **Arps' Decline Curve:** The Arps' equations, including exponential, hyperbolic, and harmonic declines, are commonly used to model production decline. These equations describe different production decline profiles based on historical data.
+- **Arps' Decline Curve:** The Arps' equations, including exponential, hyperbolic, and harmonic declines, are commonly used to model production decline. These equations describe different production decline profiles based on historical data.
 
-2. **Hyperbolic Decline:** Hyperbolic decline curves are frequently applied to unconventional reservoirs, as they can represent the complex production behavior of these reservoirs.
+- **Hyperbolic Decline:** Hyperbolic decline curves are frequently applied to unconventional reservoirs, as they can represent the complex production behavior of these reservoirs.
 
-3. **Material Balance Analysis:** Material balance methods can be integrated with decline curve analysis to estimate original oil in place (OOIP) and reservoir pressure.
+- **Material Balance Analysis:** Material balance methods can be integrated with decline curve analysis to estimate original oil in place (OOIP) and reservoir pressure.
 
-4. **Probabilistic Models:** These models incorporate uncertainty into decline curve analysis, allowing for probabilistic forecasts that account for variability in reservoir parameters.
+- **Probabilistic Models:** These models incorporate uncertainty into decline curve analysis, allowing for probabilistic forecasts that account for variability in reservoir parameters.
 
-5. **Rate Transient Analysis (RTA):** RTA involves analyzing transient pressure data and production rate data to characterize reservoir properties and predict future production.
+- **Rate Transient Analysis (RTA):** RTA involves analyzing transient pressure data and production rate data to characterize reservoir properties and predict future production.
 
 ## Factors Influencing Decline Curves
 

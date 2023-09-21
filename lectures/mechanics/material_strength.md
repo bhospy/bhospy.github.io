@@ -25,17 +25,17 @@ Material strength is significant for several reasons:
 
 Material strength encompasses various types, including:
 
-1. **Tensile Strength:** Tensile strength measures a material's ability to withstand a pulling or stretching force without breaking. It is crucial for applications involving cables, ropes, and structural members.
+- **Tensile Strength:** Tensile strength measures a material's ability to withstand a pulling or stretching force without breaking. It is crucial for applications involving cables, ropes, and structural members.
 
-2. **Compressive Strength:** Compressive strength assesses a material's resistance to being squeezed or compressed. It is important in the design of columns, pillars, and support structures.
+- **Compressive Strength:** Compressive strength assesses a material's resistance to being squeezed or compressed. It is important in the design of columns, pillars, and support structures.
 
-3. **Shear Strength:** Shear strength evaluates a material's ability to resist forces that act parallel to its surface. It is vital in applications such as fasteners and connections.
+- **Shear Strength:** Shear strength evaluates a material's ability to resist forces that act parallel to its surface. It is vital in applications such as fasteners and connections.
 
-4. **Flexural Strength:** Flexural strength measures a material's resistance to bending. It is essential in designing beams, bridges, and other structures subject to bending loads.
+- **Flexural Strength:** Flexural strength measures a material's resistance to bending. It is essential in designing beams, bridges, and other structures subject to bending loads.
 
-5. **Torsional Strength:** Torsional strength assesses a material's resistance to twisting or torsional forces. It is significant in applications like shafts and rotating machinery.
+- **Torsional Strength:** Torsional strength assesses a material's resistance to twisting or torsional forces. It is significant in applications like shafts and rotating machinery.
 
-6. **Impact Strength:** Impact strength measures a material's ability to absorb energy and resist fracture when subjected to sudden impact or shock loads. It is critical for safety gear and automotive components.
+- **Impact Strength:** Impact strength measures a material's ability to absorb energy and resist fracture when subjected to sudden impact or shock loads. It is critical for safety gear and automotive components.
 
 ## Common Applications
 

@@ -27,11 +27,11 @@ Thermodynamics is significant for several reasons:
 
 Thermodynamics involves several key concepts:
 
-1. **System and Surroundings:** A system is the part of the universe under consideration, while the surroundings are everything outside the system. Understanding the boundaries and interactions between the system and surroundings is crucial.
+- **System and Surroundings:** A system is the part of the universe under consideration, while the surroundings are everything outside the system. Understanding the boundaries and interactions between the system and surroundings is crucial.
 
-2. **Energy:** Thermodynamics distinguishes between different forms of energy, including internal energy, kinetic energy, and potential energy.
+- **Energy:** Thermodynamics distinguishes between different forms of energy, including internal energy, kinetic energy, and potential energy.
 
-3. **Laws of Thermodynamics:** The four fundamental laws of thermodynamics describe energy conservation, entropy, and heat transfer:
+- **Laws of Thermodynamics:** The four fundamental laws of thermodynamics describe energy conservation, entropy, and heat transfer:
 
    - **The First Law (Conservation of Energy):** Energy cannot be created or destroyed, only transformed or transferred.
    
@@ -41,7 +41,7 @@ Thermodynamics involves several key concepts:
 
    - **Zeroth Law (Thermal Equilibrium):** If two systems are in thermal equilibrium with a third system, they are in thermal equilibrium with each other.
 
-4. **Processes:** Thermodynamic processes describe how a system changes from one state to another, such as isothermal (constant temperature) or adiabatic (no heat transfer) processes.
+- **Processes:** Thermodynamic processes describe how a system changes from one state to another, such as isothermal (constant temperature) or adiabatic (no heat transfer) processes.
 
 ## Common Applications
 
