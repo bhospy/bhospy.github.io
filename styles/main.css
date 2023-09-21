@@ -337,6 +337,7 @@ footer {
 }
 
 .canvas .item .column-one p {
+	background: rgb(241,241,241);
 	font-size: 13px;
 	padding: 3px 0px;
 }
